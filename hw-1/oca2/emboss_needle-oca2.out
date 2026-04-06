@@ -1,0 +1,109 @@
+########################################
+# Program: needle
+# Rundate: Mon  6 Apr 2026 06:57:03
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20260406-065659-0258-42929895-p1m.asequence
+#    -bsequence emboss_needle-I20260406-065659-0258-42929895-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NP_000266.2
+# 2: NP_068679.1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 844
+# Identity:     659/844 (78.1%)
+# Similarity:   719/844 (85.2%)
+# Gaps:          17/844 ( 2.0%)
+# Score: 3310.0
+# 
+#
+#=======================================
+
+NP_000266.2        1 MHLEGRDGRRYPGAPAVELLQTSVPSGLAELVAGKRRLPRGA------GG     44
+                     |.||.:|.|.......|||.|||..|.......|:....:.|      |.
+NP_068679.1        1 MRLENKDIRLASAVLEVELHQTSALSVPTCPDPGRLLTVKPATSNYKLGQ     50
+
+NP_000266.2       45 ADPSHSCPRGAAGQSSWAPAGQEFASFLTKGRSHSSLPQMSSSRSKDSCF     94
+                     |||.......|||:|...|...||.|||.||          ||..||..|
+NP_068679.1       51 ADPCIPYAGEAAGKSVCVPEHTEFGSFLVKG----------SSSLKDLSF     90
+
+NP_000266.2       95 TENTPLLRNSLQEKGSRCIPVYHPEFITAEESWEDSSADWERRYLLSREV    144
+                     .|:||||.||.|:|.|:.:||:|||||..|.|||:....||::.:|.:||
+NP_068679.1       91 KEDTPLLWNSSQKKRSQLMPVHHPEFIATEGSWENGLTAWEQKCMLGKEV    140
+
+NP_000266.2      145 SGLSASASSEKGDLLDSPHIRLRLSKLRRCVQWLKVMGLFAFVVLCSILF    194
+                     :.|||.|||||.||..|.|:|.::|||..||:|:|:.|||.|||||||||
+NP_068679.1      141 ADLSALASSEKRDLAGSVHLRAQVSKLGCCVRWIKITGLFVFVVLCSILF    190
+
+NP_000266.2      195 SLYPDQGKLWQLLALSPLENYSVNLSSHVDSTLLQVDLAGALVASGPSRP    244
+                     ||||||||.|||||:|||||||||||.|.||.:||:||||||:|.|||..
+NP_068679.1      191 SLYPDQGKFWQLLAVSPLENYSVNLSGHADSMILQLDLAGALMAGGPSGS    240
+
+NP_000266.2      245 GREEHIVVELTQADALGSRWRRPQQVTHNWTVYLNPRRSEHSVMSRTFEV    294
+                     |:|||:||.:||.||.|:|.|||||:|:||||.||| ||||.|:|||||:
+NP_068679.1      241 GKEEHVVVVVTQTDAAGNRRRRPQQLTYNWTVLLNP-RSEHVVVSRTFEI    289
+
+NP_000266.2      295 LTRETVSISIRASLQQTQAVPLLMAHQYLRGSVETQVTIATAILAGVYAL    344
+                     ::||.|||||:||||||:.||||:|||:|..|||.||..|.|||||||.|
+NP_068679.1      290 VSREAVSISIQASLQQTRLVPLLLAHQFLGASVEAQVASAVAILAGVYTL    339
+
+NP_000266.2      345 IIFEIVHRTLAAMLGSLAALAALAVIGDRPSLTHVVEWIDFETLALLFGM    394
+                     |||||||||||||||:|||||||||:||||||||||||||||||||||||
+NP_068679.1      340 IIFEIVHRTLAAMLGALAALAALAVVGDRPSLTHVVEWIDFETLALLFGM    389
+
+NP_000266.2      395 MILVAIFSETGFFDYCAVKAYRLSRGRVWAMIIMLCLIAAVLSAFLDNVT    444
+                     |||||:|||||||||||||||:||||||||||.||||:||:|||||||||
+NP_068679.1      390 MILVAVFSETGFFDYCAVKAYQLSRGRVWAMIFMLCLMAAILSAFLDNVT    439
+
+NP_000266.2      445 TMLLFTPVTIRLCEVLNLDPRQVLIAEVIFTNIGGAATAIGDPPNVIIVS    494
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NP_068679.1      440 TMLLFTPVTIRLCEVLNLDPRQVLIAEVIFTNIGGAATAIGDPPNVIIVS    489
+
+NP_000266.2      495 NQELRKMGLDFAGFTAHMFIGICLVLLVCFPLLRLLYWNRKLYNKEPSEI    544
+                     |||||||||||||||||||:||||||||.||||||||||:||||||||||
+NP_068679.1      490 NQELRKMGLDFAGFTAHMFLGICLVLLVSFPLLRLLYWNKKLYNKEPSEI    539
+
+NP_000266.2      545 VELKHEIHVWRLTAQRISPASREETAVRRLLLGKVLALEHLLARRLHTFH    594
+                     ||||||||||||||||||||||||||||.|||.||||||||||:||||||
+NP_068679.1      540 VELKHEIHVWRLTAQRISPASREETAVRGLLLEKVLALEHLLAQRLHTFH    589
+
+NP_000266.2      595 RQISQEDKNWETNIQELQKKHRISDGILLAKCLTVLGFVIFMFFLNSFVP    644
+                     ||||||||||||||||||:||||||..||.||||||||||.|||||||||
+NP_068679.1      590 RQISQEDKNWETNIQELQRKHRISDRSLLVKCLTVLGFVISMFFLNSFVP    639
+
+NP_000266.2      645 GIHLDLGWIAILGAIWLLILADIHDFEIILHRVEWATLLFFAALFVLMEA    694
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NP_068679.1      640 GIHLDLGWIAILGAIWLLILADIHDFEIILHRVEWATLLFFAALFVLMEA    689
+
+NP_000266.2      695 LAHLHLIEYVGEQTALLIKMVPEEQRLIAAIVLVVWVSALASSLIDNIPF    744
+                     |.||||:||||||||||||||||:||..|||||:||||||||||||||||
+NP_068679.1      690 LTHLHLVEYVGEQTALLIKMVPEDQRFAAAIVLIVWVSALASSLIDNIPF    739
+
+NP_000266.2      745 TATMIPVLLNLSHDPEVGLPAPPLMYALAFGACLGGNGTLIGASANVVCA    794
+                     ||||||||||||.|||:.|||.|||||||.||||||||||||||.|||||
+NP_068679.1      740 TATMIPVLLNLSQDPEISLPALPLMYALALGACLGGNGTLIGASTNVVCA    789
+
+NP_000266.2      795 GIAEQHGYGFSFMEFFRLGFPMMVVSCTVGMCYLLVAHVVVGWN    838
+                     ||||:||||||||||||||||:|::|||:||||||:||:|||||
+NP_068679.1      790 GIAEKHGYGFSFMEFFRLGFPVMLMSCTIGMCYLLIAHIVVGWN    833
+
+
+#---------------------------------------
+#---------------------------------------

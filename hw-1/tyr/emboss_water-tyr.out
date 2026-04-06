@@ -1,0 +1,67 @@
+########################################
+# Program: water
+# Rundate: Mon  6 Apr 2026 07:02:47
+# Commandline: water
+#    -auto
+#    -stdout
+#    -asequence emboss_water-I20260406-070245-0142-84062178-p2m.asequence
+#    -bsequence emboss_water-I20260406-070245-0142-84062178-p2m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NP_000363.1
+# 2: NP_001304326.1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 347
+# Identity:     303/347 (87.3%)
+# Similarity:   321/347 (92.5%)
+# Gaps:           0/347 ( 0.0%)
+# Score: 1728.0
+# 
+#
+#=======================================
+
+NP_000363.1        1 MLLAVLYCLLWSFQTSAGHFPRACVSSKNLMEKECCPPWSGDRSPCGQLS     50
+                     |.||||||||||||.|.|||||||.|||||:.|||||||.||.|||||||
+NP_001304326.      1 MFLAVLYCLLWSFQISDGHFPRACASSKNLLAKECCPPWMGDGSPCGQLS     50
+
+NP_000363.1       51 GRGSCQNILLSNAPLGPQFPFTGVDDRESWPSVFYNRTCQCSGNFMGFNC    100
+                     ||||||:||||:||.||||||.||||||||||||||||||||||||||||
+NP_001304326.     51 GRGSCQDILLSSAPSGPQFPFKGVDDRESWPSVFYNRTCQCSGNFMGFNC    100
+
+NP_000363.1      101 GNCKFGFWGPNCTERRLLVRRNIFDLSAPEKDKFFAYLTLAKHTISSDYV    150
+                     |||||||.||||||:|:|:||||||||..||:|||:|||||||||||.||
+NP_001304326.    101 GNCKFGFGGPNCTEKRVLIRRNIFDLSVSEKNKFFSYLTLAKHTISSVYV    150
+
+NP_000363.1      151 IPIGTYGQMKNGSTPMFNDINIYDLFVWMHYYVSMDALLGGSEIWRDIDF    200
+                     ||.||||||.||||||||||||||||||||||||.|.|||||||||||||
+NP_001304326.    151 IPTGTYGQMNNGSTPMFNDINIYDLFVWMHYYVSRDTLLGGSEIWRDIDF    200
+
+NP_000363.1      201 AHEAPAFLPWHRLFLLRWEQEIQKLTGDENFTIPYWDWRDAEKCDICTDE    250
+                     |||||.||||||||||.|||||::||||||||:|||||||||.|||||||
+NP_001304326.    201 AHEAPGFLPWHRLFLLLWEQEIRELTGDENFTVPYWDWRDAENCDICTDE    250
+
+NP_000363.1      251 YMGGQHPTNPNLLSPASFFSSWQIVCSRLEEYNSHQSLCNGTPEGPLRRN    300
+                     |:||:||.||||||||||||||||:|||.|||||||.||:|||||||.||
+NP_001304326.    251 YLGGRHPENPNLLSPASFFSSWQIICSRSEEYNSHQVLCDGTPEGPLLRN    300
+
+NP_000363.1      301 PGNHDKSRTPRLPSSADVEFCLSLTQYESGSMDKAANFSFRNTLEGF    347
+                     ||||||::|||||||||||||||||||||||||:.||||||||||.|
+NP_001304326.    301 PGNHDKAKTPRLPSSADVEFCLSLTQYESGSMDRTANFSFRNTLEVF    347
+
+
+#---------------------------------------
+#---------------------------------------
