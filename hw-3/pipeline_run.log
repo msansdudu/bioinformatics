@@ -1,0 +1,20 @@
+DEBUG: Checking if RunVariantCalling() is complete
+INFO: Informed scheduler that task   RunVariantCalling__99914b932b   has status   DONE
+INFO: Done scheduling tasks
+INFO: Running Worker with 1 processes
+DEBUG: Asking scheduler for work...
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+INFO: Worker Worker(salt=075499808, workers=1, host=MacBook-Air-Anna-5.local, username=msansdu, pid=74689) was stopped. Shutting down Keep-Alive thread
+INFO: 
+===== Luigi Execution Summary =====
+
+Scheduled 1 tasks of which:
+* 1 complete ones were encountered:
+    - 1 RunVariantCalling()
+
+Did not run any tasks
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+

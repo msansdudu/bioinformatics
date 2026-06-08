@@ -1,0 +1,14 @@
+data/*.fastq.gz
+data/*.fa
+data/*.fa.*
+data/*.bwt
+data/*.pac
+data/*.ann
+data/*.amb
+data/*.sa
+data/*.sam
+data/*.bam
+data/*.bai
+
+__pycache__/
+*.pyc
