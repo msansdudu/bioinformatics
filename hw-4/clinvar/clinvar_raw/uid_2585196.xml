@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+                        
+<ClinVarResult-Set><VariationArchive VariationID="2585196" VariationName="NM_002608.4(PDGFB):c.434A&gt;C (p.Gln145Pro)" VariationType="single nucleotide variant" Accession="VCV002585196" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2026-04-13" DateCreated="2023-10-28" MostRecentSubmission="2023-10-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="2752758" VariationID="2585196">
+      <GeneList>
+        <Gene Symbol="PDGFB" FullName="platelet derived growth factor subunit B" GeneID="5155" HGNC_ID="HGNC:8800" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>22q13.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="39223359" stop="39244982" display_start="39223359" display_stop="39244982" Strand="-"/>
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="39619684" stop="39640956" display_start="39619684" display_stop="39640956" Strand="-"/>
+          </Location>
+          <OMIM>190040</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_002608.4(PDGFB):c.434A&gt;C (p.Gln145Pro)</Name>
+      <CanonicalSPDI>NC_000022.11:39231643:T:G</CanonicalSPDI>
+      <VariantType>single nucleotide variant</VariantType>
+      <Location>
+        <CytogeneticLocation>22q13.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="39231644" stop="39231644" display_start="39231644" display_stop="39231644" variantLength="1" positionVCF="39231644" referenceAlleleVCF="T" alternateAlleleVCF="G"/>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="39627649" stop="39627649" display_start="39627649" display_stop="39627649" variantLength="1" positionVCF="39627649" referenceAlleleVCF="T" alternateAlleleVCF="G"/>
+      </Location>
+      <ProteinChange>Q130P</ProteinChange>
+      <ProteinChange>Q145P</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.10" sequenceAccession="NC_000022" sequenceVersion="10" change="g.39627649T&gt;G" Assembly="GRCh37">
+            <Expression>NC_000022.10:g.39627649T&gt;G</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.11" sequenceAccession="NC_000022" sequenceVersion="11" change="g.39231644T&gt;G" Assembly="GRCh38">
+            <Expression>NC_000022.11:g.39231644T&gt;G</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_012111.1" sequenceAccession="NG_012111" sequenceVersion="1" change="g.18309A&gt;C">
+            <Expression>NG_012111.1:g.18309A&gt;C</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_002608.4" sequenceAccession="NM_002608" sequenceVersion="4" change="c.434A&gt;C" MANESelect="true">
+            <Expression>NM_002608.4:c.434A&gt;C</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_002599.1" sequenceAccession="NP_002599" sequenceVersion="1" change="p.Gln145Pro" singleLetterProteinChange="Q145P">
+            <Expression>NP_002599.1:p.Gln145Pro</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_033016.3" sequenceAccession="NM_033016" sequenceVersion="3" change="c.389A&gt;C">
+            <Expression>NM_033016.3:c.389A&gt;C</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_148937.1" sequenceAccession="NP_148937" sequenceVersion="1" change="p.Gln130Pro" singleLetterProteinChange="Q130P">
+            <Expression>NP_148937.1:p.Gln130Pro</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA411600487" DB="ClinGen"/>
+        <XRef Type="rs" ID="116555717" DB="dbSNP"/>
+      </XRefList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_002608.4(PDGFB):c.434A&gt;C (p.Gln145Pro) AND Idiopathic basal ganglia calcification 1" Accession="RCV005420448" Version="1">
+        <ClassifiedConditionList TraitSetID="103324">
+          <ClassifiedCondition DB="MedGen" ID="C4551624">Idiopathic basal ganglia calcification 1</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description SubmissionCount="1">Uncertain significance</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2023-10-28" MostRecentSubmission="2023-10-28">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Uncertain significance</Description>
+        <Explanation DataSource="ClinVar" Type="public">Uncertain significance (1)</Explanation>
+        <ConditionList>
+          <TraitSet ID="103324" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="4663" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Familial Idiopathic Basal Ganglia Calcification 2</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Idiopathic basal ganglia calcification 1</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Fahr's syndrome</ElementValue>
+                <XRef ID="110997000" DB="SNOMED CT"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Familial Idiopathic Basal Ganglia Calcification 3</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Primary Familial Brain Calcification</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Cerebral calcification nonarteriosclerotic idiopathic adult-onset</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Striopallidodentate calcinosis autosomal dominant adult-onset</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Ferrocalcinosis, cerebrovascular</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Fahr disease, familial (formerly)</ElementValue>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">FIBGC</ElementValue>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">IBGC3</ElementValue>
+                <XRef Type="MIM" ID="213600" DB="OMIM"/>
+                <XRef Type="MIM" ID="614540" DB="OMIM"/>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">IBGC2</ElementValue>
+                <XRef Type="MIM" ID="213600" DB="OMIM"/>
+                <XRef Type="MIM" ID="606656" DB="OMIM"/>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">IBGC</ElementValue>
+                <XRef Type="MIM" ID="213600" DB="OMIM"/>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">BSPDC</ElementValue>
+                <XRef Type="MIM" ID="213600" DB="OMIM"/>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">IBGC1</ElementValue>
+                <XRef Type="MIM" ID="213600" DB="OMIM"/>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="25419"/>
+                <XRef ID="25419" DB="Office of Rare Diseases"/>
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20301594</ID>
+                <ID Source="BookShelf">NBK1421</ID>
+              </Citation>
+              <XRef ID="1980" DB="Orphanet"/>
+              <XRef ID="C4551624" DB="MedGen"/>
+              <XRef ID="MONDO:0024538" DB="MONDO"/>
+              <XRef Type="MIM" ID="213600" DB="OMIM"/>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="7574872" SubmissionDate="2023-10-19" ContributesToAggregateClassification="true" DateLastUpdated="2023-10-28" DateCreated="2023-10-28">
+        <ClinVarSubmissionID localKey="11200113412" localKeyIsSubmitted="1" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV004048136" DateUpdated="2023-10-28" DateCreated="2023-10-28" Type="SCV" Version="1" SubmitterName="Neuberg Centre For Genomic Medicine, NCGM" OrgID="508108" OrganizationCategory="laboratory" OrgAbbreviation="NCGM"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Uncertain significance</GermlineClassification>
+          <Comment>The missense variant c.434A&gt;C (p.Gln145Pro) in PDGFB gene has not been reported previously as a pathogenic variant nor as a benign variant, to our knowledge. The p.Gln145Pro variant is novel (not in any individuals) in gnomAD Exomes and 1000 Genomes. The amino acid Gln at position 145 is changed to a Pro changing protein sequence and it might alter its composition and physico-chemical properties. The variant is predicted to be damaging by both SIFT and PolyPhen2. The residue is conserved across species. The amino acid change p.Gln145Pro in PDGFB is predicted as conserved by GERP++ and PhyloP across 100 vertebrates. For these reasons, this variant has been classified as Variant of Uncertain Significance (VUS).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal dominant inheritance</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+            <TraitSet Type="Finding">
+              <Trait ClinicalFeaturesAffectedStatus="present" Type="Finding">
+                <XRef DB="HP" ID="HP:0001300"/>
+              </Trait>
+              <Comment>Current age: 58 years Gender: Female Age of onset: ~57 years of age Clinical symptoms and progression: Secondary Parkinson’s due to heavy metal deposition in the basal ganglia (iron/ calcium/ copper) Investigations: CT brain- dense calcifications seen in basal ganglion, serum PTH- normal, serum ferritin- normal, ceruloplasmin- normal, free copper- elevated. MRI- s/o significant hypointensities in basal ganglia, Family history: Not significant</Comment>
+            </TraitSet>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PDGFB"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_002608.4:c.434A&gt;C</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="213600" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB13901154</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="7574872" TraitType="Finding" MappingType="XRef" MappingValue="HP:0001300" MappingRef="HP">
+        <MedGen CUI="C0242422" Name="Parkinsonian disorder"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7574872" TraitType="Disease" MappingType="XRef" MappingValue="213600" MappingRef="OMIM">
+        <MedGen CUI="C4551624" Name="Idiopathic basal ganglia calcification 1"/>
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+</ClinVarResult-Set>

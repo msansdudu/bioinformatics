@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+                        
+<ClinVarResult-Set><VariationArchive VariationID="1169473" VariationName="NM_005534.4(IFNGR2):c.191A&gt;G (p.Gln64Arg)" VariationType="single nucleotide variant" Accession="VCV001169473" Version="16" RecordType="classified" NumberOfSubmissions="6" NumberOfSubmitters="6" DateLastUpdated="2026-09-27" DateCreated="2021-06-15" MostRecentSubmission="2026-09-22">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1158979" VariationID="1169473">
+      <GeneList>
+        <Gene Symbol="IFNGR2" FullName="interferon gamma receptor 2" GeneID="3460" HGNC_ID="HGNC:5440" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>21q22.11</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="21" Accession="NC_000021.9" start="33402882" stop="33437516" display_start="33402882" display_stop="33437516" Strand="+"/>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="21" Accession="NW_003315970.2" start="5405" stop="32088" display_start="5405" display_stop="32088" Strand="+"/>
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="21" Accession="NC_000021.8" start="34775201" stop="34809827" display_start="34775201" display_stop="34809827" Strand="+"/>
+          </Location>
+          <OMIM>147569</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_005534.4(IFNGR2):c.191A&gt;G (p.Gln64Arg)</Name>
+      <CanonicalSPDI>NC_000021.9:33415004:A:G</CanonicalSPDI>
+      <VariantType>single nucleotide variant</VariantType>
+      <Location>
+        <CytogeneticLocation>21q22.11</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="21" Accession="NC_000021.9" start="33415005" stop="33415005" display_start="33415005" display_stop="33415005" variantLength="1" positionVCF="33415005" referenceAlleleVCF="A" alternateAlleleVCF="G"/>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="21" Accession="NC_000021.8" start="34787312" stop="34787312" display_start="34787312" display_stop="34787312" variantLength="1" positionVCF="34787312" referenceAlleleVCF="A" alternateAlleleVCF="G"/>
+      </Location>
+      <ProteinChange>Q64R</ProteinChange>
+      <ProteinChange>Q83R</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000021.8" sequenceAccession="NC_000021" sequenceVersion="8" change="g.34787312A&gt;G" Assembly="GRCh37">
+            <Expression>NC_000021.8:g.34787312A&gt;G</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000021.9" sequenceAccession="NC_000021" sequenceVersion="9" change="g.33415005A&gt;G" Assembly="GRCh38">
+            <Expression>NC_000021.9:g.33415005A&gt;G</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_007570.2" sequenceAccession="NG_007570" sequenceVersion="2" change="g.35014A&gt;G">
+            <Expression>NG_007570.2:g.35014A&gt;G</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001329128.2" sequenceAccession="NM_001329128" sequenceVersion="2" change="c.248A&gt;G">
+            <Expression>NM_001329128.2:c.248A&gt;G</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001316057.1" sequenceAccession="NP_001316057" sequenceVersion="1" change="p.Gln83Arg" singleLetterProteinChange="Q83R">
+            <Expression>NP_001316057.1:p.Gln83Arg</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_005534.4" sequenceAccession="NM_005534" sequenceVersion="4" change="c.191A&gt;G" MANESelect="true">
+            <Expression>NM_005534.4:c.191A&gt;G</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_005525.2" sequenceAccession="NP_005525" sequenceVersion="2" change="p.Gln64Arg" singleLetterProteinChange="Q64R">
+            <Expression>NP_005525.2:p.Gln64Arg</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="LRG_67" sequenceAccession="LRG_67">
+            <Expression>LRG_67:g.35014A&gt;G</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="LRG_67t1" sequenceAccession="LRG_67t1">
+            <Expression>LRG_67t1:c.191A&gt;G</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA10006876" DB="ClinGen"/>
+        <XRef Type="rs" ID="9808753" DB="dbSNP"/>
+      </XRefList>
+      <AlleleFrequencyList>
+        <AlleleFrequency Value="0.16154" Source="The Genome Aggregation Database (gnomAD), exomes"/>
+        <AlleleFrequency Value="0.16715" Source="NHLBI Exome Sequencing Project (ESP) Exome Variant Server"/>
+        <AlleleFrequency Value="0.17239" Source="The Genome Aggregation Database (gnomAD)"/>
+        <AlleleFrequency Value="0.17950" Source="The Genome Aggregation Database (gnomAD)"/>
+        <AlleleFrequency Value="0.18097" Source="Trans-Omics for Precision Medicine (TOPMed)"/>
+        <AlleleFrequency Value="0.19611" Source="The Genome Aggregation Database (gnomAD), exomes"/>
+        <AlleleFrequency Value="0.19633" Source="Exome Aggregation Consortium (ExAC)"/>
+        <AlleleFrequency Value="0.26608" Source="1000 Genomes Project 30x"/>
+        <AlleleFrequency Value="0.27196" Source="1000 Genomes Project"/>
+      </AlleleFrequencyList>
+      <GlobalMinorAlleleFrequency Value="0.27196" Source="1000 Genomes Project" MinorAllele="G"/>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_005534.4(IFNGR2):c.191A&gt;G (p.Gln64Arg) AND Immunodeficiency 28" Accession="RCV001520782" Version="11">
+        <ClassifiedConditionList TraitSetID="19251">
+          <ClassifiedCondition DB="MedGen" ID="C4013947">Immunodeficiency 28</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, multiple submitters, no conflicts</ReviewStatus>
+            <Description DateLastEvaluated="2026-02-04" SubmissionCount="2">Benign</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_005534.4(IFNGR2):c.191A&gt;G (p.Gln64Arg) AND not provided" Accession="RCV001673101" Version="3">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="C3661900">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, multiple submitters, no conflicts</ReviewStatus>
+            <Description DateLastEvaluated="2021-06-09" SubmissionCount="2">Benign</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_005534.4(IFNGR2):c.191A&gt;G (p.Gln64Arg) AND not specified" Accession="RCV003487396" Version="4">
+        <ClassifiedConditionList TraitSetID="9590">
+          <ClassifiedCondition DB="MedGen" ID="CN169374">not specified</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, multiple submitters, no conflicts</ReviewStatus>
+            <Description DateLastEvaluated="2024-11-28" SubmissionCount="2">Benign/Likely benign</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2026-02-04" NumberOfSubmissions="6" NumberOfSubmitters="6" DateCreated="2021-06-15" MostRecentSubmission="2026-09-22">
+        <ReviewStatus>criteria provided, multiple submitters, no conflicts</ReviewStatus>
+        <Description>Benign/Likely benign</Description>
+        <Explanation DataSource="ClinVar" Type="public">Benign (5); Likely benign (1)</Explanation>
+        <DescriptionHistory Dated="2026-09-20">
+          <Description>Benign</Description>
+        </DescriptionHistory>
+        <ConditionList>
+          <TraitSet ID="9590" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="16789" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">AllHighlyPenetrant</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">not specified</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not specified' was created for use in ClinVar so that submitters can convey the concept that a variant is benign, likely benign, or of uncertain significance for an unspecified set of disorders.  This usage was introduced in 2014 to replace AllHighlyPenetrant.</Attribute>
+              </AttributeSet>
+              <XRef ID="CN169374" DB="MedGen"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="19251" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="31853" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Immunodeficiency 28</ElementValue>
+                <XRef ID="MONDO:0013953" DB="MONDO"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">IFNGR2 DEFICIENCY</ElementValue>
+                <XRef Type="MIM" ID="614889" DB="OMIM"/>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">IMD28</ElementValue>
+                <XRef Type="MIM" ID="614889" DB="OMIM"/>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="24963"/>
+                <XRef ID="24963" DB="Office of Rare Diseases"/>
+              </AttributeSet>
+              <XRef ID="319547" DB="Orphanet"/>
+              <XRef ID="319574" DB="Orphanet"/>
+              <XRef ID="C4013947" DB="MedGen"/>
+              <XRef ID="MONDO:0013953" DB="MONDO"/>
+              <XRef Type="MIM" ID="614889" DB="OMIM"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Genomic Medicine Center of Excellence, King Faisal Specialist Hospital and Research Centre"/>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="C3661900" DB="MedGen"/>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3689636" SubmissionDate="2021-09-17" ContributesToAggregateClassification="true" DateLastUpdated="2021-09-19" DateCreated="2021-09-19">
+        <ClinVarSubmissionID localKey="GDXSV:114878" localKeyIsSubmitted="1"/>
+        <ClinVarAccession Accession="SCV001887884" DateUpdated="2021-09-19" DateCreated="2021-09-19" Type="SCV" Version="1" SubmitterName="GeneDx" OrgID="26957" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-06-09">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Benign</GermlineClassification>
+          <Comment>This variant is associated with the following publications: (PMID: 20952689, 25854761)</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">GeneDx Variant Classification Process June 2021</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/fc81e176/genedx_variant_classification_process_june_2021.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="IFNGR2"/>
+          </GeneList>
+          <VariantType>single nucleotide variant</VariantType>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">GDX:767076</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_005534.3:c.191A&gt;G</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Not Provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>GeneDX_Clinvar_Submission_41_20210917044205</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="3791554" SubmissionDate="2021-09-21" ContributesToAggregateClassification="true" DateLastUpdated="2021-09-25" DateCreated="2021-09-25">
+        <ClinVarSubmissionID localKey="NM_005534.4:c.191A&gt;G|OMIM:614889" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV001933276" DateUpdated="2021-09-25" DateCreated="2021-09-25" Type="SCV" Version="1" SubmitterName="Genome-Nilou Lab" OrgID="507598" OrganizationCategory="laboratory" OrgAbbreviation="Genome Nilou"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-08-10">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Benign</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>no</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="IFNGR2"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_005534.4:c.191A&gt;G</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="614889" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB10405253</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="10210295" SubmissionDate="2024-09-16" ContributesToAggregateClassification="true" DateLastUpdated="2024-09-29" DateCreated="2024-09-29">
+        <ClinVarSubmissionID localKey="b5bf9383-2580-4800-b444-06dc2e209822|not provided"/>
+        <ClinVarAccession Accession="SCV005307736" DateUpdated="2024-09-29" DateCreated="2024-09-29" Type="SCV" Version="1" SubmitterName="Breakthrough Genomics, Breakthrough Genomics" OrgID="509169" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Benign</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>not provided</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="21" alternateAllele="G" referenceAllele="A" start="34787312" stop="34787312"/>
+          </Location>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">b5bf9383-2580-4800-b444-06dc2e209822</Name>
+          </OtherNameList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14729668</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="7910421" SubmissionDate="2024-01-25" ContributesToAggregateClassification="true" DateLastUpdated="2025-04-13" DateCreated="2024-02-04">
+        <ClinVarSubmissionID localKey="NC_000021.9:g.33415005A&gt;G|not specified" submittedAssembly="GRCh38"/>
+        <ClinVarAccession Accession="SCV004234050" DateUpdated="2025-04-13" DateCreated="2024-02-04" Type="SCV" Version="2" SubmitterName="Unidad de Genómica Garrahan, Hospital de Pediatría Garrahan" OrgID="507274" OrganizationCategory="laboratory" OrgAbbreviation="GenomicaHPG"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2024-01-24">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Benign</GermlineClassification>
+          <Comment>This variant is classified as Benign based on local population frequency. This variant was detected in 25% of patients studied by a panel of primary immunodeficiencies. Number of patients: 22. Only high quality variants are reported.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <Age Type="maximum" age_unit="years">18</Age>
+              <AffectedStatus>no</AffectedStatus>
+              <Sex>mixed</Sex>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="22"/>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="IFNGR2"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000021.9:g.33415005A&gt;G</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not specified</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14173288</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="3390666" SubmissionDate="2026-02-09" ContributesToAggregateClassification="true" DateLastUpdated="2026-02-23" DateCreated="2021-06-15">
+        <ClinVarSubmissionID localKey="1666714|MedGen:C4013947" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV001729971" DateUpdated="2026-02-23" DateCreated="2021-06-15" Type="SCV" Version="6" SubmitterName="Labcorp Genetics (formerly Invitae), Labcorp" OrgID="500031" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2026-02-04">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Benign</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="IFNGR2"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000021.8:g.34787312A&gt;G</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C4013947" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11431369</SubmissionName>
+          <SubmissionName>SUB12507860</SubmissionName>
+          <SubmissionName>SUB14200279</SubmissionName>
+          <SubmissionName>SUB15075354</SubmissionName>
+          <SubmissionName>SUB15990407</SubmissionName>
+          <SubmissionName>SUB8755776</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="14848974" SubmissionDate="2026-08-20" ContributesToAggregateClassification="true" DateLastUpdated="2026-09-22" DateCreated="2026-09-22">
+        <ClinVarSubmissionID localKey=":Chr.21_34787312_A_G|Not specified" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV007876411" DateUpdated="2026-09-22" DateCreated="2026-09-22" Type="SCV" Version="1" SubmitterName="Blueprint Genetics" OrgID="500188" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2024-11-28">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Likely benign</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="21" alternateAllele="G" referenceAllele="A" start="34787312" stop="34787312" variantLength="1"/>
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Not specified</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB16423224</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3689636" TraitType="Disease" MappingType="Name" MappingValue="Not Provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3791554" TraitType="Disease" MappingType="XRef" MappingValue="614889" MappingRef="OMIM">
+        <MedGen CUI="C4013947" Name="Immunodeficiency 28"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="10210295" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7910421" TraitType="Disease" MappingType="Name" MappingValue="not specified" MappingRef="Preferred">
+        <MedGen CUI="CN169374" Name="not specified"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3390666" TraitType="Disease" MappingType="XRef" MappingValue="C4013947" MappingRef="MedGen">
+        <MedGen CUI="C4013947" Name="Immunodeficiency 28"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="14848974" TraitType="Disease" MappingType="Name" MappingValue="Not specified" MappingRef="Preferred">
+        <MedGen CUI="CN169374" Name="not specified"/>
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+</ClinVarResult-Set>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+                        
+<ClinVarResult-Set><VariationArchive VariationID="4454179" VariationName="NM_153682.3(PIGP):c.-22-44C&gt;A" VariationType="single nucleotide variant" Accession="VCV004454179" Version="1" RecordType="classified" NumberOfSubmissions="2" NumberOfSubmitters="1" DateLastUpdated="2025-11-02" DateCreated="2025-11-02" MostRecentSubmission="2025-11-02">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="4567057" VariationID="4454179">
+      <GeneList>
+        <Gene Symbol="LOC130066643" FullName="ATAC-STARR-seq lymphoblastoid silent region 13296" GeneID="130066643" Source="calculated" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>21q22.13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="21" Accession="NC_000021.9" start="37072542" stop="37072821" display_start="37072542" display_stop="37072821" Strand="+"/>
+          </Location>
+        </Gene>
+        <Gene Symbol="PIGP" FullName="phosphatidylinositol glycan anchor biosynthesis class P" GeneID="51227" HGNC_ID="HGNC:3046" Source="submitted" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>21q22.13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="21" Accession="NC_000021.9" start="37065364" stop="37073071" display_start="37065364" display_stop="37073071" Strand="-"/>
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="21" Accession="NC_000021.8" start="38437663" stop="38445457" display_start="38437663" display_stop="38445457" Strand="-"/>
+          </Location>
+          <OMIM>605938</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_153682.3(PIGP):c.-22-44C&gt;A</Name>
+      <CanonicalSPDI>NC_000021.9:37072580:G:T</CanonicalSPDI>
+      <VariantType>single nucleotide variant</VariantType>
+      <Location>
+        <CytogeneticLocation>21q22.13</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="21" Accession="NC_000021.9" start="37072581" stop="37072581" display_start="37072581" display_stop="37072581" variantLength="1" positionVCF="37072581" referenceAlleleVCF="G" alternateAlleleVCF="T"/>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="21" Accession="NC_000021.8" start="38444881" stop="38444881" display_start="38444881" display_stop="38444881" variantLength="1" positionVCF="38444881" referenceAlleleVCF="G" alternateAlleleVCF="T"/>
+      </Location>
+      <OtherNameList>
+        <Name>NC_000021.8:g.38444881G&gt;T</Name>
+      </OtherNameList>
+      <ProteinChange>P3T</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000021.8" sequenceAccession="NC_000021" sequenceVersion="8" change="g.38444881G&gt;T" Assembly="GRCh37">
+            <Expression>NC_000021.8:g.38444881G&gt;T</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000021.9" sequenceAccession="NC_000021" sequenceVersion="9" change="g.37072581G&gt;T" Assembly="GRCh38">
+            <Expression>NC_000021.9:g.37072581G&gt;T</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_201059.1" sequenceAccession="NG_201059" sequenceVersion="1" change="g.140G&gt;T">
+            <Expression>NG_201059.1:g.140G&gt;T</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_153681.2" sequenceAccession="NM_153681" sequenceVersion="2" change="c.7C&gt;A">
+            <Expression>NM_153681.2:c.7C&gt;A</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_710148.1" sequenceAccession="NP_710148" sequenceVersion="1" change="p.Pro3Thr" singleLetterProteinChange="P3T">
+            <Expression>NP_710148.1:p.Pro3Thr</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_153682.3" sequenceAccession="NM_153682" sequenceVersion="3" change="c.-22-44C&gt;A" MANESelect="true">
+            <Expression>NM_153682.3:c.-22-44C&gt;A</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001627" Type="intron variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_016430.4" sequenceAccession="NM_016430" sequenceVersion="4" change="c.-266-44C&gt;A">
+            <Expression>NM_016430.4:c.-266-44C&gt;A</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001627" Type="intron variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001320480.2" sequenceAccession="NM_001320480" sequenceVersion="2" change="c.-22-44C&gt;A">
+            <Expression>NM_001320480.2:c.-22-44C&gt;A</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001627" Type="intron variant" DB="SO"/>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_153682.3(PIGP):c.-22-44C&gt;A AND Thyroid cancer, nonmedullary, 1" Accession="RCV006161876" Version="1">
+        <ClassifiedConditionList TraitSetID="40023">
+          <ClassifiedCondition DB="MedGen" ID="C4721429">Thyroid cancer, nonmedullary, 1</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <NoClassification>
+            <ReviewStatus>no classification provided</ReviewStatus>
+            <Description SubmissionCount="2">evidence_only</Description>
+          </NoClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <NoClassification DateCreated="2025-10-28" MostRecentSubmission="2025-10-31" NumberOfSubmissions="2" NumberOfSubmitters="1">
+        <ReviewStatus>no classification provided</ReviewStatus>
+        <Description>evidence_only</Description>
+        <ConditionList>
+          <TraitSet ID="40023" Type="Disease" ContributesToAggregateClassification="false">
+            <Trait ID="38499" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Thyroid cancer, nonmedullary, 1</ElementValue>
+                <XRef ID="MONDO:0008567" DB="MONDO"/>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">NMTC1</ElementValue>
+                <XRef Type="MIM" ID="188550" DB="OMIM"/>
+              </Symbol>
+              <Citation Type="practice guideline" Abbrev="NICE, 2022">
+                <URL>https://www.nice.org.uk/guidance/ng230</URL>
+                <CitationText>UK NICE Guideline NG230, Thyroid cancer: assessment and management</CitationText>
+              </Citation>
+              <XRef ID="C4721429" DB="MedGen"/>
+              <XRef ID="MONDO:0008567" DB="MONDO"/>
+              <XRef Type="MIM" ID="188550" DB="OMIM"/>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </NoClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="13048879" SubmissionDate="2025-10-17" ContributesToAggregateClassification="false" DateLastUpdated="2025-11-02" DateCreated="2025-11-02">
+        <ClinVarSubmissionID localKey="VSMv4_213034|OMIM:188550|NoClassification|RNAseq|5D9F286264A71EB7237A0A24FDD34EC5" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV006960423" DateUpdated="2025-11-02" DateCreated="2025-11-02" Type="SCV" Version="1" SubmitterName="Dr. Peter K. Rogan Lab, Western University" OrgID="505643" OrganizationCategory="laboratory" OrgAbbreviation="PKRlab"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no classification provided</ReviewStatus>
+          <NoClassification>evidence_only</NoClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn Type="Functional">
+            <Sample>
+              <Origin>not applicable</Origin>
+              <Tissue>Thyroid Carcinoma (THCA)</Tissue>
+              <CellLine>TCGA-DJ-A3UP</CellLine>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>not applicable</AffectedStatus>
+            </Sample>
+            <Method>
+              <Citation>
+                <ID Source="PubMed">31275557</ID>
+              </Citation>
+              <Description>In the sample (TCGA-DJ-A3UP), the counts of splice junction spanning reads and abundance of the transcript adjacent to this mutation were compared with RNASeq data from matched tissues and tumors lacking the same mutation using Veridical (PMID:24741438)</Description>
+              <MethodType>in vitro</MethodType>
+              <AssayType Id="EFO:0008896" Source="EFO: The Experimental Factor Ontology">RNAseq</AssayType>
+              <MolecularPhenotypeMeasured>splicing</MolecularPhenotypeMeasured>
+              <NumberOfControls>523</NumberOfControls>
+            </Method>
+            <FunctionalData>
+              <FunctionalEffect Id="SO:0002218" Source="Sequence Ontology">functionally abnormal</FunctionalEffect>
+              <FunctionalConsequence Id="SO:0001573" Source="Sequence Ontology">retained intron</FunctionalConsequence>
+              <FunctionalConsequenceComment>Modifies an exonic cryptic donor site at NC_000021.8:g.38444884 from -0.51 to 2.75 bits. Significant p-values: junction spanning - intron inclusion (3 reads, p=0.0197). Computations were originally performed using genomic coordinates. This variant was mapped to an appropriate current MANE database designation or, if not present in this source, to the longest relevant transcript in the Biocommons Universal Transcript Archive using the hgvs Python package. The original genomic coordinate was based on GRCh37 and was submitted as an "Alternate designation". Modifications of Figure 2 of PMID:31275557 for ClinVar: a) "strongly corroborating Veridical p-value" refers to "junction-spanning" evidence types; b) add the text "and natural site &lt; 300 nucleotides away?" to "Ri,final &gt; nearest natural site Ri"; c) "Aberrant" and "Likely aberrant" classifications are now both defined as "Functionally abnormal" (analogous to ACMG/AMP reporting); d) "Allele-specific alternative splicing" classification now defined as "Function uncertain" (based on results for similar variants in PMID: 32211018); e) average heterozygosity based-criteria no longer contribute to classification.</FunctionalConsequenceComment>
+              <Result>junction spanning - intron inclusion (p=0.0197)</Result>
+            </FunctionalData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PIGP"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name>NC_000021.8:g.38444881G&gt;T</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_153682.3:c.-22-44C&gt;A</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="188550" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB15692110</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="13054917" SubmissionDate="2025-10-17" ContributesToAggregateClassification="false" DateLastUpdated="2025-11-02" DateCreated="2025-11-02">
+        <ClinVarSubmissionID localKey="VSMv4_213035|OMIM:188550|NoClassification|RNAseq|143255D0EDE7EFE6AE805A22B5B995B4" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV006960424" DateUpdated="2025-11-02" DateCreated="2025-11-02" Type="SCV" Version="1" SubmitterName="Dr. Peter K. Rogan Lab, Western University" OrgID="505643" OrganizationCategory="laboratory" OrgAbbreviation="PKRlab"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no classification provided</ReviewStatus>
+          <NoClassification>evidence_only</NoClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn Type="Functional">
+            <Sample>
+              <Origin>not applicable</Origin>
+              <Tissue>Thyroid Carcinoma (THCA)</Tissue>
+              <CellLine>TCGA-EL-A3MX</CellLine>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>not applicable</AffectedStatus>
+            </Sample>
+            <Method>
+              <Citation>
+                <ID Source="PubMed">31275557</ID>
+              </Citation>
+              <Description>In the sample (TCGA-EL-A3MX), the counts of splice junction spanning reads and abundance of the transcript adjacent to this mutation were compared with RNASeq data from matched tissues and tumors lacking the same mutation using Veridical (PMID:24741438)</Description>
+              <MethodType>in vitro</MethodType>
+              <AssayType Id="EFO:0008896" Source="EFO: The Experimental Factor Ontology">RNAseq</AssayType>
+              <MolecularPhenotypeMeasured>splicing</MolecularPhenotypeMeasured>
+              <NumberOfControls>523</NumberOfControls>
+            </Method>
+            <FunctionalData>
+              <FunctionalEffect Id="SO:0002218" Source="Sequence Ontology">functionally abnormal</FunctionalEffect>
+              <FunctionalConsequence Id="SO:0001573" Source="Sequence Ontology">retained intron</FunctionalConsequence>
+              <FunctionalConsequenceComment>Modifies an exonic cryptic donor site at NC_000021.8:g.38444884 from -0.51 to 2.75 bits. Significant p-values: read abundance - intron inclusion (275 reads, p=0.0081). Computations were originally performed using genomic coordinates. This variant was mapped to an appropriate current MANE database designation or, if not present in this source, to the longest relevant transcript in the Biocommons Universal Transcript Archive using the hgvs Python package. The original genomic coordinate was based on GRCh37 and was submitted as an "Alternate designation". Modifications of Figure 2 of PMID:31275557 for ClinVar: a) "strongly corroborating Veridical p-value" refers to "junction-spanning" evidence types; b) add the text "and natural site &lt; 300 nucleotides away?" to "Ri,final &gt; nearest natural site Ri"; c) "Aberrant" and "Likely aberrant" classifications are now both defined as "Functionally abnormal" (analogous to ACMG/AMP reporting); d) "Allele-specific alternative splicing" classification now defined as "Function uncertain" (based on results for similar variants in PMID: 32211018); e) average heterozygosity based-criteria no longer contribute to classification.</FunctionalConsequenceComment>
+              <Result>read abundance - intron inclusion (p=0.0081)</Result>
+            </FunctionalData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PIGP"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name>NC_000021.8:g.38444881G&gt;T</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_153682.3:c.-22-44C&gt;A</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="188550" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB15692110</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="13048879" TraitType="Disease" MappingType="XRef" MappingValue="188550" MappingRef="OMIM">
+        <MedGen CUI="C4721429" Name="Thyroid cancer, nonmedullary, 1"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="13054917" TraitType="Disease" MappingType="XRef" MappingValue="188550" MappingRef="OMIM">
+        <MedGen CUI="C4721429" Name="Thyroid cancer, nonmedullary, 1"/>
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+</ClinVarResult-Set>

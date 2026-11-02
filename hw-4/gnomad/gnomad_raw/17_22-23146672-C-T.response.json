@@ -1,0 +1,28 @@
+{
+  "http_status": 200,
+  "body": {
+    "data": {
+      "variant": {
+        "variant_id": "22-23146672-C-T",
+        "reference_genome": "GRCh38",
+        "exome": {
+          "ac": 366,
+          "an": 1461678,
+          "af": 0.0002503971462935065,
+          "filters": []
+        },
+        "genome": {
+          "ac": 400,
+          "an": 152282,
+          "af": 0.002626705717024993,
+          "filters": []
+        },
+        "joint": {
+          "ac": 766,
+          "an": 1613960,
+          "filters": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1429 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+                        
+<ClinVarResult-Set><VariationArchive VariationID="4457563" VariationName="NM_134269.3(SMTN):c.1924C&gt;T (p.Arg642Cys)" VariationType="single nucleotide variant" Accession="VCV004457563" Version="1" RecordType="classified" NumberOfSubmissions="15" NumberOfSubmitters="1" DateLastUpdated="2026-10-31" DateCreated="2025-11-02" MostRecentSubmission="2025-11-02">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="4567848" VariationID="4457563">
+      <GeneList>
+        <Gene Symbol="SMTN" FullName="smoothelin" GeneID="6525" HGNC_ID="HGNC:11126" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>22q12.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="31064118" stop="31104624" display_start="31064118" display_stop="31104624" Strand="+"/>
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="31477281" stop="31500609" display_start="31477281" display_stop="31500609" Strand="+"/>
+          </Location>
+          <OMIM>602127</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_134269.3(SMTN):c.1924C&gt;T (p.Arg642Cys)</Name>
+      <CanonicalSPDI>NC_000022.11:31096794:C:T</CanonicalSPDI>
+      <VariantType>single nucleotide variant</VariantType>
+      <Location>
+        <CytogeneticLocation>22q12.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="31096795" stop="31096795" display_start="31096795" display_stop="31096795" variantLength="1" positionVCF="31096795" referenceAlleleVCF="C" alternateAlleleVCF="T"/>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="31492781" stop="31492781" display_start="31492781" display_stop="31492781" variantLength="1" positionVCF="31492781" referenceAlleleVCF="C" alternateAlleleVCF="T"/>
+      </Location>
+      <OtherNameList>
+        <Name>NC_000022.10:g.31492781C&gt;T</Name>
+      </OtherNameList>
+      <ProteinChange>R698C</ProteinChange>
+      <ProteinChange>R736C</ProteinChange>
+      <ProteinChange>R300C</ProteinChange>
+      <ProteinChange>R673C</ProteinChange>
+      <ProteinChange>R727C</ProteinChange>
+      <ProteinChange>R642C</ProteinChange>
+      <ProteinChange>R696C</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.10" sequenceAccession="NC_000022" sequenceVersion="10" change="g.31492781C&gt;T" Assembly="GRCh37">
+            <Expression>NC_000022.10:g.31492781C&gt;T</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.11" sequenceAccession="NC_000022" sequenceVersion="11" change="g.31096795C&gt;T" Assembly="GRCh38">
+            <Expression>NC_000022.11:g.31096795C&gt;T</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_029838.1" sequenceAccession="NG_029838" sequenceVersion="1" change="g.20500C&gt;T">
+            <Expression>NG_029838.1:g.20500C&gt;T</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_029838.2" sequenceAccession="NG_029838" sequenceVersion="2" change="g.37679C&gt;T">
+            <Expression>NG_029838.2:g.37679C&gt;T</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_145449.1" sequenceAccession="NG_145449" sequenceVersion="1" change="g.626C&gt;T">
+            <Expression>NG_145449.1:g.626C&gt;T</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_145450.1" sequenceAccession="NG_145450" sequenceVersion="1" change="g.51C&gt;T">
+            <Expression>NG_145450.1:g.51C&gt;T</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001207017.1" sequenceAccession="NM_001207017" sequenceVersion="1" change="c.2179C&gt;T">
+            <Expression>NM_001207017.1:c.2179C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001193946.1" sequenceAccession="NP_001193946" sequenceVersion="1" change="p.Arg727Cys" singleLetterProteinChange="R727C">
+            <Expression>NP_001193946.1:p.Arg727Cys</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001207018.2" sequenceAccession="NM_001207018" sequenceVersion="2" change="c.2092C&gt;T">
+            <Expression>NM_001207018.2:c.2092C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001193947.1" sequenceAccession="NP_001193947" sequenceVersion="1" change="p.Arg698Cys" singleLetterProteinChange="R698C">
+            <Expression>NP_001193947.1:p.Arg698Cys</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001382638.1" sequenceAccession="NM_001382638" sequenceVersion="1" change="c.1924C&gt;T">
+            <Expression>NM_001382638.1:c.1924C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001369567.1" sequenceAccession="NP_001369567" sequenceVersion="1" change="p.Arg642Cys" singleLetterProteinChange="R642C">
+            <Expression>NP_001369567.1:p.Arg642Cys</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001382639.1" sequenceAccession="NM_001382639" sequenceVersion="1" change="c.1924C&gt;T">
+            <Expression>NM_001382639.1:c.1924C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001369568.1" sequenceAccession="NP_001369568" sequenceVersion="1" change="p.Arg642Cys" singleLetterProteinChange="R642C">
+            <Expression>NP_001369568.1:p.Arg642Cys</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001382640.1" sequenceAccession="NM_001382640" sequenceVersion="1" change="c.1924C&gt;T">
+            <Expression>NM_001382640.1:c.1924C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001369569.1" sequenceAccession="NP_001369569" sequenceVersion="1" change="p.Arg642Cys" singleLetterProteinChange="R642C">
+            <Expression>NP_001369569.1:p.Arg642Cys</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001382641.1" sequenceAccession="NM_001382641" sequenceVersion="1" change="c.1924C&gt;T">
+            <Expression>NM_001382641.1:c.1924C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001369570.1" sequenceAccession="NP_001369570" sequenceVersion="1" change="p.Arg642Cys" singleLetterProteinChange="R642C">
+            <Expression>NP_001369570.1:p.Arg642Cys</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001382642.1" sequenceAccession="NM_001382642" sequenceVersion="1" change="c.2206C&gt;T">
+            <Expression>NM_001382642.1:c.2206C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001369571.1" sequenceAccession="NP_001369571" sequenceVersion="1" change="p.Arg736Cys" singleLetterProteinChange="R736C">
+            <Expression>NP_001369571.1:p.Arg736Cys</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001382643.1" sequenceAccession="NM_001382643" sequenceVersion="1" change="c.2086C&gt;T">
+            <Expression>NM_001382643.1:c.2086C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001369572.1" sequenceAccession="NP_001369572" sequenceVersion="1" change="p.Arg696Cys" singleLetterProteinChange="R696C">
+            <Expression>NP_001369572.1:p.Arg696Cys</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001382644.1" sequenceAccession="NM_001382644" sequenceVersion="1" change="c.2086C&gt;T">
+            <Expression>NM_001382644.1:c.2086C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001369573.1" sequenceAccession="NP_001369573" sequenceVersion="1" change="p.Arg696Cys" singleLetterProteinChange="R696C">
+            <Expression>NP_001369573.1:p.Arg696Cys</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001382645.1" sequenceAccession="NM_001382645" sequenceVersion="1" change="c.2017C&gt;T">
+            <Expression>NM_001382645.1:c.2017C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001369574.1" sequenceAccession="NP_001369574" sequenceVersion="1" change="p.Arg673Cys" singleLetterProteinChange="R673C">
+            <Expression>NP_001369574.1:p.Arg673Cys</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001382646.1" sequenceAccession="NM_001382646" sequenceVersion="1" change="c.1924C&gt;T">
+            <Expression>NM_001382646.1:c.1924C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001369575.1" sequenceAccession="NP_001369575" sequenceVersion="1" change="p.Arg642Cys" singleLetterProteinChange="R642C">
+            <Expression>NP_001369575.1:p.Arg642Cys</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001382648.1" sequenceAccession="NM_001382648" sequenceVersion="1" change="c.898C&gt;T">
+            <Expression>NM_001382648.1:c.898C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001369577.1" sequenceAccession="NP_001369577" sequenceVersion="1" change="p.Arg300Cys" singleLetterProteinChange="R300C">
+            <Expression>NP_001369577.1:p.Arg300Cys</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_006932.5" sequenceAccession="NM_006932" sequenceVersion="5" change="c.1924C&gt;T">
+            <Expression>NM_006932.5:c.1924C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_008863.3" sequenceAccession="NP_008863" sequenceVersion="3" change="p.Arg642Cys" singleLetterProteinChange="R642C">
+            <Expression>NP_008863.3:p.Arg642Cys</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_134269.3" sequenceAccession="NM_134269" sequenceVersion="3" change="c.1924C&gt;T" MANESelect="true">
+            <Expression>NM_134269.3:c.1924C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_599031.1" sequenceAccession="NP_599031" sequenceVersion="1" change="p.Arg642Cys" singleLetterProteinChange="R642C">
+            <Expression>NP_599031.1:p.Arg642Cys</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_134270.3" sequenceAccession="NM_134270" sequenceVersion="3" change="c.1924C&gt;T">
+            <Expression>NM_134270.3:c.1924C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_599032.2" sequenceAccession="NP_599032" sequenceVersion="2" change="p.Arg642Cys" singleLetterProteinChange="R642C">
+            <Expression>NP_599032.2:p.Arg642Cys</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="non-coding">
+          <NucleotideExpression sequenceAccessionVersion="NR_168472.1" sequenceAccession="NR_168472" sequenceVersion="1" change="n.2133C&gt;T">
+            <Expression>NR_168472.1:n.2133C&gt;T</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001619" Type="non-coding transcript variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="non-coding">
+          <NucleotideExpression sequenceAccessionVersion="NR_168473.1" sequenceAccession="NR_168473" sequenceVersion="1" change="n.3168C&gt;T">
+            <Expression>NR_168473.1:n.3168C&gt;T</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001619" Type="non-coding transcript variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="non-coding">
+          <NucleotideExpression sequenceAccessionVersion="NR_168474.1" sequenceAccession="NR_168474" sequenceVersion="1" change="n.3024C&gt;T">
+            <Expression>NR_168474.1:n.3024C&gt;T</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001619" Type="non-coding transcript variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="non-coding">
+          <NucleotideExpression sequenceAccessionVersion="NR_168475.1" sequenceAccession="NR_168475" sequenceVersion="1" change="n.2236C&gt;T">
+            <Expression>NR_168475.1:n.2236C&gt;T</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001619" Type="non-coding transcript variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001382647.1" sequenceAccession="NM_001382647" sequenceVersion="1" change="c.1862-474C&gt;T">
+            <Expression>NM_001382647.1:c.1862-474C&gt;T</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001627" Type="intron variant" DB="SO"/>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_134269.3(SMTN):c.1924C&gt;T (p.Arg642Cys) AND Acute myeloid leukemia" Accession="RCV006166667" Version="1">
+        <ClassifiedConditionList TraitSetID="6288">
+          <ClassifiedCondition DB="MedGen" ID="C0023467">Acute myeloid leukemia</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <NoClassification>
+            <ReviewStatus>no classification provided</ReviewStatus>
+            <Description SubmissionCount="2">evidence_only</Description>
+          </NoClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_134269.3(SMTN):c.1924C&gt;T (p.Arg642Cys) AND Hepatocellular carcinoma" Accession="RCV006166668" Version="1">
+        <ClassifiedConditionList TraitSetID="6315">
+          <ClassifiedCondition DB="MedGen" ID="C2239176">Hepatocellular carcinoma</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <NoClassification>
+            <ReviewStatus>no classification provided</ReviewStatus>
+            <Description SubmissionCount="2">evidence_only</Description>
+          </NoClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_134269.3(SMTN):c.1924C&gt;T (p.Arg642Cys) AND Lung cancer" Accession="RCV006166671" Version="1">
+        <ClassifiedConditionList TraitSetID="65306">
+          <ClassifiedCondition DB="MedGen" ID="C0242379">Lung cancer</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <NoClassification>
+            <ReviewStatus>no classification provided</ReviewStatus>
+            <Description SubmissionCount="1">evidence_only</Description>
+          </NoClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_134269.3(SMTN):c.1924C&gt;T (p.Arg642Cys) AND Cervical cancer" Accession="RCV006166669" Version="1">
+        <ClassifiedConditionList TraitSetID="6584">
+          <ClassifiedCondition DB="MedGen" ID="C4048328">Cervical cancer</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <NoClassification>
+            <ReviewStatus>no classification provided</ReviewStatus>
+            <Description SubmissionCount="4">evidence_only</Description>
+          </NoClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_134269.3(SMTN):c.1924C&gt;T (p.Arg642Cys) AND Clear cell carcinoma of kidney" Accession="RCV006166670" Version="1">
+        <ClassifiedConditionList TraitSetID="11856">
+          <ClassifiedCondition DB="MedGen" ID="C0279702">Clear cell carcinoma of kidney</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <NoClassification>
+            <ReviewStatus>no classification provided</ReviewStatus>
+            <Description SubmissionCount="6">evidence_only</Description>
+          </NoClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <NoClassification DateCreated="2025-10-28" MostRecentSubmission="2025-10-31" NumberOfSubmissions="15" NumberOfSubmitters="1">
+        <ReviewStatus>no classification provided</ReviewStatus>
+        <Description>evidence_only</Description>
+        <ConditionList>
+          <TraitSet ID="11856" Type="Disease" ContributesToAggregateClassification="false">
+            <Trait ID="18267" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Clear cell carcinoma of kidney</ElementValue>
+                <XRef ID="254915003" DB="SNOMED CT"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Clear cell renal cell carcinoma</ElementValue>
+                <XRef ID="HP:0006770" DB="Human Phenotype Ontology"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Clear cell RCC</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Cystic-multilocular variant</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Clear-cell metastatic renal cell carcinoma (subtype)</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Renal cell carcinoma, clear cell, somatic</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Clear cell renal carcinoma</ElementValue>
+                <XRef ID="MONDO:0005005" DB="MONDO"/>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="9574"/>
+                <XRef ID="9574" DB="Office of Rare Diseases"/>
+              </AttributeSet>
+              <XRef ID="319276" DB="Orphanet"/>
+              <XRef ID="C0279702" DB="MedGen"/>
+              <XRef ID="MONDO:0005005" DB="MONDO"/>
+              <XRef Type="primary" ID="HP:0006770" DB="Human Phenotype Ontology"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="6584" Type="Disease" ContributesToAggregateClassification="false">
+            <Trait ID="773" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Cervical cancer, somatic</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Cervical cancer</ElementValue>
+                <XRef ID="MONDO:0002974" DB="MONDO"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Cancer of cervix</ElementValue>
+                <XRef ID="363354003" DB="SNOMED CT"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Cervix cancer</ElementValue>
+                <XRef ID="HP:0030079" DB="Human Phenotype Ontology"/>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="keyword">Hereditary cancer syndrome</Attribute>
+              </AttributeSet>
+              <Citation Type="practice guideline" Abbrev="AHRQ, 2013">
+                <URL>https://www.cms.gov/Medicare/Coverage/DeterminationProcess/downloads/id90TA.pdf</URL>
+                <CitationText>Technology Assessment on Genetic Testing or Molecular Pathology Testing of Cancers with Unknown Primary Site to Determine Origin (ARCHIVED)</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="NCCN, 2024">
+                <URL>https://www.nccn.org/professionals/physician_gls/pdf/cervical.pdf</URL>
+                <CitationText>NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®) Cervical Cancer, 2024</CitationText>
+              </Citation>
+              <XRef ID="C4048328" DB="MedGen"/>
+              <XRef ID="MONDO:0002974" DB="MONDO"/>
+              <XRef Type="MIM" ID="603956" DB="OMIM"/>
+              <XRef Type="primary" ID="HP:0030079" DB="Human Phenotype Ontology"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="6288" Type="Disease" ContributesToAggregateClassification="false">
+            <Trait ID="15736" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Acute myeloid leukemia, adult</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">AML adult</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Acute non-lymphocytic leukemia</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Acute granulocytic leukemia</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Leukemia, acute myeloid, somatic</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Leukemia, acute myelogenous, somatic</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Acute myeloid leukemia</ElementValue>
+                <XRef ID="HP:0004808" DB="Human Phenotype Ontology"/>
+                <XRef ID="MONDO:0018874" DB="MONDO"/>
+                <XRef ID="519" DB="Orphanet"/>
+                <XRef ID="17788007" DB="SNOMED CT"/>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">AML</ElementValue>
+                <XRef Type="MIM" ID="601626" DB="OMIM"/>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="disease mechanism">Constitutively activated FLT3</Attribute>
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="12757"/>
+                <XRef ID="12757" DB="Office of Rare Diseases"/>
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="public definition">CEBPA-associated familial acute myeloid leukemia (AML) is typically characterized by earlier-onset disease compared to sporadic AML. Age of onset varies from 1.8 to 60 years, with younger onset in those with germline N-terminal CEBPA pathogenic variants. The prognosis appears to be favorable for AML associated with germline N-terminal CEBPA pathogenic variants compared to AML due to sporadic CEBPA pathogenic variants. However, individuals who have been cured of their initial disease are at greater risk of developing new, independent leukemic episodes, in addition to the risk of relapse from preexisting clones. Emerging data suggest that germline CEBPA pathogenic variants located downstream of the p30 start codon (residue 120) are often less penetrant but are associated with inferior clinical outcomes and shorter overall survival compared to AML due to germline N-terminal CEBPA pathogenic variants.</Attribute>
+                <XRef ID="NBK47457" DB="GeneReviews"/>
+              </AttributeSet>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">20963938</ID>
+                <ID Source="BookShelf">NBK47457</ID>
+              </Citation>
+              <Citation Type="Translational/Evidence-based" Abbrev="NCCN, 2011">
+                <ID Source="PubMed">22138009</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ESMO, 2013">
+                <ID Source="PubMed">23970018</ID>
+              </Citation>
+              <Citation Type="review" Abbrev="GeneReviews">
+                <ID Source="PubMed">33226740</ID>
+                <ID Source="BookShelf">NBK564234</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ESMO, 2020">
+                <ID Source="PubMed">32171751</ID>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="NCCN, 2024">
+                <URL>https://www.nccn.org/professionals/physician_gls/pdf/all.pdf</URL>
+                <CitationText>NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®) Acute Lymphoblastic Leukemia, 2024</CitationText>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="NCCN, 2023">
+                <URL>https://www.nccn.org/professionals/physician_gls/pdf/aml.pdf</URL>
+                <CitationText>NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®) Acute Myeloid Leukemia, 2023</CitationText>
+              </Citation>
+              <XRef ID="519" DB="Orphanet"/>
+              <XRef ID="C0023467" DB="MedGen"/>
+              <XRef ID="D015470" DB="MeSH"/>
+              <XRef ID="MONDO:0018874" DB="MONDO"/>
+              <XRef Type="MIM" ID="601626" DB="OMIM"/>
+              <XRef Type="primary" ID="HP:0004808" DB="Human Phenotype Ontology"/>
+              <XRef Type="secondary" ID="HP:0001914" DB="Human Phenotype Ontology"/>
+              <XRef Type="secondary" ID="HP:0004843" DB="Human Phenotype Ontology"/>
+              <XRef Type="secondary" ID="HP:0005516" DB="Human Phenotype Ontology"/>
+              <XRef Type="secondary" ID="HP:0006724" DB="Human Phenotype Ontology"/>
+              <XRef Type="secondary" ID="HP:0006728" DB="Human Phenotype Ontology"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="65306" Type="Disease" ContributesToAggregateClassification="false">
+            <Trait ID="54641" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Lung cancer, somatic</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Malignant tumor of lung</ElementValue>
+                <XRef ID="363358000" DB="SNOMED CT"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Lung cancer</ElementValue>
+                <XRef ID="MONDO:0008903" DB="MONDO"/>
+              </Name>
+              <Citation Type="general" Abbrev="CAP/IASLC/AMP, 2018">
+                <ID Source="PubMed">29398453</ID>
+              </Citation>
+              <Citation Type="practice guideline" Abbrev="NICE, 2024">
+                <URL>https://www.nice.org.uk/guidance/ng122</URL>
+                <CitationText>UK NICE guideline NG122, Lung cancer: diagnosis and management, 2024</CitationText>
+              </Citation>
+              <XRef ID="C0242379" DB="MedGen"/>
+              <XRef ID="MONDO:0008903" DB="MONDO"/>
+              <XRef Type="MIM" ID="211980" DB="OMIM"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="6315" Type="Disease" ContributesToAggregateClassification="false">
+            <Trait ID="18496" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Hepatocellular carcinoma</ElementValue>
+                <XRef ID="HP:0001402" DB="Human Phenotype Ontology"/>
+                <XRef ID="MONDO:0007256" DB="MONDO"/>
+                <XRef ID="25370001" DB="SNOMED CT"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">Primary carcinoma of liver</ElementValue>
+                <XRef ID="187769009" DB="SNOMED CT"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">HEPATOMA</ElementValue>
+                <XRef Type="MIM" ID="114550" DB="OMIM"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">LIVER CELL CARCINOMA</ElementValue>
+                <XRef Type="MIM" ID="114550" DB="OMIM"/>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Preferred">HCC</ElementValue>
+                <XRef Type="MIM" ID="114550" DB="OMIM"/>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">LCC</ElementValue>
+                <XRef Type="MIM" ID="114550" DB="OMIM"/>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="keyword">Hereditary cancer syndrome</Attribute>
+              </AttributeSet>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="16773"/>
+                <XRef ID="16773" DB="Office of Rare Diseases"/>
+              </AttributeSet>
+              <Citation Type="practice guideline" Abbrev="NCCN, 2024">
+                <URL>https://www.nccn.org/professionals/physician_gls/pdf/hcc.pdf</URL>
+                <CitationText>NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®) Hepatocellular Carcinoma, 2024</CitationText>
+              </Citation>
+              <XRef ID="88673" DB="Orphanet"/>
+              <XRef ID="C2239176" DB="MedGen"/>
+              <XRef ID="MONDO:0007256" DB="MONDO"/>
+              <XRef Type="MIM" ID="114550" DB="OMIM"/>
+              <XRef Type="primary" ID="HP:0001402" DB="Human Phenotype Ontology"/>
+              <XRef Type="secondary" ID="HP:0002899" DB="Human Phenotype Ontology"/>
+              <XRef Type="secondary" ID="HP:0003007" DB="Human Phenotype Ontology"/>
+              <XRef Type="secondary" ID="HP:0006750" DB="Human Phenotype Ontology"/>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </NoClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="13047452" SubmissionDate="2025-10-17" ContributesToAggregateClassification="false" DateLastUpdated="2025-11-02" DateCreated="2025-11-02">
+        <ClinVarSubmissionID localKey="VSMv4_14441|MedGen:C0279702|NoClassification|RNAseq|A8EB0248776BF8835FCC7E5D92667D6F" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV006962524" DateUpdated="2025-11-02" DateCreated="2025-11-02" Type="SCV" Version="1" SubmitterName="Dr. Peter K. Rogan Lab, Western University" OrgID="505643" OrganizationCategory="laboratory" OrgAbbreviation="PKRlab"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no classification provided</ReviewStatus>
+          <NoClassification>evidence_only</NoClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn Type="Functional">
+            <Sample>
+              <Origin>not applicable</Origin>
+              <Tissue>Kidney Renal Clear Cell Carcinoma (KIRC)</Tissue>
+              <CellLine>TCGA-B8-A8YJ</CellLine>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>not applicable</AffectedStatus>
+            </Sample>
+            <Method>
+              <Citation>
+                <ID Source="PubMed">31275557</ID>
+              </Citation>
+              <Description>In the sample (TCGA-B8-A8YJ), the counts of splice junction spanning reads and abundance of the transcript adjacent to this mutation were compared with RNASeq data from matched tissues and tumors lacking the same mutation using Veridical (PMID:24741438)</Description>
+              <MethodType>in vitro</MethodType>
+              <AssayType Id="EFO:0008896" Source="EFO: The Experimental Factor Ontology">RNAseq</AssayType>
+              <MolecularPhenotypeMeasured>splicing</MolecularPhenotypeMeasured>
+              <NumberOfControls>595</NumberOfControls>
+            </Method>
+            <FunctionalData>
+              <FunctionalEffect Id="SO:0002218" Source="Sequence Ontology">functionally abnormal</FunctionalEffect>
+              <FunctionalConsequence Id="SO:0001573" Source="Sequence Ontology">retained intron</FunctionalConsequence>
+              <FunctionalConsequenceComment>Modifies an exonic cryptic donor site at NC_000022.10:g.31492780 from -4.72 to 2.31 bits. Significant p-values: junction spanning - intron inclusion (4 reads, p=0.0028), read abundance - intron inclusion (8 reads, p=0.0001). Computations were originally performed using genomic coordinates. This variant was mapped to an appropriate current MANE database designation or, if not present in this source, to the longest relevant transcript in the Biocommons Universal Transcript Archive using the hgvs Python package. The original genomic coordinate was based on GRCh37 and was submitted as an "Alternate designation". Modifications of Figure 2 of PMID:31275557 for ClinVar: a) "strongly corroborating Veridical p-value" refers to "junction-spanning" evidence types; b) add the text "and natural site &lt; 300 nucleotides away?" to "Ri,final &gt; nearest natural site Ri"; c) "Aberrant" and "Likely aberrant" classifications are now both defined as "Functionally abnormal" (analogous to ACMG/AMP reporting); d) "Allele-specific alternative splicing" classification now defined as "Function uncertain" (based on results for similar variants in PMID: 32211018); e) average heterozygosity based-criteria no longer contribute to classification.</FunctionalConsequenceComment>
+              <Result>junction spanning - intron inclusion (p=0.0028),read abundance - intron inclusion (p=0.0001)</Result>
+            </FunctionalData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SMTN"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name>NC_000022.10:g.31492781C&gt;T</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_134269.3:c.1924C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0279702" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB15692110</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="13053744" SubmissionDate="2025-10-17" ContributesToAggregateClassification="false" DateLastUpdated="2025-11-02" DateCreated="2025-11-02">
+        <ClinVarSubmissionID localKey="VSMv4_14442|MedGen:C0279702|NoClassification|RNAseq|9DD2DD6184FB846A538674D6BFF3A6B4" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV006962525" DateUpdated="2025-11-02" DateCreated="2025-11-02" Type="SCV" Version="1" SubmitterName="Dr. Peter K. Rogan Lab, Western University" OrgID="505643" OrganizationCategory="laboratory" OrgAbbreviation="PKRlab"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no classification provided</ReviewStatus>
+          <NoClassification>evidence_only</NoClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn Type="Functional">
+            <Sample>
+              <Origin>not applicable</Origin>
+              <Tissue>Kidney Renal Clear Cell Carcinoma (KIRC)</Tissue>
+              <CellLine>TCGA-DV-A4VZ</CellLine>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>not applicable</AffectedStatus>
+            </Sample>
+            <Method>
+              <Citation>
+                <ID Source="PubMed">31275557</ID>
+              </Citation>
+              <Description>In the sample (TCGA-DV-A4VZ), the counts of splice junction spanning reads and abundance of the transcript adjacent to this mutation were compared with RNASeq data from matched tissues and tumors lacking the same mutation using Veridical (PMID:24741438)</Description>
+              <MethodType>in vitro</MethodType>
+              <AssayType Id="EFO:0008896" Source="EFO: The Experimental Factor Ontology">RNAseq</AssayType>
+              <MolecularPhenotypeMeasured>splicing</MolecularPhenotypeMeasured>
+              <NumberOfControls>595</NumberOfControls>
+            </Method>
+            <FunctionalData>
+              <FunctionalEffect Id="SO:0002218" Source="Sequence Ontology">functionally abnormal</FunctionalEffect>
+              <FunctionalConsequence Id="SO:0001573" Source="Sequence Ontology">retained intron</FunctionalConsequence>
+              <FunctionalConsequenceComment>Modifies an exonic cryptic donor site at NC_000022.10:g.31492780 from -4.72 to 2.31 bits. Significant p-values: junction spanning - intron inclusion (4 reads, p=0.0028). Computations were originally performed using genomic coordinates. This variant was mapped to an appropriate current MANE database designation or, if not present in this source, to the longest relevant transcript in the Biocommons Universal Transcript Archive using the hgvs Python package. The original genomic coordinate was based on GRCh37 and was submitted as an "Alternate designation". Modifications of Figure 2 of PMID:31275557 for ClinVar: a) "strongly corroborating Veridical p-value" refers to "junction-spanning" evidence types; b) add the text "and natural site &lt; 300 nucleotides away?" to "Ri,final &gt; nearest natural site Ri"; c) "Aberrant" and "Likely aberrant" classifications are now both defined as "Functionally abnormal" (analogous to ACMG/AMP reporting); d) "Allele-specific alternative splicing" classification now defined as "Function uncertain" (based on results for similar variants in PMID: 32211018); e) average heterozygosity based-criteria no longer contribute to classification.</FunctionalConsequenceComment>
+              <Result>junction spanning - intron inclusion (p=0.0028)</Result>
+            </FunctionalData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SMTN"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name>NC_000022.10:g.31492781C&gt;T</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_134269.3:c.1924C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0279702" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB15692110</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="13048556" SubmissionDate="2025-10-17" ContributesToAggregateClassification="false" DateLastUpdated="2025-11-02" DateCreated="2025-11-02">
+        <ClinVarSubmissionID localKey="VSMv4_14443|MedGen:C0279702|NoClassification|RNAseq|82B5BC5D4134D6C3EED97E53A779C170" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV006962527" DateUpdated="2025-11-02" DateCreated="2025-11-02" Type="SCV" Version="1" SubmitterName="Dr. Peter K. Rogan Lab, Western University" OrgID="505643" OrganizationCategory="laboratory" OrgAbbreviation="PKRlab"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no classification provided</ReviewStatus>
+          <NoClassification>evidence_only</NoClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn Type="Functional">
+            <Sample>
+              <Origin>not applicable</Origin>
+              <Tissue>Kidney Renal Clear Cell Carcinoma (KIRC)</Tissue>
+              <CellLine>TCGA-B8-A54K</CellLine>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>not applicable</AffectedStatus>
+            </Sample>
+            <Method>
+              <Citation>
+                <ID Source="PubMed">31275557</ID>
+              </Citation>
+              <Description>In the sample (TCGA-B8-A54K), the counts of splice junction spanning reads and abundance of the transcript adjacent to this mutation were compared with RNASeq data from matched tissues and tumors lacking the same mutation using Veridical (PMID:24741438)</Description>
+              <MethodType>in vitro</MethodType>
+              <AssayType Id="EFO:0008896" Source="EFO: The Experimental Factor Ontology">RNAseq</AssayType>
+              <MolecularPhenotypeMeasured>splicing</MolecularPhenotypeMeasured>
+              <NumberOfControls>595</NumberOfControls>
+            </Method>
+            <FunctionalData>
+              <FunctionalEffect Id="SO:0002218" Source="Sequence Ontology">functionally abnormal</FunctionalEffect>
+              <FunctionalConsequence Id="SO:0001573" Source="Sequence Ontology">retained intron</FunctionalConsequence>
+              <FunctionalConsequenceComment>Modifies an exonic cryptic donor site at NC_000022.10:g.31492780 from -4.72 to 2.31 bits. Significant p-values: junction spanning - intron inclusion (3 reads, p=0.0172), read abundance - intron inclusion (4 reads, p=0.0244). Computations were originally performed using genomic coordinates. This variant was mapped to an appropriate current MANE database designation or, if not present in this source, to the longest relevant transcript in the Biocommons Universal Transcript Archive using the hgvs Python package. The original genomic coordinate was based on GRCh37 and was submitted as an "Alternate designation". Modifications of Figure 2 of PMID:31275557 for ClinVar: a) "strongly corroborating Veridical p-value" refers to "junction-spanning" evidence types; b) add the text "and natural site &lt; 300 nucleotides away?" to "Ri,final &gt; nearest natural site Ri"; c) "Aberrant" and "Likely aberrant" classifications are now both defined as "Functionally abnormal" (analogous to ACMG/AMP reporting); d) "Allele-specific alternative splicing" classification now defined as "Function uncertain" (based on results for similar variants in PMID: 32211018); e) average heterozygosity based-criteria no longer contribute to classification.</FunctionalConsequenceComment>
+              <Result>junction spanning - intron inclusion (p=0.0172),read abundance - intron inclusion (p=0.0244)</Result>
+            </FunctionalData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SMTN"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name>NC_000022.10:g.31492781C&gt;T</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_134269.3:c.1924C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0279702" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB15692110</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="13050007" SubmissionDate="2025-10-17" ContributesToAggregateClassification="false" DateLastUpdated="2025-11-02" DateCreated="2025-11-02">
+        <ClinVarSubmissionID localKey="VSMv4_14444|MedGen:C0279702|NoClassification|RNAseq|35E07DC70FE578E4CFD38E97840503D7" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV006962528" DateUpdated="2025-11-02" DateCreated="2025-11-02" Type="SCV" Version="1" SubmitterName="Dr. Peter K. Rogan Lab, Western University" OrgID="505643" OrganizationCategory="laboratory" OrgAbbreviation="PKRlab"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no classification provided</ReviewStatus>
+          <NoClassification>evidence_only</NoClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn Type="Functional">
+            <Sample>
+              <Origin>not applicable</Origin>
+              <Tissue>Kidney Renal Clear Cell Carcinoma (KIRC)</Tissue>
+              <CellLine>TCGA-A3-A6NL</CellLine>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>not applicable</AffectedStatus>
+            </Sample>
+            <Method>
+              <Citation>
+                <ID Source="PubMed">31275557</ID>
+              </Citation>
+              <Description>In the sample (TCGA-A3-A6NL), the counts of splice junction spanning reads and abundance of the transcript adjacent to this mutation were compared with RNASeq data from matched tissues and tumors lacking the same mutation using Veridical (PMID:24741438)</Description>
+              <MethodType>in vitro</MethodType>
+              <AssayType Id="EFO:0008896" Source="EFO: The Experimental Factor Ontology">RNAseq</AssayType>
+              <MolecularPhenotypeMeasured>splicing</MolecularPhenotypeMeasured>
+              <NumberOfControls>595</NumberOfControls>
+            </Method>
+            <FunctionalData>
+              <FunctionalEffect Id="SO:0002218" Source="Sequence Ontology">functionally abnormal</FunctionalEffect>
+              <FunctionalConsequence Id="SO:0001573" Source="Sequence Ontology">retained intron</FunctionalConsequence>
+              <FunctionalConsequenceComment>Modifies an exonic cryptic donor site at NC_000022.10:g.31492780 from -4.72 to 2.31 bits. Significant p-values: junction spanning - intron inclusion (3 reads, p=0.0172). Computations were originally performed using genomic coordinates. This variant was mapped to an appropriate current MANE database designation or, if not present in this source, to the longest relevant transcript in the Biocommons Universal Transcript Archive using the hgvs Python package. The original genomic coordinate was based on GRCh37 and was submitted as an "Alternate designation". Modifications of Figure 2 of PMID:31275557 for ClinVar: a) "strongly corroborating Veridical p-value" refers to "junction-spanning" evidence types; b) add the text "and natural site &lt; 300 nucleotides away?" to "Ri,final &gt; nearest natural site Ri"; c) "Aberrant" and "Likely aberrant" classifications are now both defined as "Functionally abnormal" (analogous to ACMG/AMP reporting); d) "Allele-specific alternative splicing" classification now defined as "Function uncertain" (based on results for similar variants in PMID: 32211018); e) average heterozygosity based-criteria no longer contribute to classification.</FunctionalConsequenceComment>
+              <Result>junction spanning - intron inclusion (p=0.0172)</Result>
+            </FunctionalData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SMTN"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name>NC_000022.10:g.31492781C&gt;T</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_134269.3:c.1924C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0279702" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB15692110</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="13052665" SubmissionDate="2025-10-17" ContributesToAggregateClassification="false" DateLastUpdated="2025-11-02" DateCreated="2025-11-02">
+        <ClinVarSubmissionID localKey="VSMv4_14445|MedGen:C0279702|NoClassification|RNAseq|692D221DA4EA7CD4C78CA9D10082A4E7" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV006962529" DateUpdated="2025-11-02" DateCreated="2025-11-02" Type="SCV" Version="1" SubmitterName="Dr. Peter K. Rogan Lab, Western University" OrgID="505643" OrganizationCategory="laboratory" OrgAbbreviation="PKRlab"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no classification provided</ReviewStatus>
+          <NoClassification>evidence_only</NoClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn Type="Functional">
+            <Sample>
+              <Origin>not applicable</Origin>
+              <Tissue>Kidney Renal Clear Cell Carcinoma (KIRC)</Tissue>
+              <CellLine>TCGA-A3-A8OW</CellLine>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>not applicable</AffectedStatus>
+            </Sample>
+            <Method>
+              <Citation>
+                <ID Source="PubMed">31275557</ID>
+              </Citation>
+              <Description>In the sample (TCGA-A3-A8OW), the counts of splice junction spanning reads and abundance of the transcript adjacent to this mutation were compared with RNASeq data from matched tissues and tumors lacking the same mutation using Veridical (PMID:24741438)</Description>
+              <MethodType>in vitro</MethodType>
+              <AssayType Id="EFO:0008896" Source="EFO: The Experimental Factor Ontology">RNAseq</AssayType>
+              <MolecularPhenotypeMeasured>splicing</MolecularPhenotypeMeasured>
+              <NumberOfControls>595</NumberOfControls>
+            </Method>
+            <FunctionalData>
+              <FunctionalEffect Id="SO:0002218" Source="Sequence Ontology">functionally abnormal</FunctionalEffect>
+              <FunctionalConsequence Id="SO:0001573" Source="Sequence Ontology">retained intron</FunctionalConsequence>
+              <FunctionalConsequenceComment>Modifies an exonic cryptic donor site at NC_000022.10:g.31492780 from -4.72 to 2.31 bits. Significant p-values: junction spanning - intron inclusion (5 reads, p=0.0004). Computations were originally performed using genomic coordinates. This variant was mapped to an appropriate current MANE database designation or, if not present in this source, to the longest relevant transcript in the Biocommons Universal Transcript Archive using the hgvs Python package. The original genomic coordinate was based on GRCh37 and was submitted as an "Alternate designation". Modifications of Figure 2 of PMID:31275557 for ClinVar: a) "strongly corroborating Veridical p-value" refers to "junction-spanning" evidence types; b) add the text "and natural site &lt; 300 nucleotides away?" to "Ri,final &gt; nearest natural site Ri"; c) "Aberrant" and "Likely aberrant" classifications are now both defined as "Functionally abnormal" (analogous to ACMG/AMP reporting); d) "Allele-specific alternative splicing" classification now defined as "Function uncertain" (based on results for similar variants in PMID: 32211018); e) average heterozygosity based-criteria no longer contribute to classification.</FunctionalConsequenceComment>
+              <Result>junction spanning - intron inclusion (p=0.0004)</Result>
+            </FunctionalData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SMTN"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name>NC_000022.10:g.31492781C&gt;T</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_134269.3:c.1924C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0279702" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB15692110</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="13047533" SubmissionDate="2025-10-17" ContributesToAggregateClassification="false" DateLastUpdated="2025-11-02" DateCreated="2025-11-02">
+        <ClinVarSubmissionID localKey="VSMv4_14447|MedGen:C0279702|NoClassification|RNAseq|8C0AD0052B46F43B35E6B378FEFD2D20" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV006962530" DateUpdated="2025-11-02" DateCreated="2025-11-02" Type="SCV" Version="1" SubmitterName="Dr. Peter K. Rogan Lab, Western University" OrgID="505643" OrganizationCategory="laboratory" OrgAbbreviation="PKRlab"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no classification provided</ReviewStatus>
+          <NoClassification>evidence_only</NoClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn Type="Functional">
+            <Sample>
+              <Origin>not applicable</Origin>
+              <Tissue>Kidney Renal Clear Cell Carcinoma (KIRC)</Tissue>
+              <CellLine>TCGA-B8-A7U6</CellLine>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>not applicable</AffectedStatus>
+            </Sample>
+            <Method>
+              <Citation>
+                <ID Source="PubMed">31275557</ID>
+              </Citation>
+              <Description>In the sample (TCGA-B8-A7U6), the counts of splice junction spanning reads and abundance of the transcript adjacent to this mutation were compared with RNASeq data from matched tissues and tumors lacking the same mutation using Veridical (PMID:24741438)</Description>
+              <MethodType>in vitro</MethodType>
+              <AssayType Id="EFO:0008896" Source="EFO: The Experimental Factor Ontology">RNAseq</AssayType>
+              <MolecularPhenotypeMeasured>splicing</MolecularPhenotypeMeasured>
+              <NumberOfControls>595</NumberOfControls>
+            </Method>
+            <FunctionalData>
+              <FunctionalEffect Id="SO:0002218" Source="Sequence Ontology">functionally abnormal</FunctionalEffect>
+              <FunctionalConsequence Id="SO:0001573" Source="Sequence Ontology">retained intron</FunctionalConsequence>
+              <FunctionalConsequenceComment>Modifies an exonic cryptic donor site at NC_000022.10:g.31492780 from -4.72 to 2.31 bits. Significant p-values: junction spanning - intron inclusion (3 reads, p=0.0172). Computations were originally performed using genomic coordinates. This variant was mapped to an appropriate current MANE database designation or, if not present in this source, to the longest relevant transcript in the Biocommons Universal Transcript Archive using the hgvs Python package. The original genomic coordinate was based on GRCh37 and was submitted as an "Alternate designation". Modifications of Figure 2 of PMID:31275557 for ClinVar: a) "strongly corroborating Veridical p-value" refers to "junction-spanning" evidence types; b) add the text "and natural site &lt; 300 nucleotides away?" to "Ri,final &gt; nearest natural site Ri"; c) "Aberrant" and "Likely aberrant" classifications are now both defined as "Functionally abnormal" (analogous to ACMG/AMP reporting); d) "Allele-specific alternative splicing" classification now defined as "Function uncertain" (based on results for similar variants in PMID: 32211018); e) average heterozygosity based-criteria no longer contribute to classification.</FunctionalConsequenceComment>
+              <Result>junction spanning - intron inclusion (p=0.0172)</Result>
+            </FunctionalData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SMTN"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name>NC_000022.10:g.31492781C&gt;T</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_134269.3:c.1924C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0279702" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB15692110</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="13048826" SubmissionDate="2025-10-17" ContributesToAggregateClassification="false" DateLastUpdated="2025-11-02" DateCreated="2025-11-02">
+        <ClinVarSubmissionID localKey="VSMv4_46496|OMIM:211980|NoClassification|RNAseq|EA08EC3C458BBDE049D8E5C990C558B4" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV006962531" DateUpdated="2025-11-02" DateCreated="2025-11-02" Type="SCV" Version="1" SubmitterName="Dr. Peter K. Rogan Lab, Western University" OrgID="505643" OrganizationCategory="laboratory" OrgAbbreviation="PKRlab"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no classification provided</ReviewStatus>
+          <NoClassification>evidence_only</NoClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn Type="Functional">
+            <Sample>
+              <Origin>not applicable</Origin>
+              <Tissue>Lung Adenocarcinoma (LUAD)</Tissue>
+              <CellLine>TCGA-55-8514</CellLine>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>not applicable</AffectedStatus>
+            </Sample>
+            <Method>
+              <Citation>
+                <ID Source="PubMed">31275557</ID>
+              </Citation>
+              <Description>In the sample (TCGA-55-8514), the counts of splice junction spanning reads and abundance of the transcript adjacent to this mutation were compared with RNASeq data from matched tissues and tumors lacking the same mutation using Veridical (PMID:24741438)</Description>
+              <MethodType>in vitro</MethodType>
+              <AssayType Id="EFO:0008896" Source="EFO: The Experimental Factor Ontology">RNAseq</AssayType>
+              <MolecularPhenotypeMeasured>splicing</MolecularPhenotypeMeasured>
+              <NumberOfControls>595</NumberOfControls>
+            </Method>
+            <FunctionalData>
+              <FunctionalEffect Id="SO:0002218" Source="Sequence Ontology">functionally abnormal</FunctionalEffect>
+              <FunctionalConsequence Id="SO:0001573" Source="Sequence Ontology">retained intron</FunctionalConsequence>
+              <FunctionalConsequenceComment>Modifies an exonic cryptic donor site at NC_000022.10:g.31492780 from -4.72 to 2.31 bits. Significant p-values: read abundance - intron inclusion (4 reads, p=0.0002). Computations were originally performed using genomic coordinates. This variant was mapped to an appropriate current MANE database designation or, if not present in this source, to the longest relevant transcript in the Biocommons Universal Transcript Archive using the hgvs Python package. The original genomic coordinate was based on GRCh37 and was submitted as an "Alternate designation". Modifications of Figure 2 of PMID:31275557 for ClinVar: a) "strongly corroborating Veridical p-value" refers to "junction-spanning" evidence types; b) add the text "and natural site &lt; 300 nucleotides away?" to "Ri,final &gt; nearest natural site Ri"; c) "Aberrant" and "Likely aberrant" classifications are now both defined as "Functionally abnormal" (analogous to ACMG/AMP reporting); d) "Allele-specific alternative splicing" classification now defined as "Function uncertain" (based on results for similar variants in PMID: 32211018); e) average heterozygosity based-criteria no longer contribute to classification.</FunctionalConsequenceComment>
+              <Result>read abundance - intron inclusion (p=0.0002)</Result>
+            </FunctionalData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SMTN"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name>NC_000022.10:g.31492781C&gt;T</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_134269.3:c.1924C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="211980" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB15692110</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="13048805" SubmissionDate="2025-10-17" ContributesToAggregateClassification="false" DateLastUpdated="2025-11-02" DateCreated="2025-11-02">
+        <ClinVarSubmissionID localKey="VSMv4_142513|OMIM:601626|NoClassification|RNAseq|950A5817C4401A04F170784EC25E8E61" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV006962532" DateUpdated="2025-11-02" DateCreated="2025-11-02" Type="SCV" Version="1" SubmitterName="Dr. Peter K. Rogan Lab, Western University" OrgID="505643" OrganizationCategory="laboratory" OrgAbbreviation="PKRlab"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no classification provided</ReviewStatus>
+          <NoClassification>evidence_only</NoClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn Type="Functional">
+            <Sample>
+              <Origin>not applicable</Origin>
+              <Tissue>Acute Myeloid Leukemia (LAML)</Tissue>
+              <CellLine>TCGA-AB-2872</CellLine>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>not applicable</AffectedStatus>
+            </Sample>
+            <Method>
+              <Citation>
+                <ID Source="PubMed">31275557</ID>
+              </Citation>
+              <Description>In the sample (TCGA-AB-2872), the counts of splice junction spanning reads and abundance of the transcript adjacent to this mutation were compared with RNASeq data from matched tissues and tumors lacking the same mutation using Veridical (PMID:24741438)</Description>
+              <MethodType>in vitro</MethodType>
+              <AssayType Id="EFO:0008896" Source="EFO: The Experimental Factor Ontology">RNAseq</AssayType>
+              <MolecularPhenotypeMeasured>splicing</MolecularPhenotypeMeasured>
+              <NumberOfControls>267</NumberOfControls>
+            </Method>
+            <FunctionalData>
+              <FunctionalEffect Id="SO:0002218" Source="Sequence Ontology">functionally abnormal</FunctionalEffect>
+              <FunctionalConsequence Id="SO:0001573" Source="Sequence Ontology">retained intron</FunctionalConsequence>
+              <FunctionalConsequenceComment>Modifies an exonic cryptic donor site at NC_000022.10:g.31492780 from -4.72 to 2.31 bits. Significant p-values: read abundance - intron inclusion (7 reads, p=0.0382). Computations were originally performed using genomic coordinates. This variant was mapped to an appropriate current MANE database designation or, if not present in this source, to the longest relevant transcript in the Biocommons Universal Transcript Archive using the hgvs Python package. The original genomic coordinate was based on GRCh37 and was submitted as an "Alternate designation". Modifications of Figure 2 of PMID:31275557 for ClinVar: a) "strongly corroborating Veridical p-value" refers to "junction-spanning" evidence types; b) add the text "and natural site &lt; 300 nucleotides away?" to "Ri,final &gt; nearest natural site Ri"; c) "Aberrant" and "Likely aberrant" classifications are now both defined as "Functionally abnormal" (analogous to ACMG/AMP reporting); d) "Allele-specific alternative splicing" classification now defined as "Function uncertain" (based on results for similar variants in PMID: 32211018); e) average heterozygosity based-criteria no longer contribute to classification.</FunctionalConsequenceComment>
+              <Result>read abundance - intron inclusion (p=0.0382)</Result>
+            </FunctionalData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SMTN"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name>NC_000022.10:g.31492781C&gt;T</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_134269.3:c.1924C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="601626" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB15692110</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="13047692" SubmissionDate="2025-10-17" ContributesToAggregateClassification="false" DateLastUpdated="2025-11-02" DateCreated="2025-11-02">
+        <ClinVarSubmissionID localKey="VSMv4_142514|OMIM:601626|NoClassification|RNAseq|13BEDA72379219428A937EAFAE9EBFD9" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV006962533" DateUpdated="2025-11-02" DateCreated="2025-11-02" Type="SCV" Version="1" SubmitterName="Dr. Peter K. Rogan Lab, Western University" OrgID="505643" OrganizationCategory="laboratory" OrgAbbreviation="PKRlab"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no classification provided</ReviewStatus>
+          <NoClassification>evidence_only</NoClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn Type="Functional">
+            <Sample>
+              <Origin>not applicable</Origin>
+              <Tissue>Acute Myeloid Leukemia (LAML)</Tissue>
+              <CellLine>TCGA-AB-2891</CellLine>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>not applicable</AffectedStatus>
+            </Sample>
+            <Method>
+              <Citation>
+                <ID Source="PubMed">31275557</ID>
+              </Citation>
+              <Description>In the sample (TCGA-AB-2891), the counts of splice junction spanning reads and abundance of the transcript adjacent to this mutation were compared with RNASeq data from matched tissues and tumors lacking the same mutation using Veridical (PMID:24741438)</Description>
+              <MethodType>in vitro</MethodType>
+              <AssayType Id="EFO:0008896" Source="EFO: The Experimental Factor Ontology">RNAseq</AssayType>
+              <MolecularPhenotypeMeasured>splicing</MolecularPhenotypeMeasured>
+              <NumberOfControls>267</NumberOfControls>
+            </Method>
+            <FunctionalData>
+              <FunctionalEffect Id="SO:0002218" Source="Sequence Ontology">functionally abnormal</FunctionalEffect>
+              <FunctionalConsequence Id="SO:0001573" Source="Sequence Ontology">retained intron</FunctionalConsequence>
+              <FunctionalConsequenceComment>Modifies an exonic cryptic donor site at NC_000022.10:g.31492780 from -4.72 to 2.31 bits. Significant p-values: read abundance - intron inclusion (9 reads, p=0.0112). Computations were originally performed using genomic coordinates. This variant was mapped to an appropriate current MANE database designation or, if not present in this source, to the longest relevant transcript in the Biocommons Universal Transcript Archive using the hgvs Python package. The original genomic coordinate was based on GRCh37 and was submitted as an "Alternate designation". Modifications of Figure 2 of PMID:31275557 for ClinVar: a) "strongly corroborating Veridical p-value" refers to "junction-spanning" evidence types; b) add the text "and natural site &lt; 300 nucleotides away?" to "Ri,final &gt; nearest natural site Ri"; c) "Aberrant" and "Likely aberrant" classifications are now both defined as "Functionally abnormal" (analogous to ACMG/AMP reporting); d) "Allele-specific alternative splicing" classification now defined as "Function uncertain" (based on results for similar variants in PMID: 32211018); e) average heterozygosity based-criteria no longer contribute to classification.</FunctionalConsequenceComment>
+              <Result>read abundance - intron inclusion (p=0.0112)</Result>
+            </FunctionalData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SMTN"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name>NC_000022.10:g.31492781C&gt;T</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_134269.3:c.1924C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="601626" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB15692110</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="13053691" SubmissionDate="2025-10-17" ContributesToAggregateClassification="false" DateLastUpdated="2025-11-02" DateCreated="2025-11-02">
+        <ClinVarSubmissionID localKey="VSMv4_345269|OMIM:603956|NoClassification|RNAseq|5AF5E135EAB01F3CF3F5B631A8892DFC" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV006962534" DateUpdated="2025-11-02" DateCreated="2025-11-02" Type="SCV" Version="1" SubmitterName="Dr. Peter K. Rogan Lab, Western University" OrgID="505643" OrganizationCategory="laboratory" OrgAbbreviation="PKRlab"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no classification provided</ReviewStatus>
+          <NoClassification>evidence_only</NoClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn Type="Functional">
+            <Sample>
+              <Origin>not applicable</Origin>
+              <Tissue>Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma (CESC)</Tissue>
+              <CellLine>TCGA-XS-A8TJ</CellLine>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>not applicable</AffectedStatus>
+            </Sample>
+            <Method>
+              <Citation>
+                <ID Source="PubMed">31275557</ID>
+              </Citation>
+              <Description>In the sample (TCGA-XS-A8TJ), the counts of splice junction spanning reads and abundance of the transcript adjacent to this mutation were compared with RNASeq data from matched tissues and tumors lacking the same mutation using Veridical (PMID:24741438)</Description>
+              <MethodType>in vitro</MethodType>
+              <AssayType Id="EFO:0008896" Source="EFO: The Experimental Factor Ontology">RNAseq</AssayType>
+              <MolecularPhenotypeMeasured>splicing</MolecularPhenotypeMeasured>
+              <NumberOfControls>289</NumberOfControls>
+            </Method>
+            <FunctionalData>
+              <FunctionalEffect Id="SO:0002218" Source="Sequence Ontology">functionally abnormal</FunctionalEffect>
+              <FunctionalConsequence Id="SO:0001573" Source="Sequence Ontology">retained intron</FunctionalConsequence>
+              <FunctionalConsequenceComment>Modifies an exonic cryptic donor site at NC_000022.10:g.31492780 from -4.72 to 2.31 bits. Significant p-values: junction spanning - intron inclusion (3 reads, p=0.0153). Computations were originally performed using genomic coordinates. This variant was mapped to an appropriate current MANE database designation or, if not present in this source, to the longest relevant transcript in the Biocommons Universal Transcript Archive using the hgvs Python package. The original genomic coordinate was based on GRCh37 and was submitted as an "Alternate designation". Modifications of Figure 2 of PMID:31275557 for ClinVar: a) "strongly corroborating Veridical p-value" refers to "junction-spanning" evidence types; b) add the text "and natural site &lt; 300 nucleotides away?" to "Ri,final &gt; nearest natural site Ri"; c) "Aberrant" and "Likely aberrant" classifications are now both defined as "Functionally abnormal" (analogous to ACMG/AMP reporting); d) "Allele-specific alternative splicing" classification now defined as "Function uncertain" (based on results for similar variants in PMID: 32211018); e) average heterozygosity based-criteria no longer contribute to classification.</FunctionalConsequenceComment>
+              <Result>junction spanning - intron inclusion (p=0.0153)</Result>
+            </FunctionalData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SMTN"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name>NC_000022.10:g.31492781C&gt;T</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_134269.3:c.1924C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="603956" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB15692110</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="13055731" SubmissionDate="2025-10-17" ContributesToAggregateClassification="false" DateLastUpdated="2025-11-02" DateCreated="2025-11-02">
+        <ClinVarSubmissionID localKey="VSMv4_345270|OMIM:603956|NoClassification|RNAseq|41032FD065C92CE101BA433FF7EC15A6" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV006962535" DateUpdated="2025-11-02" DateCreated="2025-11-02" Type="SCV" Version="1" SubmitterName="Dr. Peter K. Rogan Lab, Western University" OrgID="505643" OrganizationCategory="laboratory" OrgAbbreviation="PKRlab"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no classification provided</ReviewStatus>
+          <NoClassification>evidence_only</NoClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn Type="Functional">
+            <Sample>
+              <Origin>not applicable</Origin>
+              <Tissue>Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma (CESC)</Tissue>
+              <CellLine>TCGA-C5-A8XK</CellLine>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>not applicable</AffectedStatus>
+            </Sample>
+            <Method>
+              <Citation>
+                <ID Source="PubMed">31275557</ID>
+              </Citation>
+              <Description>In the sample (TCGA-C5-A8XK), the counts of splice junction spanning reads and abundance of the transcript adjacent to this mutation were compared with RNASeq data from matched tissues and tumors lacking the same mutation using Veridical (PMID:24741438)</Description>
+              <MethodType>in vitro</MethodType>
+              <AssayType Id="EFO:0008896" Source="EFO: The Experimental Factor Ontology">RNAseq</AssayType>
+              <MolecularPhenotypeMeasured>splicing</MolecularPhenotypeMeasured>
+              <NumberOfControls>289</NumberOfControls>
+            </Method>
+            <FunctionalData>
+              <FunctionalEffect Id="SO:0002218" Source="Sequence Ontology">functionally abnormal</FunctionalEffect>
+              <FunctionalConsequence Id="SO:0001573" Source="Sequence Ontology">retained intron</FunctionalConsequence>
+              <FunctionalConsequenceComment>Modifies an exonic cryptic donor site at NC_000022.10:g.31492780 from -4.72 to 2.31 bits. Significant p-values: read abundance - intron inclusion (10 reads, p=0.0). Computations were originally performed using genomic coordinates. This variant was mapped to an appropriate current MANE database designation or, if not present in this source, to the longest relevant transcript in the Biocommons Universal Transcript Archive using the hgvs Python package. The original genomic coordinate was based on GRCh37 and was submitted as an "Alternate designation". Modifications of Figure 2 of PMID:31275557 for ClinVar: a) "strongly corroborating Veridical p-value" refers to "junction-spanning" evidence types; b) add the text "and natural site &lt; 300 nucleotides away?" to "Ri,final &gt; nearest natural site Ri"; c) "Aberrant" and "Likely aberrant" classifications are now both defined as "Functionally abnormal" (analogous to ACMG/AMP reporting); d) "Allele-specific alternative splicing" classification now defined as "Function uncertain" (based on results for similar variants in PMID: 32211018); e) average heterozygosity based-criteria no longer contribute to classification.</FunctionalConsequenceComment>
+              <Result>read abundance - intron inclusion (p=0.0)</Result>
+            </FunctionalData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SMTN"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name>NC_000022.10:g.31492781C&gt;T</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_134269.3:c.1924C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="603956" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB15692110</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="13047907" SubmissionDate="2025-10-17" ContributesToAggregateClassification="false" DateLastUpdated="2025-11-02" DateCreated="2025-11-02">
+        <ClinVarSubmissionID localKey="VSMv4_345271|OMIM:603956|NoClassification|RNAseq|70B0B59282443FF14C7BF25FBB1249CE" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV006962536" DateUpdated="2025-11-02" DateCreated="2025-11-02" Type="SCV" Version="1" SubmitterName="Dr. Peter K. Rogan Lab, Western University" OrgID="505643" OrganizationCategory="laboratory" OrgAbbreviation="PKRlab"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no classification provided</ReviewStatus>
+          <NoClassification>evidence_only</NoClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn Type="Functional">
+            <Sample>
+              <Origin>not applicable</Origin>
+              <Tissue>Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma (CESC)</Tissue>
+              <CellLine>TCGA-HM-A6W2</CellLine>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>not applicable</AffectedStatus>
+            </Sample>
+            <Method>
+              <Citation>
+                <ID Source="PubMed">31275557</ID>
+              </Citation>
+              <Description>In the sample (TCGA-HM-A6W2), the counts of splice junction spanning reads and abundance of the transcript adjacent to this mutation were compared with RNASeq data from matched tissues and tumors lacking the same mutation using Veridical (PMID:24741438)</Description>
+              <MethodType>in vitro</MethodType>
+              <AssayType Id="EFO:0008896" Source="EFO: The Experimental Factor Ontology">RNAseq</AssayType>
+              <MolecularPhenotypeMeasured>splicing</MolecularPhenotypeMeasured>
+              <NumberOfControls>289</NumberOfControls>
+            </Method>
+            <FunctionalData>
+              <FunctionalEffect Id="SO:0002218" Source="Sequence Ontology">functionally abnormal</FunctionalEffect>
+              <FunctionalConsequence Id="SO:0001573" Source="Sequence Ontology">retained intron</FunctionalConsequence>
+              <FunctionalConsequenceComment>Modifies an exonic cryptic donor site at NC_000022.10:g.31492780 from -4.72 to 2.31 bits. Significant p-values: read abundance - intron inclusion (2 reads, p=0.0291). Computations were originally performed using genomic coordinates. This variant was mapped to an appropriate current MANE database designation or, if not present in this source, to the longest relevant transcript in the Biocommons Universal Transcript Archive using the hgvs Python package. The original genomic coordinate was based on GRCh37 and was submitted as an "Alternate designation". Modifications of Figure 2 of PMID:31275557 for ClinVar: a) "strongly corroborating Veridical p-value" refers to "junction-spanning" evidence types; b) add the text "and natural site &lt; 300 nucleotides away?" to "Ri,final &gt; nearest natural site Ri"; c) "Aberrant" and "Likely aberrant" classifications are now both defined as "Functionally abnormal" (analogous to ACMG/AMP reporting); d) "Allele-specific alternative splicing" classification now defined as "Function uncertain" (based on results for similar variants in PMID: 32211018); e) average heterozygosity based-criteria no longer contribute to classification.</FunctionalConsequenceComment>
+              <Result>read abundance - intron inclusion (p=0.0291)</Result>
+            </FunctionalData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SMTN"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name>NC_000022.10:g.31492781C&gt;T</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_134269.3:c.1924C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="603956" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB15692110</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="13050130" SubmissionDate="2025-10-17" ContributesToAggregateClassification="false" DateLastUpdated="2025-11-02" DateCreated="2025-11-02">
+        <ClinVarSubmissionID localKey="VSMv4_345272|OMIM:603956|NoClassification|RNAseq|B61C8B7A7F95C40470BC339ECDF399C1" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV006964878" DateUpdated="2025-11-02" DateCreated="2025-11-02" Type="SCV" Version="1" SubmitterName="Dr. Peter K. Rogan Lab, Western University" OrgID="505643" OrganizationCategory="laboratory" OrgAbbreviation="PKRlab"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no classification provided</ReviewStatus>
+          <NoClassification>evidence_only</NoClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn Type="Functional">
+            <Sample>
+              <Origin>not applicable</Origin>
+              <Tissue>Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma (CESC)</Tissue>
+              <CellLine>TCGA-MU-A5YI</CellLine>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>not applicable</AffectedStatus>
+            </Sample>
+            <Method>
+              <Citation>
+                <ID Source="PubMed">31275557</ID>
+              </Citation>
+              <Description>In the sample (TCGA-MU-A5YI), the counts of splice junction spanning reads and abundance of the transcript adjacent to this mutation were compared with RNASeq data from matched tissues and tumors lacking the same mutation using Veridical (PMID:24741438)</Description>
+              <MethodType>in vitro</MethodType>
+              <AssayType Id="EFO:0008896" Source="EFO: The Experimental Factor Ontology">RNAseq</AssayType>
+              <MolecularPhenotypeMeasured>splicing</MolecularPhenotypeMeasured>
+              <NumberOfControls>289</NumberOfControls>
+            </Method>
+            <FunctionalData>
+              <FunctionalEffect Id="SO:0002218" Source="Sequence Ontology">functionally abnormal</FunctionalEffect>
+              <FunctionalConsequence Id="SO:0001573" Source="Sequence Ontology">retained intron</FunctionalConsequence>
+              <FunctionalConsequenceComment>Modifies an exonic cryptic donor site at NC_000022.10:g.31492780 from -4.72 to 2.31 bits. Significant p-values: read abundance - intron inclusion (2 reads, p=0.0291). Computations were originally performed using genomic coordinates. This variant was mapped to an appropriate current MANE database designation or, if not present in this source, to the longest relevant transcript in the Biocommons Universal Transcript Archive using the hgvs Python package. The original genomic coordinate was based on GRCh37 and was submitted as an "Alternate designation". Modifications of Figure 2 of PMID:31275557 for ClinVar: a) "strongly corroborating Veridical p-value" refers to "junction-spanning" evidence types; b) add the text "and natural site &lt; 300 nucleotides away?" to "Ri,final &gt; nearest natural site Ri"; c) "Aberrant" and "Likely aberrant" classifications are now both defined as "Functionally abnormal" (analogous to ACMG/AMP reporting); d) "Allele-specific alternative splicing" classification now defined as "Function uncertain" (based on results for similar variants in PMID: 32211018); e) average heterozygosity based-criteria no longer contribute to classification.</FunctionalConsequenceComment>
+              <Result>read abundance - intron inclusion (p=0.0291)</Result>
+            </FunctionalData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SMTN"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name>NC_000022.10:g.31492781C&gt;T</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_134269.3:c.1924C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="603956" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB15692110</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="13052979" SubmissionDate="2025-10-17" ContributesToAggregateClassification="false" DateLastUpdated="2025-11-02" DateCreated="2025-11-02">
+        <ClinVarSubmissionID localKey="VSMv4_439695|OMIM:114550|NoClassification|RNAseq|E5212CDD030CA3050F355B43842BC03E" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV006964879" DateUpdated="2025-11-02" DateCreated="2025-11-02" Type="SCV" Version="1" SubmitterName="Dr. Peter K. Rogan Lab, Western University" OrgID="505643" OrganizationCategory="laboratory" OrgAbbreviation="PKRlab"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no classification provided</ReviewStatus>
+          <NoClassification>evidence_only</NoClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn Type="Functional">
+            <Sample>
+              <Origin>not applicable</Origin>
+              <Tissue>Liver Hepatocellular Carcinoma (LIHC)</Tissue>
+              <CellLine>TCGA-XR-A8TC</CellLine>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>not applicable</AffectedStatus>
+            </Sample>
+            <Method>
+              <Citation>
+                <ID Source="PubMed">31275557</ID>
+              </Citation>
+              <Description>In the sample (TCGA-XR-A8TC), the counts of splice junction spanning reads and abundance of the transcript adjacent to this mutation were compared with RNASeq data from matched tissues and tumors lacking the same mutation using Veridical (PMID:24741438)</Description>
+              <MethodType>in vitro</MethodType>
+              <AssayType Id="EFO:0008896" Source="EFO: The Experimental Factor Ontology">RNAseq</AssayType>
+              <MolecularPhenotypeMeasured>splicing</MolecularPhenotypeMeasured>
+              <NumberOfControls>374</NumberOfControls>
+            </Method>
+            <FunctionalData>
+              <FunctionalEffect Id="SO:0002218" Source="Sequence Ontology">functionally abnormal</FunctionalEffect>
+              <FunctionalConsequence Id="SO:0001573" Source="Sequence Ontology">retained intron</FunctionalConsequence>
+              <FunctionalConsequenceComment>Modifies an exonic cryptic donor site at NC_000022.10:g.31492780 from -4.72 to 2.31 bits. Significant p-values: read abundance - intron inclusion (2 reads, p=0.0). Computations were originally performed using genomic coordinates. This variant was mapped to an appropriate current MANE database designation or, if not present in this source, to the longest relevant transcript in the Biocommons Universal Transcript Archive using the hgvs Python package. The original genomic coordinate was based on GRCh37 and was submitted as an "Alternate designation". Modifications of Figure 2 of PMID:31275557 for ClinVar: a) "strongly corroborating Veridical p-value" refers to "junction-spanning" evidence types; b) add the text "and natural site &lt; 300 nucleotides away?" to "Ri,final &gt; nearest natural site Ri"; c) "Aberrant" and "Likely aberrant" classifications are now both defined as "Functionally abnormal" (analogous to ACMG/AMP reporting); d) "Allele-specific alternative splicing" classification now defined as "Function uncertain" (based on results for similar variants in PMID: 32211018); e) average heterozygosity based-criteria no longer contribute to classification.</FunctionalConsequenceComment>
+              <Result>read abundance - intron inclusion (p=0.0)</Result>
+            </FunctionalData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SMTN"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name>NC_000022.10:g.31492781C&gt;T</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_134269.3:c.1924C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="114550" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB15692110</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="13052980" SubmissionDate="2025-10-17" ContributesToAggregateClassification="false" DateLastUpdated="2025-11-02" DateCreated="2025-11-02">
+        <ClinVarSubmissionID localKey="VSMv4_439696|OMIM:114550|NoClassification|RNAseq|A208960EA0C2006D72D36CD1C2F65CD1" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV006964880" DateUpdated="2025-11-02" DateCreated="2025-11-02" Type="SCV" Version="1" SubmitterName="Dr. Peter K. Rogan Lab, Western University" OrgID="505643" OrganizationCategory="laboratory" OrgAbbreviation="PKRlab"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no classification provided</ReviewStatus>
+          <NoClassification>evidence_only</NoClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn Type="Functional">
+            <Sample>
+              <Origin>not applicable</Origin>
+              <Tissue>Liver Hepatocellular Carcinoma (LIHC)</Tissue>
+              <CellLine>TCGA-BC-A110</CellLine>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>not applicable</AffectedStatus>
+            </Sample>
+            <Method>
+              <Citation>
+                <ID Source="PubMed">31275557</ID>
+              </Citation>
+              <Description>In the sample (TCGA-BC-A110), the counts of splice junction spanning reads and abundance of the transcript adjacent to this mutation were compared with RNASeq data from matched tissues and tumors lacking the same mutation using Veridical (PMID:24741438)</Description>
+              <MethodType>in vitro</MethodType>
+              <AssayType Id="EFO:0008896" Source="EFO: The Experimental Factor Ontology">RNAseq</AssayType>
+              <MolecularPhenotypeMeasured>splicing</MolecularPhenotypeMeasured>
+              <NumberOfControls>374</NumberOfControls>
+            </Method>
+            <FunctionalData>
+              <FunctionalEffect Id="SO:0002218" Source="Sequence Ontology">functionally abnormal</FunctionalEffect>
+              <FunctionalConsequence Id="SO:0001573" Source="Sequence Ontology">retained intron</FunctionalConsequence>
+              <FunctionalConsequenceComment>Modifies an exonic cryptic donor site at NC_000022.10:g.31492780 from -4.72 to 2.31 bits. Significant p-values: junction spanning - intron inclusion (2 reads, p=0.004). Computations were originally performed using genomic coordinates. This variant was mapped to an appropriate current MANE database designation or, if not present in this source, to the longest relevant transcript in the Biocommons Universal Transcript Archive using the hgvs Python package. The original genomic coordinate was based on GRCh37 and was submitted as an "Alternate designation". Modifications of Figure 2 of PMID:31275557 for ClinVar: a) "strongly corroborating Veridical p-value" refers to "junction-spanning" evidence types; b) add the text "and natural site &lt; 300 nucleotides away?" to "Ri,final &gt; nearest natural site Ri"; c) "Aberrant" and "Likely aberrant" classifications are now both defined as "Functionally abnormal" (analogous to ACMG/AMP reporting); d) "Allele-specific alternative splicing" classification now defined as "Function uncertain" (based on results for similar variants in PMID: 32211018); e) average heterozygosity based-criteria no longer contribute to classification.</FunctionalConsequenceComment>
+              <Result>junction spanning - intron inclusion (p=0.004)</Result>
+            </FunctionalData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SMTN"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name>NC_000022.10:g.31492781C&gt;T</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_134269.3:c.1924C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="114550" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB15692110</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="13047452" TraitType="Disease" MappingType="XRef" MappingValue="C0279702" MappingRef="MedGen">
+        <MedGen CUI="C0279702" Name="Clear cell carcinoma of kidney"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="13053744" TraitType="Disease" MappingType="XRef" MappingValue="C0279702" MappingRef="MedGen">
+        <MedGen CUI="C0279702" Name="Clear cell carcinoma of kidney"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="13048556" TraitType="Disease" MappingType="XRef" MappingValue="C0279702" MappingRef="MedGen">
+        <MedGen CUI="C0279702" Name="Clear cell carcinoma of kidney"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="13050007" TraitType="Disease" MappingType="XRef" MappingValue="C0279702" MappingRef="MedGen">
+        <MedGen CUI="C0279702" Name="Clear cell carcinoma of kidney"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="13052665" TraitType="Disease" MappingType="XRef" MappingValue="C0279702" MappingRef="MedGen">
+        <MedGen CUI="C0279702" Name="Clear cell carcinoma of kidney"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="13047533" TraitType="Disease" MappingType="XRef" MappingValue="C0279702" MappingRef="MedGen">
+        <MedGen CUI="C0279702" Name="Clear cell carcinoma of kidney"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="13048826" TraitType="Disease" MappingType="XRef" MappingValue="211980" MappingRef="OMIM">
+        <MedGen CUI="C0242379" Name="Lung cancer"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="13048805" TraitType="Disease" MappingType="XRef" MappingValue="601626" MappingRef="OMIM">
+        <MedGen CUI="C0023467" Name="Acute myeloid leukemia"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="13047692" TraitType="Disease" MappingType="XRef" MappingValue="601626" MappingRef="OMIM">
+        <MedGen CUI="C0023467" Name="Acute myeloid leukemia"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="13053691" TraitType="Disease" MappingType="XRef" MappingValue="603956" MappingRef="OMIM">
+        <MedGen CUI="C4048328" Name="Cervical cancer"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="13055731" TraitType="Disease" MappingType="XRef" MappingValue="603956" MappingRef="OMIM">
+        <MedGen CUI="C4048328" Name="Cervical cancer"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="13047907" TraitType="Disease" MappingType="XRef" MappingValue="603956" MappingRef="OMIM">
+        <MedGen CUI="C4048328" Name="Cervical cancer"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="13050130" TraitType="Disease" MappingType="XRef" MappingValue="603956" MappingRef="OMIM">
+        <MedGen CUI="C4048328" Name="Cervical cancer"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="13052979" TraitType="Disease" MappingType="XRef" MappingValue="114550" MappingRef="OMIM">
+        <MedGen CUI="C2239176" Name="Hepatocellular carcinoma"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="13052980" TraitType="Disease" MappingType="XRef" MappingValue="114550" MappingRef="OMIM">
+        <MedGen CUI="C2239176" Name="Hepatocellular carcinoma"/>
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+</ClinVarResult-Set>

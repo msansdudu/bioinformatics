@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+                        
+<ClinVarResult-Set><VariationArchive VariationID="721065" VariationName="NM_134269.3(SMTN):c.1532G&gt;A (p.Arg511His)" VariationType="single nucleotide variant" Accession="VCV000721065" Version="4" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2025-05-17" DateCreated="2019-12-17" MostRecentSubmission="2020-05-04">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="729147" VariationID="721065">
+      <GeneList>
+        <Gene Symbol="SMTN" FullName="smoothelin" GeneID="6525" HGNC_ID="HGNC:11126" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>22q12.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="31064118" stop="31104624" display_start="31064118" display_stop="31104624" Strand="+"/>
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="31477281" stop="31500609" display_start="31477281" display_stop="31500609" Strand="+"/>
+          </Location>
+          <OMIM>602127</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_134269.3(SMTN):c.1532G&gt;A (p.Arg511His)</Name>
+      <CanonicalSPDI>NC_000022.11:31091746:G:A</CanonicalSPDI>
+      <VariantType>single nucleotide variant</VariantType>
+      <Location>
+        <CytogeneticLocation>22q12.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="31091747" stop="31091747" display_start="31091747" display_stop="31091747" variantLength="1" positionVCF="31091747" referenceAlleleVCF="G" alternateAlleleVCF="A"/>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="31487733" stop="31487733" display_start="31487733" display_stop="31487733" variantLength="1" positionVCF="31487733" referenceAlleleVCF="G" alternateAlleleVCF="A"/>
+      </Location>
+      <ProteinChange>R511H</ProteinChange>
+      <ProteinChange>R567H</ProteinChange>
+      <ProteinChange>R565H</ProteinChange>
+      <ProteinChange>R169H</ProteinChange>
+      <ProteinChange>R605H</ProteinChange>
+      <HGVSlist>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001207017.1" sequenceAccession="NM_001207017" sequenceVersion="1" change="c.1694G&gt;A">
+            <Expression>NM_001207017.1:c.1694G&gt;A</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001193946.1" sequenceAccession="NP_001193946" sequenceVersion="1" change="p.Arg565His" singleLetterProteinChange="R565H">
+            <Expression>NP_001193946.1:p.Arg565His</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.10" sequenceAccession="NC_000022" sequenceVersion="10" change="g.31487733G&gt;A" Assembly="GRCh37">
+            <Expression>NC_000022.10:g.31487733G&gt;A</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.11" sequenceAccession="NC_000022" sequenceVersion="11" change="g.31091747G&gt;A" Assembly="GRCh38">
+            <Expression>NC_000022.11:g.31091747G&gt;A</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_029838.1" sequenceAccession="NG_029838" sequenceVersion="1" change="g.15452G&gt;A">
+            <Expression>NG_029838.1:g.15452G&gt;A</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001207018.2" sequenceAccession="NM_001207018" sequenceVersion="2" change="c.1700G&gt;A">
+            <Expression>NM_001207018.2:c.1700G&gt;A</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001193947.1" sequenceAccession="NP_001193947" sequenceVersion="1" change="p.Arg567His" singleLetterProteinChange="R567H">
+            <Expression>NP_001193947.1:p.Arg567His</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001382638.1" sequenceAccession="NM_001382638" sequenceVersion="1" change="c.1532G&gt;A">
+            <Expression>NM_001382638.1:c.1532G&gt;A</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001369567.1" sequenceAccession="NP_001369567" sequenceVersion="1" change="p.Arg511His" singleLetterProteinChange="R511H">
+            <Expression>NP_001369567.1:p.Arg511His</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001382639.1" sequenceAccession="NM_001382639" sequenceVersion="1" change="c.1532G&gt;A">
+            <Expression>NM_001382639.1:c.1532G&gt;A</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001369568.1" sequenceAccession="NP_001369568" sequenceVersion="1" change="p.Arg511His" singleLetterProteinChange="R511H">
+            <Expression>NP_001369568.1:p.Arg511His</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001382640.1" sequenceAccession="NM_001382640" sequenceVersion="1" change="c.1532G&gt;A">
+            <Expression>NM_001382640.1:c.1532G&gt;A</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001369569.1" sequenceAccession="NP_001369569" sequenceVersion="1" change="p.Arg511His" singleLetterProteinChange="R511H">
+            <Expression>NP_001369569.1:p.Arg511His</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001382641.1" sequenceAccession="NM_001382641" sequenceVersion="1" change="c.1532G&gt;A">
+            <Expression>NM_001382641.1:c.1532G&gt;A</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001369570.1" sequenceAccession="NP_001369570" sequenceVersion="1" change="p.Arg511His" singleLetterProteinChange="R511H">
+            <Expression>NP_001369570.1:p.Arg511His</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001382642.1" sequenceAccession="NM_001382642" sequenceVersion="1" change="c.1814G&gt;A">
+            <Expression>NM_001382642.1:c.1814G&gt;A</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001369571.1" sequenceAccession="NP_001369571" sequenceVersion="1" change="p.Arg605His" singleLetterProteinChange="R605H">
+            <Expression>NP_001369571.1:p.Arg605His</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001382643.1" sequenceAccession="NM_001382643" sequenceVersion="1" change="c.1694G&gt;A">
+            <Expression>NM_001382643.1:c.1694G&gt;A</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001369572.1" sequenceAccession="NP_001369572" sequenceVersion="1" change="p.Arg565His" singleLetterProteinChange="R565H">
+            <Expression>NP_001369572.1:p.Arg565His</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001382644.1" sequenceAccession="NM_001382644" sequenceVersion="1" change="c.1694G&gt;A">
+            <Expression>NM_001382644.1:c.1694G&gt;A</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001369573.1" sequenceAccession="NP_001369573" sequenceVersion="1" change="p.Arg565His" singleLetterProteinChange="R565H">
+            <Expression>NP_001369573.1:p.Arg565His</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001382645.1" sequenceAccession="NM_001382645" sequenceVersion="1" change="c.1532G&gt;A">
+            <Expression>NM_001382645.1:c.1532G&gt;A</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001369574.1" sequenceAccession="NP_001369574" sequenceVersion="1" change="p.Arg511His" singleLetterProteinChange="R511H">
+            <Expression>NP_001369574.1:p.Arg511His</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001382646.1" sequenceAccession="NM_001382646" sequenceVersion="1" change="c.1532G&gt;A">
+            <Expression>NM_001382646.1:c.1532G&gt;A</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001369575.1" sequenceAccession="NP_001369575" sequenceVersion="1" change="p.Arg511His" singleLetterProteinChange="R511H">
+            <Expression>NP_001369575.1:p.Arg511His</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001382647.1" sequenceAccession="NM_001382647" sequenceVersion="1" change="c.1532G&gt;A">
+            <Expression>NM_001382647.1:c.1532G&gt;A</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001369576.1" sequenceAccession="NP_001369576" sequenceVersion="1" change="p.Arg511His" singleLetterProteinChange="R511H">
+            <Expression>NP_001369576.1:p.Arg511His</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001382648.1" sequenceAccession="NM_001382648" sequenceVersion="1" change="c.506G&gt;A">
+            <Expression>NM_001382648.1:c.506G&gt;A</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001369577.1" sequenceAccession="NP_001369577" sequenceVersion="1" change="p.Arg169His" singleLetterProteinChange="R169H">
+            <Expression>NP_001369577.1:p.Arg169His</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_006932.5" sequenceAccession="NM_006932" sequenceVersion="5" change="c.1532G&gt;A">
+            <Expression>NM_006932.5:c.1532G&gt;A</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_008863.3" sequenceAccession="NP_008863" sequenceVersion="3" change="p.Arg511His" singleLetterProteinChange="R511H">
+            <Expression>NP_008863.3:p.Arg511His</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_134269.3" sequenceAccession="NM_134269" sequenceVersion="3" change="c.1532G&gt;A" MANESelect="true">
+            <Expression>NM_134269.3:c.1532G&gt;A</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_599031.1" sequenceAccession="NP_599031" sequenceVersion="1" change="p.Arg511His" singleLetterProteinChange="R511H">
+            <Expression>NP_599031.1:p.Arg511His</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_134270.3" sequenceAccession="NM_134270" sequenceVersion="3" change="c.1532G&gt;A">
+            <Expression>NM_134270.3:c.1532G&gt;A</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_599032.2" sequenceAccession="NP_599032" sequenceVersion="2" change="p.Arg511His" singleLetterProteinChange="R511H">
+            <Expression>NP_599032.2:p.Arg511His</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="non-coding">
+          <NucleotideExpression sequenceAccessionVersion="NR_168472.1" sequenceAccession="NR_168472" sequenceVersion="1" change="n.1741G&gt;A">
+            <Expression>NR_168472.1:n.1741G&gt;A</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001619" Type="non-coding transcript variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="non-coding">
+          <NucleotideExpression sequenceAccessionVersion="NR_168473.1" sequenceAccession="NR_168473" sequenceVersion="1" change="n.1895G&gt;A">
+            <Expression>NR_168473.1:n.1895G&gt;A</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001619" Type="non-coding transcript variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="non-coding">
+          <NucleotideExpression sequenceAccessionVersion="NR_168474.1" sequenceAccession="NR_168474" sequenceVersion="1" change="n.1751G&gt;A">
+            <Expression>NR_168474.1:n.1751G&gt;A</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001619" Type="non-coding transcript variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="non-coding">
+          <NucleotideExpression sequenceAccessionVersion="NR_168475.1" sequenceAccession="NR_168475" sequenceVersion="1" change="n.1751G&gt;A">
+            <Expression>NR_168475.1:n.1751G&gt;A</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001619" Type="non-coding transcript variant" DB="SO"/>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA10187943" DB="ClinGen"/>
+        <XRef Type="rs" ID="116593437" DB="dbSNP"/>
+      </XRefList>
+      <AlleleFrequencyList>
+        <AlleleFrequency Value="0.00034" Source="The Genome Aggregation Database (gnomAD), exomes"/>
+        <AlleleFrequency Value="0.00073" Source="The Genome Aggregation Database (gnomAD), exomes"/>
+        <AlleleFrequency Value="0.00315" Source="NHLBI Exome Sequencing Project (ESP) Exome Variant Server"/>
+        <AlleleFrequency Value="0.00330" Source="Trans-Omics for Precision Medicine (TOPMed)"/>
+        <AlleleFrequency Value="0.00300" Source="1000 Genomes Project"/>
+        <AlleleFrequency Value="0.00313" Source="The Genome Aggregation Database (gnomAD)"/>
+        <AlleleFrequency Value="0.00090" Source="Exome Aggregation Consortium (ExAC)"/>
+        <AlleleFrequency Value="0.00287" Source="The Genome Aggregation Database (gnomAD)"/>
+        <AlleleFrequency Value="0.00328" Source="1000 Genomes Project 30x"/>
+      </AlleleFrequencyList>
+      <GlobalMinorAlleleFrequency Value="0.00300" Source="1000 Genomes Project" MinorAllele="A"/>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_134269.3(SMTN):c.1532G&gt;A (p.Arg511His) AND not provided" Accession="RCV000894498" Version="5">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="C3661900">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-12-31" SubmissionCount="1">Benign</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-12-31" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2019-12-17" MostRecentSubmission="2020-05-04">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Benign</Description>
+        <Explanation DataSource="ClinVar" Type="public">Benign (1)</Explanation>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Genomic Medicine Center of Excellence, King Faisal Specialist Hospital and Research Centre"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">RECLASSIFIED - ADRA2C POLYMORPHISM</ElementValue>
+                <XRef Type="Allelic variant" ID="104250.0001" DB="OMIM"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">RECLASSIFIED - ADRB1 POLYMORPHISM</ElementValue>
+                <XRef Type="Allelic variant" ID="109630.0001" DB="OMIM"/>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="C3661900" DB="MedGen"/>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2006356" SubmissionDate="2020-01-29" ContributesToAggregateClassification="true" DateLastUpdated="2020-05-04" DateCreated="2019-12-17">
+        <ClinVarSubmissionID localKey="2444979|MedGen:CN517202" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV001038484" DateUpdated="2020-05-04" DateCreated="2019-12-17" Type="SCV" Version="2" SubmitterName="Labcorp Genetics (formerly Invitae), Labcorp" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-12-31">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Benign</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SMTN"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_001207017.1:c.1694G&gt;A</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="CN517202" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6897608</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2006356" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+</ClinVarResult-Set>

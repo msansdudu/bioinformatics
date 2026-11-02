@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+                        
+<ClinVarResult-Set><VariationArchive VariationID="725856" VariationName="NM_002608.4(PDGFB):c.262A&gt;G (p.Ile88Val)" VariationType="single nucleotide variant" Accession="VCV000725856" Version="33" RecordType="classified" NumberOfSubmissions="4" NumberOfSubmitters="4" DateLastUpdated="2026-10-04" DateCreated="2019-12-17" MostRecentSubmission="2026-10-03">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="742909" VariationID="725856">
+      <GeneList>
+        <Gene Symbol="PDGFB" FullName="platelet derived growth factor subunit B" GeneID="5155" HGNC_ID="HGNC:8800" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>22q13.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="39223359" stop="39244982" display_start="39223359" display_stop="39244982" Strand="-"/>
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="39619684" stop="39640956" display_start="39619684" display_stop="39640956" Strand="-"/>
+          </Location>
+          <OMIM>190040</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_002608.4(PDGFB):c.262A&gt;G (p.Ile88Val)</Name>
+      <CanonicalSPDI>NC_000022.11:39231815:T:C</CanonicalSPDI>
+      <VariantType>single nucleotide variant</VariantType>
+      <Location>
+        <CytogeneticLocation>22q13.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="39231816" stop="39231816" display_start="39231816" display_stop="39231816" variantLength="1" positionVCF="39231816" referenceAlleleVCF="T" alternateAlleleVCF="C"/>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="39627821" stop="39627821" display_start="39627821" display_stop="39627821" variantLength="1" positionVCF="39627821" referenceAlleleVCF="T" alternateAlleleVCF="C"/>
+      </Location>
+      <ProteinChange>I73V</ProteinChange>
+      <ProteinChange>I88V</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.10" sequenceAccession="NC_000022" sequenceVersion="10" change="g.39627821T&gt;C" Assembly="GRCh37">
+            <Expression>NC_000022.10:g.39627821T&gt;C</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.11" sequenceAccession="NC_000022" sequenceVersion="11" change="g.39231816T&gt;C" Assembly="GRCh38">
+            <Expression>NC_000022.11:g.39231816T&gt;C</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_012111.1" sequenceAccession="NG_012111" sequenceVersion="1" change="g.18137A&gt;G">
+            <Expression>NG_012111.1:g.18137A&gt;G</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_002608.4" sequenceAccession="NM_002608" sequenceVersion="4" change="c.262A&gt;G" MANESelect="true">
+            <Expression>NM_002608.4:c.262A&gt;G</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_002599.1" sequenceAccession="NP_002599" sequenceVersion="1" change="p.Ile88Val" singleLetterProteinChange="I88V">
+            <Expression>NP_002599.1:p.Ile88Val</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_033016.3" sequenceAccession="NM_033016" sequenceVersion="3" change="c.217A&gt;G">
+            <Expression>NM_033016.3:c.217A&gt;G</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_148937.1" sequenceAccession="NP_148937" sequenceVersion="1" change="p.Ile73Val" singleLetterProteinChange="I73V">
+            <Expression>NP_148937.1:p.Ile73Val</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA10240161" DB="ClinGen"/>
+        <XRef Type="rs" ID="17565" DB="dbSNP"/>
+      </XRefList>
+      <AlleleFrequencyList>
+        <AlleleFrequency Value="0.00019" Source="The Genome Aggregation Database (gnomAD), exomes"/>
+        <AlleleFrequency Value="0.00061" Source="The Genome Aggregation Database (gnomAD), exomes"/>
+        <AlleleFrequency Value="0.00088" Source="Exome Aggregation Consortium (ExAC)"/>
+        <AlleleFrequency Value="0.00200" Source="NHLBI Exome Sequencing Project (ESP) Exome Variant Server"/>
+        <AlleleFrequency Value="0.00212" Source="The Genome Aggregation Database (gnomAD)"/>
+        <AlleleFrequency Value="0.00227" Source="The Genome Aggregation Database (gnomAD)"/>
+        <AlleleFrequency Value="0.00232" Source="Trans-Omics for Precision Medicine (TOPMed)"/>
+        <AlleleFrequency Value="0.00250" Source="1000 Genomes Project 30x"/>
+        <AlleleFrequency Value="0.00280" Source="1000 Genomes Project"/>
+      </AlleleFrequencyList>
+      <GlobalMinorAlleleFrequency Value="0.00280" Source="1000 Genomes Project" MinorAllele="C"/>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_002608.4(PDGFB):c.262A&gt;G (p.Ile88Val) AND not provided" Accession="RCV000899986" Version="33">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="C3661900">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, multiple submitters, no conflicts</ReviewStatus>
+            <Description DateLastEvaluated="2026-01-15" SubmissionCount="3">Benign/Likely benign</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_002608.4(PDGFB):c.262A&gt;G (p.Ile88Val) AND PDGFB-related disorder" Accession="RCV007038486" Version="1">
+        <ClassifiedConditionList TraitSetID="90777">
+          <ClassifiedCondition>PDGFB-related disorder</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2025-09-29" SubmissionCount="1">Likely benign</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2026-01-15" NumberOfSubmissions="4" NumberOfSubmitters="4" DateCreated="2019-12-17" MostRecentSubmission="2026-10-03">
+        <ReviewStatus>criteria provided, multiple submitters, no conflicts</ReviewStatus>
+        <Description>Benign/Likely benign</Description>
+        <Explanation DataSource="ClinVar" Type="public">Benign (2); Likely benign (2)</Explanation>
+        <DescriptionHistory Dated="2023-11-19">
+          <Description>Benign</Description>
+        </DescriptionHistory>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Genomic Medicine Center of Excellence, King Faisal Specialist Hospital and Research Centre"/>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="C3661900" DB="MedGen"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="90777" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="71266" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">PDGFB-related disorder</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">PDGFB-related condition</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3805282" SubmissionDate="2021-09-26" ContributesToAggregateClassification="true" DateLastUpdated="2021-09-26" DateCreated="2021-09-26">
+        <ClinVarSubmissionID localKey="GDXSV:161259" localKeyIsSubmitted="1"/>
+        <ClinVarAccession Accession="SCV001934830" DateUpdated="2021-09-26" DateCreated="2021-09-26" Type="SCV" Version="1" SubmitterName="GeneDx" OrgID="26957" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-03-24">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Benign</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">GeneDx Variant Classification Process June 2021</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/fc81e176/genedx_variant_classification_process_june_2021.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PDGFB"/>
+          </GeneList>
+          <VariantType>single nucleotide variant</VariantType>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">GDX:3508518</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_002608.2:c.262A&gt;G</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Not Provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>GeneDX_Clinvar_Submission_52_20210926044204</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="2012169" SubmissionDate="2026-02-06" ContributesToAggregateClassification="true" DateLastUpdated="2026-03-07" DateCreated="2019-12-17">
+        <ClinVarSubmissionID localKey="2689028|MedGen:CN517202" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV001044283" DateUpdated="2026-03-07" DateCreated="2019-12-17" Type="SCV" Version="6" SubmitterName="Labcorp Genetics (formerly Invitae), Labcorp" OrgID="500031" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2026-01-15">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Benign</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PDGFB"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000022.10:g.39627821T&gt;C</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN517202" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB12507860</SubmissionName>
+          <SubmissionName>SUB14200283</SubmissionName>
+          <SubmissionName>SUB15075391</SubmissionName>
+          <SubmissionName>SUB15990429</SubmissionName>
+          <SubmissionName>SUB6897608</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="7730989" SubmissionDate="2026-07-04" ContributesToAggregateClassification="true" DateLastUpdated="2026-07-27" DateCreated="2023-11-20">
+        <ClinVarSubmissionID localKey="165102|MedGen:CN517202" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV004147904" DateUpdated="2026-07-27" DateCreated="2023-11-20" Type="SCV" Version="23" SubmitterName="CeGaT Center for Human Genetics Tuebingen" OrgID="505870" OrganizationCategory="laboratory" OrgAbbreviation="CHGT"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2023-01-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Likely benign</GermlineClassification>
+          <Comment Type="public">PDGFB: BP4, BS2</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">CeGaT Center For Human Genetics Tuebingen Variant Classification Criteria Version 2</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/api/2.0/files/0ynenhfo/cegat_center_for_human_genetics_tuebingen_-_variant_classification_criteria_-_version_2.pdf/?format=attachment</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="2"/>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PDGFB"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="22" alternateAllele="C" referenceAllele="T" start="39627821" stop="39627821" variantLength="1"/>
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN517202" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>2024-04</SubmissionName>
+          <SubmissionName>SUB13985080</SubmissionName>
+          <SubmissionName>SUB14102099</SubmissionName>
+          <SubmissionName>SUB14290090</SubmissionName>
+          <SubmissionName>SUB14426581</SubmissionName>
+          <SubmissionName>SUB14513473</SubmissionName>
+          <SubmissionName>SUB14584463</SubmissionName>
+          <SubmissionName>SUB14636274</SubmissionName>
+          <SubmissionName>SUB14721088</SubmissionName>
+          <SubmissionName>SUB14783021</SubmissionName>
+          <SubmissionName>SUB14928462</SubmissionName>
+          <SubmissionName>SUB15149282</SubmissionName>
+          <SubmissionName>SUB15237316</SubmissionName>
+          <SubmissionName>SUB15302933</SubmissionName>
+          <SubmissionName>SUB15380712</SubmissionName>
+          <SubmissionName>SUB15436669</SubmissionName>
+          <SubmissionName>SUB15585849</SubmissionName>
+          <SubmissionName>SUB15682521</SubmissionName>
+          <SubmissionName>SUB15821677</SubmissionName>
+          <SubmissionName>SUB15914871</SubmissionName>
+          <SubmissionName>SUB16104672</SubmissionName>
+          <SubmissionName>SUB16224911</SubmissionName>
+          <SubmissionName>SUB16307954</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="15238114" SubmissionDate="2026-09-29" ContributesToAggregateClassification="true" DateLastUpdated="2026-10-03" DateCreated="2026-10-03">
+        <ClinVarSubmissionID localKey="2761612|PDGFB-related condition" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV008038558" DateUpdated="2026-10-03" DateCreated="2026-10-03" Type="SCV" Version="1" SubmitterName="PreventionGenetics, part of Exact Sciences" OrgID="239772" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2025-09-29">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Likely benign</GermlineClassification>
+          <Comment Type="public">This variant is classified as likely benign based on ACMG/AMP sequence variant interpretation guidelines (Richards et al. 2015 PMID: 25741868, with internal and published modifications).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PDGFB"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">2761612</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_002608.3:c.262A&gt;G</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">PDGFB-related condition</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB16522205</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="3805282" TraitType="Disease" MappingType="Name" MappingValue="Not Provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2012169" TraitType="Disease" MappingType="XRef" MappingValue="CN517202" MappingRef="MedGen">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="7730989" TraitType="Disease" MappingType="XRef" MappingValue="CN517202" MappingRef="MedGen">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="15238114" TraitType="Disease" MappingType="Name" MappingValue="PDGFB-related condition" MappingRef="Preferred">
+        <MedGen CUI="None" Name="PDGFB-related disorder"/>
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+</ClinVarResult-Set>

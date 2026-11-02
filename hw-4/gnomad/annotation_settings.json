@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-02",
+  "variant_number": 31,
+  "assembly": "GRCh38",
+  "join_key": [
+    "chrom",
+    "pos",
+    "ref",
+    "alt"
+  ],
+  "selection_rule": "VEP_most_severe_then_MANE_Select_then_canonical_then_protein_coding_then_transcript_id",
+  "selection_explanation": "First retain transcripts carrying VEP most_severe_consequence. Among them prefer MANE Select, then Ensembl canonical, then protein_coding, then lexicographically smallest versioned Ensembl transcript ID. This is a custom severity-first rule, not default VEP --pick.",
+  "missing_values": "Empty value means absent/not applicable in the successfully queried source; never AF=0 by imputation. Presence status is in each source's status column.",
+  "vep": "../ensembl/student_31_2026-11-02-12-09_VEP.vcf",
+  "vep_table": "../ensembl/student_31_2026-11-02-12-09_VEP.tsv",
+  "vep_settings_location": "VCF header lines ##VEP and ##VEP-command-line; user web export, VEP 116.2, GRCh38.",
+  "vep_fields": "All VEP values come from the user web export. selected_mane_select contains MANE_Select or is empty; protein_position, amino_acids and codons preserve exported values. HGVS, SIFT and PolyPhen fields are not included because they are unavailable in this export.",
+  "rsid_source": "Original VCF ID; Existing_variation is empty in the web export, so rsIDs are not replaced.",
+  "clinvar": "../clinvar/clinvar_raw/settings.json",
+  "gnomad": "gnomad_raw/settings.json",
+  "severity_documentation": "https://www.ensembl.org/info/genome/variation/prediction/predicted_data.html"
+}

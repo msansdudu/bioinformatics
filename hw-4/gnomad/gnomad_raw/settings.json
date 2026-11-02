@@ -1,0 +1,60 @@
+{
+  "retrieved_at_utc": "2026-11-02T07:49:50.994287+00:00",
+  "endpoint": "https://gnomad.broadinstitute.org/api",
+  "dataset": "gnomad_r4",
+  "reference": "GRCh38",
+  "source_vcf": "student_31.vcf",
+  "query_template": "query VariantLookup($variantId: String!, $dataset: DatasetId!) { variant(variantId: $variantId, dataset: $dataset) { variant_id reference_genome exome { ac an af filters } genome { ac an af filters } joint { ac an filters } } }",
+  "joint_available_in_variant_details_schema": true,
+  "available_slice_fields": {
+    "exome": [
+      "ac",
+      "ac_hemi",
+      "ac_hom",
+      "af",
+      "age_distribution",
+      "an",
+      "faf95",
+      "faf99",
+      "filters",
+      "flags",
+      "hemizygote_count",
+      "homozygote_count",
+      "local_ancestry_populations",
+      "populations",
+      "qualityMetrics",
+      "quality_metrics"
+    ],
+    "genome": [
+      "ac",
+      "ac_hemi",
+      "ac_hom",
+      "af",
+      "age_distribution",
+      "an",
+      "faf95",
+      "faf99",
+      "filters",
+      "flags",
+      "hemizygote_count",
+      "homozygote_count",
+      "local_ancestry_populations",
+      "populations",
+      "qualityMetrics",
+      "quality_metrics"
+    ],
+    "joint": [
+      "ac",
+      "age_distribution",
+      "an",
+      "faf95",
+      "faf99",
+      "filters",
+      "freq_comparison_stats",
+      "hemizygote_count",
+      "homozygote_count",
+      "populations",
+      "quality_metrics"
+    ]
+  }
+}

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+                        
+<ClinVarResult-Set><VariationArchive VariationID="1670166" VariationName="NM_153682.3(PIGP):c.-22-44C&gt;T" VariationType="single nucleotide variant" Accession="VCV001670166" Version="11" RecordType="classified" NumberOfSubmissions="3" NumberOfSubmitters="3" DateLastUpdated="2026-03-01" DateCreated="2022-04-08" MostRecentSubmission="2026-02-23">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1635531" VariationID="1670166">
+      <GeneList>
+        <Gene Symbol="LOC130066643" FullName="ATAC-STARR-seq lymphoblastoid silent region 13296" GeneID="130066643" Source="calculated" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>21q22.13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="21" Accession="NC_000021.9" start="37072542" stop="37072821" display_start="37072542" display_stop="37072821" Strand="+"/>
+          </Location>
+        </Gene>
+        <Gene Symbol="PIGP" FullName="phosphatidylinositol glycan anchor biosynthesis class P" GeneID="51227" HGNC_ID="HGNC:3046" Source="submitted" RelationshipType="within multiple genes by overlap">
+          <Location>
+            <CytogeneticLocation>21q22.13</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="21" Accession="NC_000021.9" start="37065364" stop="37073071" display_start="37065364" display_stop="37073071" Strand="-"/>
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="21" Accession="NC_000021.8" start="38437663" stop="38445457" display_start="38437663" display_stop="38445457" Strand="-"/>
+          </Location>
+          <OMIM>605938</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_153682.3(PIGP):c.-22-44C&gt;T</Name>
+      <CanonicalSPDI>NC_000021.9:37072580:G:A</CanonicalSPDI>
+      <VariantType>single nucleotide variant</VariantType>
+      <Location>
+        <CytogeneticLocation>21q22.13</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="21" Accession="NC_000021.9" start="37072581" stop="37072581" display_start="37072581" display_stop="37072581" variantLength="1" positionVCF="37072581" referenceAlleleVCF="G" alternateAlleleVCF="A"/>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="21" Accession="NC_000021.8" start="38444881" stop="38444881" display_start="38444881" display_stop="38444881" variantLength="1" positionVCF="38444881" referenceAlleleVCF="G" alternateAlleleVCF="A"/>
+      </Location>
+      <ProteinChange>P3S</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000021.8" sequenceAccession="NC_000021" sequenceVersion="8" change="g.38444881G&gt;A" Assembly="GRCh37">
+            <Expression>NC_000021.8:g.38444881G&gt;A</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000021.9" sequenceAccession="NC_000021" sequenceVersion="9" change="g.37072581G&gt;A" Assembly="GRCh38">
+            <Expression>NC_000021.9:g.37072581G&gt;A</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_153681.2" sequenceAccession="NM_153681" sequenceVersion="2" change="c.7C&gt;T">
+            <Expression>NM_153681.2:c.7C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_710148.1" sequenceAccession="NP_710148" sequenceVersion="1" change="p.Pro3Ser" singleLetterProteinChange="P3S">
+            <Expression>NP_710148.1:p.Pro3Ser</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_153682.3" sequenceAccession="NM_153682" sequenceVersion="3" change="c.-22-44C&gt;T" MANESelect="true">
+            <Expression>NM_153682.3:c.-22-44C&gt;T</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001627" Type="intron variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_016430.4" sequenceAccession="NM_016430" sequenceVersion="4" change="c.-266-44C&gt;T">
+            <Expression>NM_016430.4:c.-266-44C&gt;T</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001627" Type="intron variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001320480.2" sequenceAccession="NM_001320480" sequenceVersion="2" change="c.-22-44C&gt;T">
+            <Expression>NM_001320480.2:c.-22-44C&gt;T</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001627" Type="intron variant" DB="SO"/>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA10021204" DB="ClinGen"/>
+        <XRef Type="rs" ID="73200245" DB="dbSNP"/>
+      </XRefList>
+      <AlleleFrequencyList>
+        <AlleleFrequency Value="0.17092" Source="The Genome Aggregation Database (gnomAD), exomes"/>
+        <AlleleFrequency Value="0.18579" Source="The Genome Aggregation Database (gnomAD), exomes"/>
+        <AlleleFrequency Value="0.21518" Source="1000 Genomes Project 30x"/>
+        <AlleleFrequency Value="0.24070" Source="Trans-Omics for Precision Medicine (TOPMed)"/>
+        <AlleleFrequency Value="0.18133" Source="Exome Aggregation Consortium (ExAC)"/>
+        <AlleleFrequency Value="0.20887" Source="1000 Genomes Project"/>
+        <AlleleFrequency Value="0.22059" Source="NHLBI Exome Sequencing Project (ESP) Exome Variant Server"/>
+        <AlleleFrequency Value="0.23166" Source="The Genome Aggregation Database (gnomAD)"/>
+        <AlleleFrequency Value="0.23910" Source="The Genome Aggregation Database (gnomAD)"/>
+      </AlleleFrequencyList>
+      <GlobalMinorAlleleFrequency Value="0.20887" Source="1000 Genomes Project" MinorAllele="A"/>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_153682.3(PIGP):c.-22-44C&gt;T AND not provided" Accession="RCV002201345" Version="8">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="C3661900">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, multiple submitters, no conflicts</ReviewStatus>
+            <Description DateLastEvaluated="2026-02-03" SubmissionCount="2">Benign</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_153682.3(PIGP):c.-22-44C&gt;T AND PIGP-related disorder" Accession="RCV003973329" Version="2">
+        <ClassifiedConditionList TraitSetID="95760">
+          <ClassifiedCondition>PIGP-related disorder</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2020-08-20" SubmissionCount="1">Benign</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2026-02-03" NumberOfSubmissions="3" NumberOfSubmitters="3" DateCreated="2022-04-08" MostRecentSubmission="2026-02-23">
+        <ReviewStatus>criteria provided, multiple submitters, no conflicts</ReviewStatus>
+        <Description>Benign</Description>
+        <Explanation DataSource="ClinVar" Type="public">Benign (2)</Explanation>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Genomic Medicine Center of Excellence, King Faisal Specialist Hospital and Research Centre"/>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="C3661900" DB="MedGen"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="95760" Type="Disease" ContributesToAggregateClassification="false">
+            <Trait ID="74746" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">PIGP-related disorder</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">PIGP-related condition</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="10206966" SubmissionDate="2024-09-16" ContributesToAggregateClassification="true" DateLastUpdated="2024-09-29" DateCreated="2024-09-29">
+        <ClinVarSubmissionID localKey="ee0f4191-7607-419f-a80b-2a6a9f56ef84|not provided"/>
+        <ClinVarAccession Accession="SCV005310576" DateUpdated="2024-09-29" DateCreated="2024-09-29" Type="SCV" Version="1" SubmitterName="Breakthrough Genomics, Breakthrough Genomics" OrgID="509169" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Benign</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>not provided</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="21" alternateAllele="A" referenceAllele="G" start="38444881" stop="38444881"/>
+          </Location>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">ee0f4191-7607-419f-a80b-2a6a9f56ef84</Name>
+          </OtherNameList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14729668</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="8878709" SubmissionDate="2024-10-02" ContributesToAggregateClassification="false" DateLastUpdated="2024-10-08" DateCreated="2024-03-16">
+        <ClinVarSubmissionID localKey="222974|PIGP-related condition"/>
+        <ClinVarAccession Accession="SCV004797476" DateUpdated="2024-10-08" DateCreated="2024-03-16" Type="SCV" Version="2" SubmitterName="PreventionGenetics, part of Exact Sciences" OrgID="239772" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2020-08-20">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Benign</GermlineClassification>
+          <Comment>This variant is classified as benign based on ACMG/AMP sequence variant interpretation guidelines (Richards et al. 2015 PMID: 25741868, with internal and published modifications).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PIGP"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">222974</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_153681.2:c.7C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">PIGP-related condition</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14299258</SubmissionName>
+          <SubmissionName>SUB14767647</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="4706550" SubmissionDate="2026-02-09" ContributesToAggregateClassification="true" DateLastUpdated="2026-02-23" DateCreated="2022-04-08">
+        <ClinVarSubmissionID localKey="1643295|MedGen:CN517202" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV002484713" DateUpdated="2026-02-23" DateCreated="2022-04-08" Type="SCV" Version="5" SubmitterName="Labcorp Genetics (formerly Invitae), Labcorp" OrgID="500031" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2026-02-03">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Benign</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PIGP"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000021.8:g.38444881G&gt;A</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN517202" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11172999</SubmissionName>
+          <SubmissionName>SUB12507860</SubmissionName>
+          <SubmissionName>SUB14200279</SubmissionName>
+          <SubmissionName>SUB15075354</SubmissionName>
+          <SubmissionName>SUB15990407</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="4706550" TraitType="Disease" MappingType="XRef" MappingValue="CN517202" MappingRef="MedGen">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="10206966" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="8878709" TraitType="Disease" MappingType="Name" MappingValue="PIGP-related condition" MappingRef="Preferred">
+        <MedGen CUI="None" Name="PIGP-related disorder"/>
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+</ClinVarResult-Set>

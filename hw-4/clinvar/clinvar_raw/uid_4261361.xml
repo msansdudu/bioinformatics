@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+                        
+<ClinVarResult-Set><VariationArchive VariationID="4261361" VariationName="NM_001318104.2(GAL3ST1):c.730C&gt;G (p.Arg244Gly)" VariationType="single nucleotide variant" Accession="VCV004261361" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2025-10-05" DateCreated="2025-10-05" MostRecentSubmission="2025-10-05">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="4368613" VariationID="4261361">
+      <GeneList>
+        <Gene Symbol="GAL3ST1" FullName="galactose-3-O-sulfotransferase 1" GeneID="9514" HGNC_ID="HGNC:24240" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>22q12.2</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="30554635" stop="30574665" display_start="30554635" display_stop="30574665" Strand="-"/>
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="30950623" stop="30960875" display_start="30950623" display_stop="30960875" Strand="-"/>
+          </Location>
+          <OMIM>602300</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_001318104.2(GAL3ST1):c.730C&gt;G (p.Arg244Gly)</Name>
+      <CanonicalSPDI>NC_000022.11:30555494:G:C</CanonicalSPDI>
+      <VariantType>single nucleotide variant</VariantType>
+      <Location>
+        <CytogeneticLocation>22q12.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="30555495" stop="30555495" display_start="30555495" display_stop="30555495" variantLength="1" positionVCF="30555495" referenceAlleleVCF="G" alternateAlleleVCF="C"/>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="30951482" stop="30951482" display_start="30951482" display_stop="30951482" variantLength="1" positionVCF="30951482" referenceAlleleVCF="G" alternateAlleleVCF="C"/>
+      </Location>
+      <ProteinChange>R245G</ProteinChange>
+      <ProteinChange>R244G</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.10" sequenceAccession="NC_000022" sequenceVersion="10" change="g.30951482G&gt;C" Assembly="GRCh37">
+            <Expression>NC_000022.10:g.30951482G&gt;C</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.11" sequenceAccession="NC_000022" sequenceVersion="11" change="g.30555495G&gt;C" Assembly="GRCh38">
+            <Expression>NC_000022.11:g.30555495G&gt;C</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001318103.2" sequenceAccession="NM_001318103" sequenceVersion="2" change="c.730C&gt;G">
+            <Expression>NM_001318103.2:c.730C&gt;G</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001305032.1" sequenceAccession="NP_001305032" sequenceVersion="1" change="p.Arg244Gly" singleLetterProteinChange="R244G">
+            <Expression>NP_001305032.1:p.Arg244Gly</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001318104.2" sequenceAccession="NM_001318104" sequenceVersion="2" change="c.730C&gt;G" MANESelect="true">
+            <Expression>NM_001318104.2:c.730C&gt;G</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001305033.1" sequenceAccession="NP_001305033" sequenceVersion="1" change="p.Arg244Gly" singleLetterProteinChange="R244G">
+            <Expression>NP_001305033.1:p.Arg244Gly</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001318105.2" sequenceAccession="NM_001318105" sequenceVersion="2" change="c.730C&gt;G">
+            <Expression>NM_001318105.2:c.730C&gt;G</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001305034.1" sequenceAccession="NP_001305034" sequenceVersion="1" change="p.Arg244Gly" singleLetterProteinChange="R244G">
+            <Expression>NP_001305034.1:p.Arg244Gly</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001318106.2" sequenceAccession="NM_001318106" sequenceVersion="2" change="c.730C&gt;G">
+            <Expression>NM_001318106.2:c.730C&gt;G</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001305035.1" sequenceAccession="NP_001305035" sequenceVersion="1" change="p.Arg244Gly" singleLetterProteinChange="R244G">
+            <Expression>NP_001305035.1:p.Arg244Gly</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001318107.2" sequenceAccession="NM_001318107" sequenceVersion="2" change="c.733C&gt;G">
+            <Expression>NM_001318107.2:c.733C&gt;G</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001305036.1" sequenceAccession="NP_001305036" sequenceVersion="1" change="p.Arg245Gly" singleLetterProteinChange="R245G">
+            <Expression>NP_001305036.1:p.Arg245Gly</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001318108.2" sequenceAccession="NM_001318108" sequenceVersion="2" change="c.730C&gt;G">
+            <Expression>NM_001318108.2:c.730C&gt;G</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001305037.1" sequenceAccession="NP_001305037" sequenceVersion="1" change="p.Arg244Gly" singleLetterProteinChange="R244G">
+            <Expression>NP_001305037.1:p.Arg244Gly</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001318109.2" sequenceAccession="NM_001318109" sequenceVersion="2" change="c.730C&gt;G">
+            <Expression>NM_001318109.2:c.730C&gt;G</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001305038.2" sequenceAccession="NP_001305038" sequenceVersion="2" change="p.Arg244Gly" singleLetterProteinChange="R244G">
+            <Expression>NP_001305038.2:p.Arg244Gly</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001318110.2" sequenceAccession="NM_001318110" sequenceVersion="2" change="c.730C&gt;G">
+            <Expression>NM_001318110.2:c.730C&gt;G</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001305039.1" sequenceAccession="NP_001305039" sequenceVersion="1" change="p.Arg244Gly" singleLetterProteinChange="R244G">
+            <Expression>NP_001305039.1:p.Arg244Gly</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001318111.2" sequenceAccession="NM_001318111" sequenceVersion="2" change="c.730C&gt;G">
+            <Expression>NM_001318111.2:c.730C&gt;G</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001305040.1" sequenceAccession="NP_001305040" sequenceVersion="1" change="p.Arg244Gly" singleLetterProteinChange="R244G">
+            <Expression>NP_001305040.1:p.Arg244Gly</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001318112.2" sequenceAccession="NM_001318112" sequenceVersion="2" change="c.730C&gt;G">
+            <Expression>NM_001318112.2:c.730C&gt;G</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001305041.1" sequenceAccession="NP_001305041" sequenceVersion="1" change="p.Arg244Gly" singleLetterProteinChange="R244G">
+            <Expression>NP_001305041.1:p.Arg244Gly</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001318113.2" sequenceAccession="NM_001318113" sequenceVersion="2" change="c.730C&gt;G">
+            <Expression>NM_001318113.2:c.730C&gt;G</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001305042.1" sequenceAccession="NP_001305042" sequenceVersion="1" change="p.Arg244Gly" singleLetterProteinChange="R244G">
+            <Expression>NP_001305042.1:p.Arg244Gly</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001318114.2" sequenceAccession="NM_001318114" sequenceVersion="2" change="c.733C&gt;G">
+            <Expression>NM_001318114.2:c.733C&gt;G</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001305043.1" sequenceAccession="NP_001305043" sequenceVersion="1" change="p.Arg245Gly" singleLetterProteinChange="R245G">
+            <Expression>NP_001305043.1:p.Arg245Gly</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001318115.2" sequenceAccession="NM_001318115" sequenceVersion="2" change="c.730C&gt;G">
+            <Expression>NM_001318115.2:c.730C&gt;G</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001305044.1" sequenceAccession="NP_001305044" sequenceVersion="1" change="p.Arg244Gly" singleLetterProteinChange="R244G">
+            <Expression>NP_001305044.1:p.Arg244Gly</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001318116.2" sequenceAccession="NM_001318116" sequenceVersion="2" change="c.730C&gt;G">
+            <Expression>NM_001318116.2:c.730C&gt;G</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001305045.1" sequenceAccession="NP_001305045" sequenceVersion="1" change="p.Arg244Gly" singleLetterProteinChange="R244G">
+            <Expression>NP_001305045.1:p.Arg244Gly</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_004861.3" sequenceAccession="NM_004861" sequenceVersion="3" change="c.730C&gt;G">
+            <Expression>NM_004861.3:c.730C&gt;G</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_004852.1" sequenceAccession="NP_004852" sequenceVersion="1" change="p.Arg244Gly" singleLetterProteinChange="R244G">
+            <Expression>NP_004852.1:p.Arg244Gly</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_001318104.2(GAL3ST1):c.730C&gt;G (p.Arg244Gly) AND not specified" Accession="RCV005838906" Version="1">
+        <ClassifiedConditionList TraitSetID="9590">
+          <ClassifiedCondition DB="MedGen" ID="CN169374">not specified</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2025-08-23" SubmissionCount="1">Uncertain significance</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2025-08-23" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2025-10-05" MostRecentSubmission="2025-10-05">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Uncertain significance</Description>
+        <Explanation DataSource="ClinVar" Type="public">Uncertain significance (1)</Explanation>
+        <ConditionList>
+          <TraitSet ID="9590" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="16789" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">AllHighlyPenetrant</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">not specified</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not specified' was created for use in ClinVar so that submitters can convey the concept that a variant is benign, likely benign, or of uncertain significance for an unspecified set of disorders.  This usage was introduced in 2014 to replace AllHighlyPenetrant.</Attribute>
+              </AttributeSet>
+              <XRef ID="CN169374" DB="MedGen"/>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="12381848" SubmissionDate="2025-09-30" ContributesToAggregateClassification="true" DateLastUpdated="2025-10-05" DateCreated="2025-10-05">
+        <ClinVarSubmissionID localKey="a7090550|MedGen:CN169374" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV006527728" DateUpdated="2025-10-05" DateCreated="2025-10-05" Type="SCV" Version="1" SubmitterName="Ambry Genetics" OrgID="61756" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2025-08-23">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Uncertain significance</GermlineClassification>
+          <Comment Type="public">The c.730C&gt;G (p.R244G) alteration is located in exon 4 (coding exon 2) of the GAL3ST1 gene. This alteration results from a C to G substitution at nucleotide position 730, causing the arginine (R) at amino acid position 244 to be replaced by a glycine (G). Based on insufficient or conflicting evidence, the clinical significance of this alteration remains unclear.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Ambry Variant Classification Scheme 2023</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/api/2.0/files/i9igeqse/ambry_variant_classification_scheme_2023.pdf/?format=attachment</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="GAL3ST1"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_004861.1:c.730C&gt;G</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN169374" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>FinalClinVarSubmissionFile_20250615to20250915</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="12381848" TraitType="Disease" MappingType="XRef" MappingValue="CN169374" MappingRef="MedGen">
+        <MedGen CUI="CN169374" Name="not specified"/>
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+</ClinVarResult-Set>

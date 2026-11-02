@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["1169473"],"translationset":[],"translationstack":[{"term":"21[chr]","field":"chr","count":"52865","explode":"N"},{"term":"000033415005[chrpos38]","field":"chrpos38","count":"1","explode":"N"},"AND"],"querytranslation":"21[chr] AND 000033415005[chrpos38]"}}

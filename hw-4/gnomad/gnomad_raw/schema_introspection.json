@@ -1,0 +1,525 @@
+{
+  "variant_details": {
+    "http_status": 200,
+    "query": "{ __type(name: \"VariantDetails\") { fields { name type { name kind ofType { name kind ofType { name kind } } } } } }",
+    "body": {
+      "data": {
+        "__type": {
+          "fields": [
+            {
+              "name": "variant_id",
+              "type": {
+                "name": null,
+                "kind": "NON_NULL",
+                "ofType": {
+                  "name": "String",
+                  "kind": "SCALAR",
+                  "ofType": null
+                }
+              }
+            },
+            {
+              "name": "reference_genome",
+              "type": {
+                "name": null,
+                "kind": "NON_NULL",
+                "ofType": {
+                  "name": "ReferenceGenomeId",
+                  "kind": "ENUM",
+                  "ofType": null
+                }
+              }
+            },
+            {
+              "name": "chrom",
+              "type": {
+                "name": null,
+                "kind": "NON_NULL",
+                "ofType": {
+                  "name": "String",
+                  "kind": "SCALAR",
+                  "ofType": null
+                }
+              }
+            },
+            {
+              "name": "pos",
+              "type": {
+                "name": null,
+                "kind": "NON_NULL",
+                "ofType": {
+                  "name": "Int",
+                  "kind": "SCALAR",
+                  "ofType": null
+                }
+              }
+            },
+            {
+              "name": "ref",
+              "type": {
+                "name": null,
+                "kind": "NON_NULL",
+                "ofType": {
+                  "name": "String",
+                  "kind": "SCALAR",
+                  "ofType": null
+                }
+              }
+            },
+            {
+              "name": "alt",
+              "type": {
+                "name": null,
+                "kind": "NON_NULL",
+                "ofType": {
+                  "name": "String",
+                  "kind": "SCALAR",
+                  "ofType": null
+                }
+              }
+            },
+            {
+              "name": "caid",
+              "type": {
+                "name": "String",
+                "kind": "SCALAR",
+                "ofType": null
+              }
+            },
+            {
+              "name": "rsids",
+              "type": {
+                "name": null,
+                "kind": "LIST",
+                "ofType": {
+                  "name": null,
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "name": "String",
+                    "kind": "SCALAR"
+                  }
+                }
+              }
+            },
+            {
+              "name": "colocated_variants",
+              "type": {
+                "name": null,
+                "kind": "NON_NULL",
+                "ofType": {
+                  "name": null,
+                  "kind": "LIST",
+                  "ofType": {
+                    "name": null,
+                    "kind": "NON_NULL"
+                  }
+                }
+              }
+            },
+            {
+              "name": "coverage",
+              "type": {
+                "name": null,
+                "kind": "NON_NULL",
+                "ofType": {
+                  "name": "VariantCoverage",
+                  "kind": "OBJECT",
+                  "ofType": null
+                }
+              }
+            },
+            {
+              "name": "lof_curations",
+              "type": {
+                "name": null,
+                "kind": "LIST",
+                "ofType": {
+                  "name": null,
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "name": "LoFCuration",
+                    "kind": "OBJECT"
+                  }
+                }
+              }
+            },
+            {
+              "name": "multi_nucleotide_variants",
+              "type": {
+                "name": null,
+                "kind": "LIST",
+                "ofType": {
+                  "name": null,
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "name": "MultiNucleotideVariantSummary",
+                    "kind": "OBJECT"
+                  }
+                }
+              }
+            },
+            {
+              "name": "exome",
+              "type": {
+                "name": "VariantDetailsSequencingTypeData",
+                "kind": "OBJECT",
+                "ofType": null
+              }
+            },
+            {
+              "name": "genome",
+              "type": {
+                "name": "VariantDetailsSequencingTypeData",
+                "kind": "OBJECT",
+                "ofType": null
+              }
+            },
+            {
+              "name": "joint",
+              "type": {
+                "name": "VariantDetailsJointSequencingTypeData",
+                "kind": "OBJECT",
+                "ofType": null
+              }
+            },
+            {
+              "name": "flags",
+              "type": {
+                "name": null,
+                "kind": "LIST",
+                "ofType": {
+                  "name": null,
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "name": "String",
+                    "kind": "SCALAR"
+                  }
+                }
+              }
+            },
+            {
+              "name": "transcript_consequences",
+              "type": {
+                "name": null,
+                "kind": "LIST",
+                "ofType": {
+                  "name": null,
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "name": "TranscriptConsequence",
+                    "kind": "OBJECT"
+                  }
+                }
+              }
+            },
+            {
+              "name": "in_silico_predictors",
+              "type": {
+                "name": null,
+                "kind": "LIST",
+                "ofType": {
+                  "name": null,
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "name": "VariantInSilicoPredictor",
+                    "kind": "OBJECT"
+                  }
+                }
+              }
+            },
+            {
+              "name": "non_coding_constraint",
+              "type": {
+                "name": "NonCodingConstraintRegion",
+                "kind": "OBJECT",
+                "ofType": null
+              }
+            },
+            {
+              "name": "rsid",
+              "type": {
+                "name": "String",
+                "kind": "SCALAR",
+                "ofType": null
+              }
+            },
+            {
+              "name": "variantId",
+              "type": {
+                "name": null,
+                "kind": "NON_NULL",
+                "ofType": {
+                  "name": "String",
+                  "kind": "SCALAR",
+                  "ofType": null
+                }
+              }
+            },
+            {
+              "name": "colocatedVariants",
+              "type": {
+                "name": null,
+                "kind": "NON_NULL",
+                "ofType": {
+                  "name": null,
+                  "kind": "LIST",
+                  "ofType": {
+                    "name": null,
+                    "kind": "NON_NULL"
+                  }
+                }
+              }
+            },
+            {
+              "name": "multiNucleotideVariants",
+              "type": {
+                "name": null,
+                "kind": "LIST",
+                "ofType": {
+                  "name": null,
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "name": "MultiNucleotideVariantSummary",
+                    "kind": "OBJECT"
+                  }
+                }
+              }
+            },
+            {
+              "name": "sortedTranscriptConsequences",
+              "type": {
+                "name": null,
+                "kind": "LIST",
+                "ofType": {
+                  "name": null,
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "name": "TranscriptConsequence",
+                    "kind": "OBJECT"
+                  }
+                }
+              }
+            },
+            {
+              "name": "va",
+              "type": {
+                "name": null,
+                "kind": "NON_NULL",
+                "ofType": {
+                  "name": "VACohortAlleleFrequency",
+                  "kind": "OBJECT",
+                  "ofType": null
+                }
+              }
+            },
+            {
+              "name": "vrs",
+              "type": {
+                "name": "VAAllele",
+                "kind": "OBJECT",
+                "ofType": null
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "nested_types_query": "{ exome: __type(name: \"VariantDetailsSequencingTypeData\") { fields { name } } genome: __type(name: \"VariantDetailsSequencingTypeData\") { fields { name } } joint: __type(name: \"VariantDetailsJointSequencingTypeData\") { fields { name } } }",
+  "nested_types": {
+    "data": {
+      "exome": {
+        "fields": [
+          {
+            "name": "ac"
+          },
+          {
+            "name": "an"
+          },
+          {
+            "name": "homozygote_count"
+          },
+          {
+            "name": "hemizygote_count"
+          },
+          {
+            "name": "faf95"
+          },
+          {
+            "name": "faf99"
+          },
+          {
+            "name": "filters"
+          },
+          {
+            "name": "flags"
+          },
+          {
+            "name": "populations"
+          },
+          {
+            "name": "local_ancestry_populations"
+          },
+          {
+            "name": "age_distribution"
+          },
+          {
+            "name": "quality_metrics"
+          },
+          {
+            "name": "qualityMetrics"
+          },
+          {
+            "name": "af"
+          },
+          {
+            "name": "ac_hom"
+          },
+          {
+            "name": "ac_hemi"
+          }
+        ]
+      },
+      "genome": {
+        "fields": [
+          {
+            "name": "ac"
+          },
+          {
+            "name": "an"
+          },
+          {
+            "name": "homozygote_count"
+          },
+          {
+            "name": "hemizygote_count"
+          },
+          {
+            "name": "faf95"
+          },
+          {
+            "name": "faf99"
+          },
+          {
+            "name": "filters"
+          },
+          {
+            "name": "flags"
+          },
+          {
+            "name": "populations"
+          },
+          {
+            "name": "local_ancestry_populations"
+          },
+          {
+            "name": "age_distribution"
+          },
+          {
+            "name": "quality_metrics"
+          },
+          {
+            "name": "qualityMetrics"
+          },
+          {
+            "name": "af"
+          },
+          {
+            "name": "ac_hom"
+          },
+          {
+            "name": "ac_hemi"
+          }
+        ]
+      },
+      "joint": {
+        "fields": [
+          {
+            "name": "ac"
+          },
+          {
+            "name": "an"
+          },
+          {
+            "name": "homozygote_count"
+          },
+          {
+            "name": "hemizygote_count"
+          },
+          {
+            "name": "faf95"
+          },
+          {
+            "name": "faf99"
+          },
+          {
+            "name": "filters"
+          },
+          {
+            "name": "populations"
+          },
+          {
+            "name": "age_distribution"
+          },
+          {
+            "name": "quality_metrics"
+          },
+          {
+            "name": "freq_comparison_stats"
+          }
+        ]
+      }
+    }
+  },
+  "fields_by_dataset_slice": {
+    "exome": [
+      "ac",
+      "ac_hemi",
+      "ac_hom",
+      "af",
+      "age_distribution",
+      "an",
+      "faf95",
+      "faf99",
+      "filters",
+      "flags",
+      "hemizygote_count",
+      "homozygote_count",
+      "local_ancestry_populations",
+      "populations",
+      "qualityMetrics",
+      "quality_metrics"
+    ],
+    "genome": [
+      "ac",
+      "ac_hemi",
+      "ac_hom",
+      "af",
+      "age_distribution",
+      "an",
+      "faf95",
+      "faf99",
+      "filters",
+      "flags",
+      "hemizygote_count",
+      "homozygote_count",
+      "local_ancestry_populations",
+      "populations",
+      "qualityMetrics",
+      "quality_metrics"
+    ],
+    "joint": [
+      "ac",
+      "age_distribution",
+      "an",
+      "faf95",
+      "faf99",
+      "filters",
+      "freq_comparison_stats",
+      "hemizygote_count",
+      "homozygote_count",
+      "populations",
+      "quality_metrics"
+    ]
+  }
+}

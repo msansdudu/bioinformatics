@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+                        
+<ClinVarResult-Set><VariationArchive VariationID="786695" VariationName="NM_001282112.2(TOP3B):c.1338C&gt;T (p.Thr446=)" VariationType="single nucleotide variant" Accession="VCV000786695" Version="5" RecordType="classified" NumberOfSubmissions="2" NumberOfSubmitters="2" DateLastUpdated="2025-05-17" DateCreated="2019-12-17" MostRecentSubmission="2024-10-08">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="717341" VariationID="786695">
+      <GeneList>
+        <Gene Symbol="TOP3B" FullName="DNA topoisomerase III beta" GeneID="8940" HGNC_ID="HGNC:11993" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>22q11.22</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="21957025" stop="21982787" display_start="21957025" display_stop="21982787" Strand="-"/>
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="22311402" stop="22337146" display_start="22311402" display_stop="22337146" Strand="-"/>
+          </Location>
+          <OMIM>603582</OMIM>
+          <Haploinsufficiency last_evaluated="2022-07-13" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=TOP3B">No evidence available</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2022-07-13" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=TOP3B">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NM_001282112.2(TOP3B):c.1338C&gt;T (p.Thr446=)</Name>
+      <CanonicalSPDI>NC_000022.11:21962759:G:A</CanonicalSPDI>
+      <VariantType>single nucleotide variant</VariantType>
+      <Location>
+        <CytogeneticLocation>22q11.22</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="21962760" stop="21962760" display_start="21962760" display_stop="21962760" variantLength="1" positionVCF="21962760" referenceAlleleVCF="G" alternateAlleleVCF="A"/>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="22317132" stop="22317132" display_start="22317132" display_stop="22317132" variantLength="1" positionVCF="22317132" referenceAlleleVCF="G" alternateAlleleVCF="A"/>
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.10" sequenceAccession="NC_000022" sequenceVersion="10" change="g.22317132G&gt;A" Assembly="GRCh37">
+            <Expression>NC_000022.10:g.22317132G&gt;A</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.11" sequenceAccession="NC_000022" sequenceVersion="11" change="g.21962760G&gt;A" Assembly="GRCh38">
+            <Expression>NC_000022.11:g.21962760G&gt;A</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001282112.2" sequenceAccession="NM_001282112" sequenceVersion="2" change="c.1338C&gt;T" MANESelect="true">
+            <Expression>NM_001282112.2:c.1338C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001269041.1" sequenceAccession="NP_001269041" sequenceVersion="1" change="p.Thr446=">
+            <Expression>NP_001269041.1:p.Thr446=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001282113.2" sequenceAccession="NM_001282113" sequenceVersion="2" change="c.1338C&gt;T">
+            <Expression>NM_001282113.2:c.1338C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001269042.1" sequenceAccession="NP_001269042" sequenceVersion="1" change="p.Thr446=">
+            <Expression>NP_001269042.1:p.Thr446=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001349845.2" sequenceAccession="NM_001349845" sequenceVersion="2" change="c.1338C&gt;T">
+            <Expression>NM_001349845.2:c.1338C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001336774.1" sequenceAccession="NP_001336774" sequenceVersion="1" change="p.Thr446=">
+            <Expression>NP_001336774.1:p.Thr446=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001349847.2" sequenceAccession="NM_001349847" sequenceVersion="2" change="c.1338C&gt;T">
+            <Expression>NM_001349847.2:c.1338C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001336776.1" sequenceAccession="NP_001336776" sequenceVersion="1" change="p.Thr446=">
+            <Expression>NP_001336776.1:p.Thr446=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001349848.2" sequenceAccession="NM_001349848" sequenceVersion="2" change="c.930C&gt;T">
+            <Expression>NM_001349848.2:c.930C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001336777.1" sequenceAccession="NP_001336777" sequenceVersion="1" change="p.Thr310=">
+            <Expression>NP_001336777.1:p.Thr310=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001349850.2" sequenceAccession="NM_001349850" sequenceVersion="2" change="c.930C&gt;T">
+            <Expression>NM_001349850.2:c.930C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001336779.1" sequenceAccession="NP_001336779" sequenceVersion="1" change="p.Thr310=">
+            <Expression>NP_001336779.1:p.Thr310=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001349851.2" sequenceAccession="NM_001349851" sequenceVersion="2" change="c.930C&gt;T">
+            <Expression>NM_001349851.2:c.930C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001336780.1" sequenceAccession="NP_001336780" sequenceVersion="1" change="p.Thr310=">
+            <Expression>NP_001336780.1:p.Thr310=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001349852.2" sequenceAccession="NM_001349852" sequenceVersion="2" change="c.930C&gt;T">
+            <Expression>NM_001349852.2:c.930C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001336781.1" sequenceAccession="NP_001336781" sequenceVersion="1" change="p.Thr310=">
+            <Expression>NP_001336781.1:p.Thr310=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_003935.5" sequenceAccession="NM_003935" sequenceVersion="5" change="c.1338C&gt;T">
+            <Expression>NM_003935.5:c.1338C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_003926.1" sequenceAccession="NP_003926" sequenceVersion="1" change="p.Thr446=">
+            <Expression>NP_003926.1:p.Thr446=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="non-coding">
+          <NucleotideExpression sequenceAccessionVersion="NR_146277.2" sequenceAccession="NR_146277" sequenceVersion="2" change="n.1576C&gt;T">
+            <Expression>NR_146277.2:n.1576C&gt;T</Expression>
+          </NucleotideExpression>
+          <MolecularConsequence ID="SO:0001619" Type="non-coding transcript variant" DB="SO"/>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA10125635" DB="ClinGen"/>
+        <XRef Type="rs" ID="115446312" DB="dbSNP"/>
+      </XRefList>
+      <AlleleFrequencyList>
+        <AlleleFrequency Value="0.00058" Source="The Genome Aggregation Database (gnomAD), exomes"/>
+        <AlleleFrequency Value="0.00155" Source="The Genome Aggregation Database (gnomAD), exomes"/>
+        <AlleleFrequency Value="0.00172" Source="Exome Aggregation Consortium (ExAC)"/>
+        <AlleleFrequency Value="0.00479" Source="1000 Genomes Project"/>
+        <AlleleFrequency Value="0.00484" Source="1000 Genomes Project 30x"/>
+        <AlleleFrequency Value="0.00594" Source="The Genome Aggregation Database (gnomAD)"/>
+        <AlleleFrequency Value="0.00647" Source="The Genome Aggregation Database (gnomAD)"/>
+        <AlleleFrequency Value="0.00661" Source="NHLBI Exome Sequencing Project (ESP) Exome Variant Server"/>
+        <AlleleFrequency Value="0.00692" Source="Trans-Omics for Precision Medicine (TOPMed)"/>
+      </AlleleFrequencyList>
+      <GlobalMinorAlleleFrequency Value="0.00479" Source="1000 Genomes Project" MinorAllele="A"/>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_001282112.2(TOP3B):c.1338C&gt;T (p.Thr446=) AND not provided" Accession="RCV000968792" Version="4">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="C3661900">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-04-10" SubmissionCount="1">Benign</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_001282112.2(TOP3B):c.1338C&gt;T (p.Thr446=) AND TOP3B-related disorder" Accession="RCV003928452" Version="2">
+        <ClassifiedConditionList TraitSetID="91157">
+          <ClassifiedCondition>TOP3B-related disorder</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2019-10-01" SubmissionCount="1">Benign</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2018-04-10" NumberOfSubmissions="2" NumberOfSubmitters="2" DateCreated="2019-12-17" MostRecentSubmission="2024-10-08">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Benign</Description>
+        <Explanation DataSource="ClinVar" Type="public">Benign (1)</Explanation>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Genomic Medicine Center of Excellence, King Faisal Specialist Hospital and Research Centre"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">RECLASSIFIED - ADRA2C POLYMORPHISM</ElementValue>
+                <XRef Type="Allelic variant" ID="104250.0001" DB="OMIM"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">RECLASSIFIED - ADRB1 POLYMORPHISM</ElementValue>
+                <XRef Type="Allelic variant" ID="109630.0001" DB="OMIM"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="C3661900" DB="MedGen"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="91157" Type="Disease" ContributesToAggregateClassification="false">
+            <Trait ID="72025" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">TOP3B-related condition</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">TOP3B-related disorder</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2084188" SubmissionDate="2019-03-14" ContributesToAggregateClassification="true" DateLastUpdated="2019-12-17" DateCreated="2019-12-17">
+        <ClinVarSubmissionID localKey="2155677|MedGen:CN517202" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV001116266" DateUpdated="2019-12-17" DateCreated="2019-12-17" Type="SCV" Version="1" SubmitterName="Labcorp Genetics (formerly Invitae), Labcorp" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-04-10">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Benign</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TOP3B"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_003935.4:c.1338C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="CN517202" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB5321749</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="8827206" SubmissionDate="2024-10-02" ContributesToAggregateClassification="false" DateLastUpdated="2024-10-08" DateCreated="2024-03-16">
+        <ClinVarSubmissionID localKey="2648869|TOP3B-related condition"/>
+        <ClinVarAccession Accession="SCV004745652" DateUpdated="2024-10-08" DateCreated="2024-03-16" Type="SCV" Version="2" SubmitterName="PreventionGenetics, part of Exact Sciences" OrgID="239772" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-10-01">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Benign</GermlineClassification>
+          <Comment>This variant is classified as benign based on ACMG/AMP sequence variant interpretation guidelines (Richards et al. 2015 PMID: 25741868, with internal and published modifications).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="TOP3B"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">2648869</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_003935.4:c.1338C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">TOP3B-related condition</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14299258</SubmissionName>
+          <SubmissionName>SUB14767648</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2084188" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="8827206" TraitType="Disease" MappingType="Name" MappingValue="TOP3B-related condition" MappingRef="Preferred">
+        <MedGen CUI="None" Name="TOP3B-related disorder"/>
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+</ClinVarResult-Set>

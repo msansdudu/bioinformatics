@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+                        
+<ClinVarResult-Set><VariationArchive VariationID="777663" VariationName="NM_003325.4(HIRA):c.1392C&gt;T (p.Leu464=)" VariationType="single nucleotide variant" Accession="VCV000777663" Version="6" RecordType="classified" NumberOfSubmissions="2" NumberOfSubmitters="2" DateLastUpdated="2025-05-17" DateCreated="2019-12-17" MostRecentSubmission="2024-10-08">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="705777" VariationID="777663">
+      <GeneList>
+        <Gene Symbol="HIRA" FullName="histone cell cycle regulator" GeneID="7290" HGNC_ID="HGNC:4916" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>22q11.21</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="19330698" stop="19431733" display_start="19330698" display_stop="19431733" Strand="-"/>
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="19318223" stop="19419218" display_start="19318223" display_stop="19419218" Strand="-"/>
+          </Location>
+          <OMIM>600237</OMIM>
+          <Haploinsufficiency last_evaluated="2012-08-28" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=HIRA">No evidence available</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2012-08-28" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=HIRA">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NM_003325.4(HIRA):c.1392C&gt;T (p.Leu464=)</Name>
+      <CanonicalSPDI>NC_000022.11:19383642:G:A</CanonicalSPDI>
+      <VariantType>single nucleotide variant</VariantType>
+      <Location>
+        <CytogeneticLocation>22q11.21</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="19383643" stop="19383643" display_start="19383643" display_stop="19383643" variantLength="1" positionVCF="19383643" referenceAlleleVCF="G" alternateAlleleVCF="A"/>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="19371166" stop="19371166" display_start="19371166" display_stop="19371166" variantLength="1" positionVCF="19371166" referenceAlleleVCF="G" alternateAlleleVCF="A"/>
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.10" sequenceAccession="NC_000022" sequenceVersion="10" change="g.19371166G&gt;A" Assembly="GRCh37">
+            <Expression>NC_000022.10:g.19371166G&gt;A</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.11" sequenceAccession="NC_000022" sequenceVersion="11" change="g.19383643G&gt;A" Assembly="GRCh38">
+            <Expression>NC_000022.11:g.19383643G&gt;A</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_009231.2" sequenceAccession="NG_009231" sequenceVersion="2" change="g.53054C&gt;T">
+            <Expression>NG_009231.2:g.53054C&gt;T</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_003325.4" sequenceAccession="NM_003325" sequenceVersion="4" change="c.1392C&gt;T" MANESelect="true">
+            <Expression>NM_003325.4:c.1392C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_003316.3" sequenceAccession="NP_003316" sequenceVersion="3" change="p.Leu464=">
+            <Expression>NP_003316.3:p.Leu464=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA10099710" DB="ClinGen"/>
+        <XRef Type="rs" ID="20550" DB="dbSNP"/>
+      </XRefList>
+      <AlleleFrequencyList>
+        <AlleleFrequency Value="0.00146" Source="The Genome Aggregation Database (gnomAD), exomes"/>
+        <AlleleFrequency Value="0.00186" Source="Exome Aggregation Consortium (ExAC)"/>
+        <AlleleFrequency Value="0.00516" Source="The Genome Aggregation Database (gnomAD)"/>
+        <AlleleFrequency Value="0.00539" Source="1000 Genomes Project"/>
+        <AlleleFrequency Value="0.00562" Source="1000 Genomes Project 30x"/>
+        <AlleleFrequency Value="0.00567" Source="The Genome Aggregation Database (gnomAD)"/>
+        <AlleleFrequency Value="0.00591" Source="Trans-Omics for Precision Medicine (TOPMed)"/>
+        <AlleleFrequency Value="0.00730" Source="NHLBI Exome Sequencing Project (ESP) Exome Variant Server"/>
+      </AlleleFrequencyList>
+      <GlobalMinorAlleleFrequency Value="0.00539" Source="1000 Genomes Project" MinorAllele="A"/>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_003325.4(HIRA):c.1392C&gt;T (p.Leu464=) AND not provided" Accession="RCV000958171" Version="5">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="C3661900">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2019-12-31" SubmissionCount="1">Benign</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_003325.4(HIRA):c.1392C&gt;T (p.Leu464=) AND HIRA-related disorder" Accession="RCV004533695" Version="2">
+        <ClassifiedConditionList TraitSetID="92695">
+          <ClassifiedCondition>HIRA-related disorder</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>no assertion criteria provided</ReviewStatus>
+            <Description DateLastEvaluated="2019-05-27" SubmissionCount="1">Benign</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2019-12-31" NumberOfSubmissions="2" NumberOfSubmitters="2" DateCreated="2019-12-17" MostRecentSubmission="2024-10-08">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Benign</Description>
+        <Explanation DataSource="ClinVar" Type="public">Benign (1)</Explanation>
+        <ConditionList>
+          <TraitSet ID="92695" Type="Disease" ContributesToAggregateClassification="false">
+            <Trait ID="72419" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">HIRA-related disorder</ElementValue>
+              </Name>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">RECLASSIFIED - ADRA2C POLYMORPHISM</ElementValue>
+                <XRef Type="Allelic variant" ID="104250.0001" DB="OMIM"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">RECLASSIFIED - ADRB1 POLYMORPHISM</ElementValue>
+                <XRef Type="Allelic variant" ID="109630.0001" DB="OMIM"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Genomic Medicine Center of Excellence, King Faisal Specialist Hospital and Research Centre"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="C3661900" DB="MedGen"/>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2072844" SubmissionDate="2020-01-29" ContributesToAggregateClassification="true" DateLastUpdated="2020-05-04" DateCreated="2019-12-17">
+        <ClinVarSubmissionID localKey="1903231|MedGen:CN517202" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV001104998" DateUpdated="2020-05-04" DateCreated="2019-12-17" Type="SCV" Version="2" SubmitterName="Labcorp Genetics (formerly Invitae), Labcorp" OrgID="500031" OrganizationCategory="laboratory" OrgAbbreviation="Invitae"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-12-31">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Benign</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="HIRA"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_003325.3:c.1392C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+            <XRef DB="MedGen" ID="CN517202" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6897608</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="8811075" SubmissionDate="2024-10-02" ContributesToAggregateClassification="false" DateLastUpdated="2024-10-08" DateCreated="2024-03-16">
+        <ClinVarSubmissionID localKey="989109|HIRA-related condition"/>
+        <ClinVarAccession Accession="SCV004736935" DateUpdated="2024-10-08" DateCreated="2024-03-16" Type="SCV" Version="2" SubmitterName="PreventionGenetics, part of Exact Sciences" OrgID="239772" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2019-05-27">
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Benign</GermlineClassification>
+          <Comment>This variant is classified as benign based on ACMG/AMP sequence variant interpretation guidelines (Richards et al. 2015 PMID: 25741868, with internal and published modifications).</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="HIRA"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">989109</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_003325.3:c.1392C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">HIRA-related condition</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14299258</SubmissionName>
+          <SubmissionName>SUB14767641</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="8811075" TraitType="Disease" MappingType="Name" MappingValue="HIRA-related condition" MappingRef="Preferred">
+        <MedGen CUI="None" Name="HIRA-related disorder"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2072844" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+</ClinVarResult-Set>

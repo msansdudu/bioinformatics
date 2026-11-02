@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+                        
+<ClinVarResult-Set><VariationArchive VariationID="902052" VariationName="NM_133642.5(LARGE1):c.1389C&gt;T (p.Tyr463=)" VariationType="single nucleotide variant" Accession="VCV000902052" Version="11" RecordType="classified" NumberOfSubmissions="3" NumberOfSubmitters="2" DateLastUpdated="2026-04-13" DateCreated="2020-05-31" MostRecentSubmission="2026-02-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="891190" VariationID="902052">
+      <GeneList>
+        <Gene Symbol="LARGE1" FullName="LARGE xylosyl- and glucuronyltransferase 1" GeneID="9215" HGNC_ID="HGNC:6511" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>22q12.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="33066663" stop="33922824" display_start="33066663" display_stop="33922824" Strand="-"/>
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="33669061" stop="34316415" display_start="33669061" display_stop="34316415" Strand="-"/>
+          </Location>
+          <OMIM>603590</OMIM>
+          <Haploinsufficiency last_evaluated="2016-08-22" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=LARGE1">Gene associated with autosomal recessive phenotype</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2016-08-22" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=LARGE1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NM_133642.5(LARGE1):c.1389C&gt;T (p.Tyr463=)</Name>
+      <CanonicalSPDI>NC_000022.11:33316146:G:A</CanonicalSPDI>
+      <VariantType>single nucleotide variant</VariantType>
+      <Location>
+        <CytogeneticLocation>22q12.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="33316147" stop="33316147" display_start="33316147" display_stop="33316147" variantLength="1" positionVCF="33316147" referenceAlleleVCF="G" alternateAlleleVCF="A"/>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="33712133" stop="33712133" display_start="33712133" display_stop="33712133" variantLength="1" referenceAllele="G" alternateAllele="A" positionVCF="33712133" referenceAlleleVCF="G" alternateAlleleVCF="A"/>
+      </Location>
+      <HGVSlist>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_004737.7" sequenceAccession="NM_004737" sequenceVersion="7" change="c.1389C&gt;T">
+            <Expression>NM_004737.7:c.1389C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_004728.1" sequenceAccession="NP_004728" sequenceVersion="1" change="p.Tyr463=">
+            <Expression>NP_004728.1:p.Tyr463=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_133642.5" sequenceAccession="NM_133642" sequenceVersion="5" change="c.1389C&gt;T" MANESelect="true">
+            <Expression>NM_133642.5:c.1389C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_598397.1" sequenceAccession="NP_598397" sequenceVersion="1" change="p.Tyr463=">
+            <Expression>NP_598397.1:p.Tyr463=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="LRG_856" sequenceAccession="LRG_856">
+            <Expression>LRG_856:g.609282C&gt;T</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="LRG_856t1" sequenceAccession="LRG_856t1">
+            <Expression>LRG_856t1:c.1389C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="LRG_856p1" sequenceAccession="LRG_856p1" change="p.Tyr463=">
+            <Expression>LRG_856p1:p.Tyr463=</Expression>
+          </ProteinExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="LRG_856t2" sequenceAccession="LRG_856t2">
+            <Expression>LRG_856t2:c.1389C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="LRG_856p2" sequenceAccession="LRG_856p2" change="p.Tyr463=">
+            <Expression>LRG_856p2:p.Tyr463=</Expression>
+          </ProteinExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.10" sequenceAccession="NC_000022" sequenceVersion="10" change="g.33712133G&gt;A" Assembly="GRCh37">
+            <Expression>NC_000022.10:g.33712133G&gt;A</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.11" sequenceAccession="NC_000022" sequenceVersion="11" change="g.33316147G&gt;A" Assembly="GRCh38">
+            <Expression>NC_000022.11:g.33316147G&gt;A</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_009929.2" sequenceAccession="NG_009929" sequenceVersion="2" change="g.609282C&gt;T">
+            <Expression>NG_009929.2:g.609282C&gt;T</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001362949.2" sequenceAccession="NM_001362949" sequenceVersion="2" change="c.1389C&gt;T">
+            <Expression>NM_001362949.2:c.1389C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001349878.1" sequenceAccession="NP_001349878" sequenceVersion="1" change="p.Tyr463=">
+            <Expression>NP_001349878.1:p.Tyr463=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001362951.2" sequenceAccession="NM_001362951" sequenceVersion="2" change="c.1389C&gt;T">
+            <Expression>NM_001362951.2:c.1389C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001349880.1" sequenceAccession="NP_001349880" sequenceVersion="1" change="p.Tyr463=">
+            <Expression>NP_001349880.1:p.Tyr463=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001362953.2" sequenceAccession="NM_001362953" sequenceVersion="2" change="c.1389C&gt;T">
+            <Expression>NM_001362953.2:c.1389C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001349882.1" sequenceAccession="NP_001349882" sequenceVersion="1" change="p.Tyr463=">
+            <Expression>NP_001349882.1:p.Tyr463=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001378624.1" sequenceAccession="NM_001378624" sequenceVersion="1" change="c.1389C&gt;T">
+            <Expression>NM_001378624.1:c.1389C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001365553.1" sequenceAccession="NP_001365553" sequenceVersion="1" change="p.Tyr463=">
+            <Expression>NP_001365553.1:p.Tyr463=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001378625.1" sequenceAccession="NM_001378625" sequenceVersion="1" change="c.1389C&gt;T">
+            <Expression>NM_001378625.1:c.1389C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001365554.1" sequenceAccession="NP_001365554" sequenceVersion="1" change="p.Tyr463=">
+            <Expression>NP_001365554.1:p.Tyr463=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001378626.1" sequenceAccession="NM_001378626" sequenceVersion="1" change="c.1389C&gt;T">
+            <Expression>NM_001378626.1:c.1389C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001365555.1" sequenceAccession="NP_001365555" sequenceVersion="1" change="p.Tyr463=">
+            <Expression>NP_001365555.1:p.Tyr463=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001378627.1" sequenceAccession="NM_001378627" sequenceVersion="1" change="c.1389C&gt;T">
+            <Expression>NM_001378627.1:c.1389C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001365556.1" sequenceAccession="NP_001365556" sequenceVersion="1" change="p.Tyr463=">
+            <Expression>NP_001365556.1:p.Tyr463=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001378628.1" sequenceAccession="NM_001378628" sequenceVersion="1" change="c.1389C&gt;T">
+            <Expression>NM_001378628.1:c.1389C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001365557.1" sequenceAccession="NP_001365557" sequenceVersion="1" change="p.Tyr463=">
+            <Expression>NP_001365557.1:p.Tyr463=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001378629.1" sequenceAccession="NM_001378629" sequenceVersion="1" change="c.1233C&gt;T">
+            <Expression>NM_001378629.1:c.1233C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001365558.1" sequenceAccession="NP_001365558" sequenceVersion="1" change="p.Tyr411=">
+            <Expression>NP_001365558.1:p.Tyr411=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001378630.1" sequenceAccession="NM_001378630" sequenceVersion="1" change="c.786C&gt;T">
+            <Expression>NM_001378630.1:c.786C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001365559.1" sequenceAccession="NP_001365559" sequenceVersion="1" change="p.Tyr262=">
+            <Expression>NP_001365559.1:p.Tyr262=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001378631.1" sequenceAccession="NM_001378631" sequenceVersion="1" change="c.630C&gt;T">
+            <Expression>NM_001378631.1:c.630C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001365560.1" sequenceAccession="NP_001365560" sequenceVersion="1" change="p.Tyr210=">
+            <Expression>NP_001365560.1:p.Tyr210=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA10202762" DB="ClinGen"/>
+        <XRef Type="rs" ID="115686643" DB="dbSNP"/>
+      </XRefList>
+      <AlleleFrequencyList>
+        <AlleleFrequency Value="0.00002" Source="Exome Aggregation Consortium (ExAC)"/>
+        <AlleleFrequency Value="0.00003" Source="The Genome Aggregation Database (gnomAD), exomes"/>
+        <AlleleFrequency Value="0.00003" Source="Trans-Omics for Precision Medicine (TOPMed)"/>
+        <AlleleFrequency Value="0.00004" Source="The Genome Aggregation Database (gnomAD)"/>
+        <AlleleFrequency Value="0.00004" Source="The Genome Aggregation Database (gnomAD), exomes"/>
+        <AlleleFrequency Value="0.00005" Source="The Genome Aggregation Database (gnomAD)"/>
+      </AlleleFrequencyList>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_133642.5(LARGE1):c.1389C&gt;T (p.Tyr463=) AND Muscular dystrophy-dystroglycanopathy type B6" Accession="RCV001148300" Version="14">
+        <ClassifiedConditionList TraitSetID="1723">
+          <ClassifiedCondition DB="MedGen" ID="C1837229">Muscular dystrophy-dystroglycanopathy type B6</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, conflicting classifications</ReviewStatus>
+            <Description DateLastEvaluated="2025-02-20" SubmissionCount="2">Conflicting classifications of pathogenicity</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_133642.5(LARGE1):c.1389C&gt;T (p.Tyr463=) AND Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A6" Accession="RCV001148301" Version="4">
+        <ClassifiedConditionList TraitSetID="1724">
+          <ClassifiedCondition DB="MedGen" ID="C3150414">Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A6</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2018-01-15" SubmissionCount="1">Uncertain significance</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2025-02-20" NumberOfSubmissions="3" NumberOfSubmitters="2" DateCreated="2020-05-31" MostRecentSubmission="2026-02-15">
+        <ReviewStatus>criteria provided, conflicting classifications</ReviewStatus>
+        <Description>Conflicting classifications of pathogenicity</Description>
+        <Explanation DataSource="ClinVar" Type="public">Uncertain significance (2); Likely benign (1)</Explanation>
+        <Comment DataSource="ClinVar" Type="public">Uncertain significance(2); Likely benign(1)</Comment>
+        <DescriptionHistory Dated="2022-08-22">
+          <Description>Uncertain significance</Description>
+        </DescriptionHistory>
+        <DescriptionHistory Dated="2022-08-07">
+          <Description>Conflicting classifications of pathogenicity</Description>
+        </DescriptionHistory>
+        <DescriptionHistory Dated="2022-04-07">
+          <Description>Uncertain significance</Description>
+        </DescriptionHistory>
+        <ConditionList>
+          <TraitSet ID="1724" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="10225" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">MUSCULAR DYSTROPHY-DYSTROGLYCANOPATHY (CONGENITAL WITH BRAIN AND EYE ANOMALIES), TYPE A, 6</ElementValue>
+                <XRef Type="MIM" ID="613154" DB="OMIM"/>
+                <XRef Type="Allelic variant" ID="603590.0005" DB="OMIM"/>
+                <XRef Type="Allelic variant" ID="603590.0003" DB="OMIM"/>
+                <XRef Type="Allelic variant" ID="603590.0004" DB="OMIM"/>
+                <XRef Type="Allelic variant" ID="603590.0006" DB="OMIM"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A6</ElementValue>
+                <XRef ID="MONDO:0013158" DB="MONDO"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">WALKER-WARBURG SYNDROME OR MUSCLE-EYE-BRAIN DISEASE, LARGE-RELATED</ElementValue>
+                <XRef Type="MIM" ID="613154" DB="OMIM"/>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">MDDGA6</ElementValue>
+                <XRef Type="MIM" ID="613154" DB="OMIM"/>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="15626"/>
+                <XRef ID="15626" DB="Office of Rare Diseases"/>
+              </AttributeSet>
+              <XRef ID="588" DB="Orphanet"/>
+              <XRef ID="899" DB="Orphanet"/>
+              <XRef ID="C3150414" DB="MedGen"/>
+              <XRef ID="MONDO:0013158" DB="MONDO"/>
+              <XRef Type="MIM" ID="613154" DB="OMIM"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="1723" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2985" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">MUSCULAR DYSTROPHY-DYSTROGLYCANOPATHY (CONGENITAL WITH IMPAIRED INTELLECTUAL DEVELOPMENT), TYPE B, 6</ElementValue>
+                <XRef Type="MIM" ID="608840" DB="OMIM"/>
+                <XRef Type="Allelic variant" ID="603590.0002" DB="OMIM"/>
+                <XRef Type="Allelic variant" ID="603590.0007" DB="OMIM"/>
+                <XRef Type="Allelic variant" ID="603590.0008" DB="OMIM"/>
+                <XRef Type="Allelic variant" ID="603590.0001" DB="OMIM"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Muscular dystrophy-dystroglycanopathy type B6</ElementValue>
+                <XRef ID="MONDO:0012138" DB="MONDO"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">MUSCULAR DYSTROPHY, CONGENITAL, LARGE-RELATED</ElementValue>
+                <XRef Type="MIM" ID="608840" DB="OMIM"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">MUSCULAR DYSTROPHY, CONGENITAL, TYPE 1D</ElementValue>
+                <XRef Type="MIM" ID="608840" DB="OMIM"/>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">MDC1D</ElementValue>
+                <XRef Type="MIM" ID="608840" DB="OMIM"/>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">MDDGB6</ElementValue>
+                <XRef Type="MIM" ID="608840" DB="OMIM"/>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="24846"/>
+                <XRef ID="24846" DB="Office of Rare Diseases"/>
+              </AttributeSet>
+              <Citation Type="general" Abbrev="ISCCCMD, 2010">
+                <ID Source="PubMed">21078917</ID>
+              </Citation>
+              <XRef ID="C1837229" DB="MedGen"/>
+              <XRef ID="MONDO:0012138" DB="MONDO"/>
+              <XRef Type="MIM" ID="608840" DB="OMIM"/>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="2535921" SubmissionDate="2020-02-20" ContributesToAggregateClassification="true" DateLastUpdated="2020-05-31" DateCreated="2020-05-31">
+        <ClinVarSubmissionID localKey="1641630|OMIM:608840" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV001309189" DateUpdated="2020-05-31" DateCreated="2020-05-31" Type="SCV" Version="1" SubmitterName="Illumina Laboratory Services, Illumina" OrgID="504895" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-01-15">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Uncertain significance</GermlineClassification>
+          <Comment>This variant was observed in the ICSL laboratory as part of a predisposition screen in an ostensibly healthy population. It had not been previously curated by ICSL or reported in the Human Gene Mutation Database (HGMD: prior to June 1st, 2018), and was therefore a candidate for classification through an automated scoring system. Utilizing variant allele frequency, disease prevalence and penetrance estimates, and inheritance mode, an automated score was calculated to assess if this variant is too frequent to cause the disease. Based on the score, this variant could not be ruled out of causing disease and therefore its association with disease required further investigation. A literature search was performed for the gene, cDNA change, and amino acid change (if applicable). No publications were found based on this search. This variant was therefore classified as a variant of unknown significance for this disease.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ICSL Variant Classification Criteria 13 December 2019</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/r0x0xrmc/icsl_variant_classification_criteria_13_december_2019.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="LARGE"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="22" alternateAllele="A" referenceAllele="G" start="33712133" stop="33712133" variantLength="1"/>
+          </Location>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_004737.4:c.1389C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="608840" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6641900</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="2535922" SubmissionDate="2020-02-20" ContributesToAggregateClassification="true" DateLastUpdated="2020-05-31" DateCreated="2020-05-31">
+        <ClinVarSubmissionID localKey="1641630|OMIM:613154" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV001309190" DateUpdated="2020-05-31" DateCreated="2020-05-31" Type="SCV" Version="1" SubmitterName="Illumina Laboratory Services, Illumina" OrgID="504895" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-01-15">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Uncertain significance</GermlineClassification>
+          <Comment>This variant was observed in the ICSL laboratory as part of a predisposition screen in an ostensibly healthy population. It had not been previously curated by ICSL or reported in the Human Gene Mutation Database (HGMD: prior to June 1st, 2018), and was therefore a candidate for classification through an automated scoring system. Utilizing variant allele frequency, disease prevalence and penetrance estimates, and inheritance mode, an automated score was calculated to assess if this variant is too frequent to cause the disease. Based on the score, this variant could not be ruled out of causing disease and therefore its association with disease required further investigation. A literature search was performed for the gene, cDNA change, and amino acid change (if applicable). No publications were found based on this search. This variant was therefore classified as a variant of unknown significance for this disease.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ICSL Variant Classification Criteria 13 December 2019</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/r0x0xrmc/icsl_variant_classification_criteria_13_december_2019.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="LARGE"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="22" alternateAllele="A" referenceAllele="G" start="33712133" stop="33712133" variantLength="1"/>
+          </Location>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_004737.4:c.1389C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="613154" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6641900</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="4659375" SubmissionDate="2026-02-05" ContributesToAggregateClassification="true" DateLastUpdated="2026-02-15" DateCreated="2022-04-08">
+        <ClinVarSubmissionID localKey="1120748|MedGen:C1837229" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV002433715" DateUpdated="2026-02-15" DateCreated="2022-04-08" Type="SCV" Version="5" SubmitterName="Labcorp Genetics (formerly Invitae), Labcorp" OrgID="500031" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2025-02-20">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Likely benign</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="LARGE1"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000022.10:g.33712133G&gt;A</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1837229" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11172999</SubmissionName>
+          <SubmissionName>SUB12506961</SubmissionName>
+          <SubmissionName>SUB14200269</SubmissionName>
+          <SubmissionName>SUB15072707</SubmissionName>
+          <SubmissionName>SUB15987645</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="2535921" TraitType="Disease" MappingType="XRef" MappingValue="608840" MappingRef="OMIM">
+        <MedGen CUI="C1837229" Name="Muscular dystrophy-dystroglycanopathy type B6"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="2535922" TraitType="Disease" MappingType="XRef" MappingValue="613154" MappingRef="OMIM">
+        <MedGen CUI="C3150414" Name="Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A6"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="4659375" TraitType="Disease" MappingType="XRef" MappingValue="C1837229" MappingRef="MedGen">
+        <MedGen CUI="C1837229" Name="Muscular dystrophy-dystroglycanopathy type B6"/>
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+</ClinVarResult-Set>

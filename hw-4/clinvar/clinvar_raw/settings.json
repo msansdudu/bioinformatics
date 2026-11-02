@@ -1,0 +1,13 @@
+{
+  "source": "NCBI ClinVar via Entrez E-utilities (esearch.fcgi by rsID and chromosome/position [chrpos38], then efetch.fcgi rettype=vcv retmode=xml is_variationid=1)",
+  "input": "student_31.vcf",
+  "assembly": "GRCh38",
+  "coordinate_search_field": "NCBI ClinVar ESearch [chrpos38], confirmed in ESearch querytranslation; EInfo also lists C37 as the separate GRCh37 field.",
+  "matching": "Exact chromosome, VCF position, REF and ALT compared to ClinVar SequenceLocation Assembly=GRCh38 VCF-normalized fields; rsID and explicit chrpos38 searches only retrieve candidates.",
+  "empty_search": "count=0 is treated as not_found; HTTP/XML/JSON errors abort the run and do not become not_found.",
+  "retrieved_utc": "2026-11-02T07:50:45+00:00",
+  "output": "clinvar_student31.tsv",
+  "rows": 50,
+  "found": 22,
+  "not_found": 28
+}

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+                        
+<ClinVarResult-Set><VariationArchive VariationID="1180930" VariationName="NM_001670.3(ARVCF):c.1182G&gt;C (p.Arg394=)" VariationType="single nucleotide variant" Accession="VCV001180930" Version="3" RecordType="classified" NumberOfSubmissions="2" NumberOfSubmitters="2" DateLastUpdated="2025-05-17" DateCreated="2021-07-24" MostRecentSubmission="2024-09-29">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="1173448" VariationID="1180930">
+      <GeneList>
+        <Gene Symbol="ARVCF" FullName="ARVCF delta catenin family member" GeneID="421" HGNC_ID="HGNC:728" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>22q11.21</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="19965134" stop="20016823" display_start="19965134" display_stop="20016823" Strand="-"/>
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="19957401" stop="20004308" display_start="19957401" display_stop="20004308" Strand="-"/>
+          </Location>
+          <OMIM>602269</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_001670.3(ARVCF):c.1182G&gt;C (p.Arg394=)</Name>
+      <CanonicalSPDI>NC_000022.11:19979956:C:G</CanonicalSPDI>
+      <VariantType>single nucleotide variant</VariantType>
+      <Location>
+        <CytogeneticLocation>22q11.21</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="19979957" stop="19979957" display_start="19979957" display_stop="19979957" variantLength="1" positionVCF="19979957" referenceAlleleVCF="C" alternateAlleleVCF="G"/>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="19967480" stop="19967480" display_start="19967480" display_stop="19967480" variantLength="1" positionVCF="19967480" referenceAlleleVCF="C" alternateAlleleVCF="G"/>
+      </Location>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.10" sequenceAccession="NC_000022" sequenceVersion="10" change="g.19967480C&gt;G" Assembly="GRCh37">
+            <Expression>NC_000022.10:g.19967480C&gt;G</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.11" sequenceAccession="NC_000022" sequenceVersion="11" change="g.19979957C&gt;G" Assembly="GRCh38">
+            <Expression>NC_000022.11:g.19979957C&gt;G</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_023326.1" sequenceAccession="NG_023326" sequenceVersion="1" change="g.41830G&gt;C">
+            <Expression>NG_023326.1:g.41830G&gt;C</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001670.3" sequenceAccession="NM_001670" sequenceVersion="3" change="c.1182G&gt;C" MANESelect="true">
+            <Expression>NM_001670.3:c.1182G&gt;C</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001661.1" sequenceAccession="NP_001661" sequenceVersion="1" change="p.Arg394=">
+            <Expression>NP_001661.1:p.Arg394=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA10105674" DB="ClinGen"/>
+        <XRef Type="rs" ID="74544696" DB="dbSNP"/>
+      </XRefList>
+      <AlleleFrequencyList>
+        <AlleleFrequency Value="0.01950" Source="NHLBI Exome Sequencing Project (ESP) Exome Variant Server"/>
+        <AlleleFrequency Value="0.02058" Source="The Genome Aggregation Database (gnomAD), exomes"/>
+        <AlleleFrequency Value="0.02276" Source="The Genome Aggregation Database (gnomAD)"/>
+        <AlleleFrequency Value="0.02381" Source="The Genome Aggregation Database (gnomAD)"/>
+        <AlleleFrequency Value="0.02395" Source="Trans-Omics for Precision Medicine (TOPMed)"/>
+        <AlleleFrequency Value="0.02459" Source="The Genome Aggregation Database (gnomAD), exomes"/>
+        <AlleleFrequency Value="0.03389" Source="1000 Genomes Project 30x"/>
+        <AlleleFrequency Value="0.03601" Source="Exome Aggregation Consortium (ExAC)"/>
+        <AlleleFrequency Value="0.03634" Source="1000 Genomes Project"/>
+      </AlleleFrequencyList>
+      <GlobalMinorAlleleFrequency Value="0.03634" Source="1000 Genomes Project" MinorAllele="G"/>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_001670.3(ARVCF):c.1182G&gt;C (p.Arg394=) AND not provided" Accession="RCV001538172" Version="3">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="C3661900">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, multiple submitters, no conflicts</ReviewStatus>
+            <Description DateLastEvaluated="2021-05-05" SubmissionCount="2">Benign</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2021-05-05" NumberOfSubmissions="2" NumberOfSubmitters="2" DateCreated="2021-07-24" MostRecentSubmission="2024-09-29">
+        <ReviewStatus>criteria provided, multiple submitters, no conflicts</ReviewStatus>
+        <Description>Benign</Description>
+        <Explanation DataSource="ClinVar" Type="public">Benign (2)</Explanation>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Genomic Medicine Center of Excellence, King Faisal Specialist Hospital and Research Centre"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">RECLASSIFIED - ADRA2C POLYMORPHISM</ElementValue>
+                <XRef Type="Allelic variant" ID="104250.0001" DB="OMIM"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">RECLASSIFIED - ADRB1 POLYMORPHISM</ElementValue>
+                <XRef Type="Allelic variant" ID="109630.0001" DB="OMIM"/>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="C3661900" DB="MedGen"/>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="3453668" SubmissionDate="2021-07-20" ContributesToAggregateClassification="true" DateLastUpdated="2021-07-24" DateCreated="2021-07-24">
+        <ClinVarSubmissionID localKey="GDXSV:11820" localKeyIsSubmitted="1"/>
+        <ClinVarAccession Accession="SCV001755784" DateUpdated="2021-07-24" DateCreated="2021-07-24" Type="SCV" Version="1" SubmitterName="GeneDx" OrgID="26957" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-05-05">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Benign</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">GeneDx Variant Classification Process June 2021</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/fc81e176/genedx_variant_classification_process_june_2021.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ARVCF"/>
+          </GeneList>
+          <VariantType>single nucleotide variant</VariantType>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">GDX:4733798</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_001670.2:c.1182G&gt;C</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Not Provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>GeneDX_Clinvar_Submission_18_20210720144155</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="10171379" SubmissionDate="2024-09-16" ContributesToAggregateClassification="true" DateLastUpdated="2024-09-29" DateCreated="2024-09-29">
+        <ClinVarSubmissionID localKey="a85b5d76-8e4f-4869-91db-77ddd6309306|not provided"/>
+        <ClinVarAccession Accession="SCV005275388" DateUpdated="2024-09-29" DateCreated="2024-09-29" Type="SCV" Version="1" SubmitterName="Breakthrough Genomics, Breakthrough Genomics" OrgID="509169" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Benign</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Unknown mechanism</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>not provided</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="22" alternateAllele="G" referenceAllele="C" start="19967480" stop="19967480"/>
+          </Location>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">a85b5d76-8e4f-4869-91db-77ddd6309306</Name>
+          </OtherNameList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14729669</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="10171379" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="3453668" TraitType="Disease" MappingType="Name" MappingValue="Not Provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+</ClinVarResult-Set>

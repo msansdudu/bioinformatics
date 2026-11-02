@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+                        
+<ClinVarResult-Set><VariationArchive VariationID="95174" VariationName="NM_133642.5(LARGE1):c.309C&gt;T (p.Ser103=)" VariationType="single nucleotide variant" Accession="VCV000095174" Version="27" RecordType="classified" NumberOfSubmissions="10" NumberOfSubmitters="9" DateLastUpdated="2026-04-13" DateCreated="2014-11-23" MostRecentSubmission="2026-02-15">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="101074" VariationID="95174">
+      <GeneList>
+        <Gene Symbol="LARGE1" FullName="LARGE xylosyl- and glucuronyltransferase 1" GeneID="9215" HGNC_ID="HGNC:6511" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>22q12.3</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="33066663" stop="33922824" display_start="33066663" display_stop="33922824" Strand="-"/>
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="33669061" stop="34316415" display_start="33669061" display_stop="34316415" Strand="-"/>
+          </Location>
+          <OMIM>603590</OMIM>
+          <Haploinsufficiency last_evaluated="2016-08-22" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=LARGE1">Gene associated with autosomal recessive phenotype</Haploinsufficiency>
+          <Triplosensitivity last_evaluated="2016-08-22" ClinGen="https://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=LARGE1">No evidence available</Triplosensitivity>
+        </Gene>
+      </GeneList>
+      <Name>NM_133642.5(LARGE1):c.309C&gt;T (p.Ser103=)</Name>
+      <CanonicalSPDI>NC_000022.11:33650465:G:A</CanonicalSPDI>
+      <VariantType>single nucleotide variant</VariantType>
+      <Location>
+        <CytogeneticLocation>22q12.3</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="33650466" stop="33650466" display_start="33650466" display_stop="33650466" variantLength="1" positionVCF="33650466" referenceAlleleVCF="G" alternateAlleleVCF="A"/>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="34046452" stop="34046452" display_start="34046452" display_stop="34046452" variantLength="1" positionVCF="34046452" referenceAlleleVCF="G" alternateAlleleVCF="A"/>
+      </Location>
+      <OtherNameList>
+        <Name>p.S103S:TCC&gt;TCT</Name>
+        <Name>p.Ser103=</Name>
+      </OtherNameList>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.10" sequenceAccession="NC_000022" sequenceVersion="10" change="g.34046452G&gt;A" Assembly="GRCh37">
+            <Expression>NC_000022.10:g.34046452G&gt;A</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.11" sequenceAccession="NC_000022" sequenceVersion="11" change="g.33650466G&gt;A" Assembly="GRCh38">
+            <Expression>NC_000022.11:g.33650466G&gt;A</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_009929.2" sequenceAccession="NG_009929" sequenceVersion="2" change="g.274963C&gt;T">
+            <Expression>NG_009929.2:g.274963C&gt;T</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001362949.2" sequenceAccession="NM_001362949" sequenceVersion="2" change="c.309C&gt;T">
+            <Expression>NM_001362949.2:c.309C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001349878.1" sequenceAccession="NP_001349878" sequenceVersion="1" change="p.Ser103=">
+            <Expression>NP_001349878.1:p.Ser103=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001362951.2" sequenceAccession="NM_001362951" sequenceVersion="2" change="c.309C&gt;T">
+            <Expression>NM_001362951.2:c.309C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001349880.1" sequenceAccession="NP_001349880" sequenceVersion="1" change="p.Ser103=">
+            <Expression>NP_001349880.1:p.Ser103=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001362953.2" sequenceAccession="NM_001362953" sequenceVersion="2" change="c.309C&gt;T">
+            <Expression>NM_001362953.2:c.309C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001349882.1" sequenceAccession="NP_001349882" sequenceVersion="1" change="p.Ser103=">
+            <Expression>NP_001349882.1:p.Ser103=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001378624.1" sequenceAccession="NM_001378624" sequenceVersion="1" change="c.309C&gt;T">
+            <Expression>NM_001378624.1:c.309C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001365553.1" sequenceAccession="NP_001365553" sequenceVersion="1" change="p.Ser103=">
+            <Expression>NP_001365553.1:p.Ser103=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001378625.1" sequenceAccession="NM_001378625" sequenceVersion="1" change="c.309C&gt;T">
+            <Expression>NM_001378625.1:c.309C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001365554.1" sequenceAccession="NP_001365554" sequenceVersion="1" change="p.Ser103=">
+            <Expression>NP_001365554.1:p.Ser103=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001378626.1" sequenceAccession="NM_001378626" sequenceVersion="1" change="c.309C&gt;T">
+            <Expression>NM_001378626.1:c.309C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001365555.1" sequenceAccession="NP_001365555" sequenceVersion="1" change="p.Ser103=">
+            <Expression>NP_001365555.1:p.Ser103=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001378627.1" sequenceAccession="NM_001378627" sequenceVersion="1" change="c.309C&gt;T">
+            <Expression>NM_001378627.1:c.309C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001365556.1" sequenceAccession="NP_001365556" sequenceVersion="1" change="p.Ser103=">
+            <Expression>NP_001365556.1:p.Ser103=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001378628.1" sequenceAccession="NM_001378628" sequenceVersion="1" change="c.309C&gt;T">
+            <Expression>NM_001378628.1:c.309C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001365557.1" sequenceAccession="NP_001365557" sequenceVersion="1" change="p.Ser103=">
+            <Expression>NP_001365557.1:p.Ser103=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001378629.1" sequenceAccession="NM_001378629" sequenceVersion="1" change="c.309C&gt;T">
+            <Expression>NM_001378629.1:c.309C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001365558.1" sequenceAccession="NP_001365558" sequenceVersion="1" change="p.Ser103=">
+            <Expression>NP_001365558.1:p.Ser103=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_004737.7" sequenceAccession="NM_004737" sequenceVersion="7" change="c.309C&gt;T">
+            <Expression>NM_004737.7:c.309C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_004728.1" sequenceAccession="NP_004728" sequenceVersion="1" change="p.Ser103=">
+            <Expression>NP_004728.1:p.Ser103=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_133642.5" sequenceAccession="NM_133642" sequenceVersion="5" change="c.309C&gt;T" MANESelect="true">
+            <Expression>NM_133642.5:c.309C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_598397.1" sequenceAccession="NP_598397" sequenceVersion="1" change="p.Ser103=">
+            <Expression>NP_598397.1:p.Ser103=</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001819" Type="synonymous variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="LRG_856" sequenceAccession="LRG_856">
+            <Expression>LRG_856:g.274963C&gt;T</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="LRG_856t1" sequenceAccession="LRG_856t1">
+            <Expression>LRG_856t1:c.309C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="LRG_856p1" sequenceAccession="LRG_856p1" change="p.Ser103=">
+            <Expression>LRG_856p1:p.Ser103=</Expression>
+          </ProteinExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="LRG_856t2" sequenceAccession="LRG_856t2">
+            <Expression>LRG_856t2:c.309C&gt;T</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="LRG_856p2" sequenceAccession="LRG_856p2" change="p.Ser103=">
+            <Expression>LRG_856p2:p.Ser103=</Expression>
+          </ProteinExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_004737.6" sequenceAccession="NM_004737" sequenceVersion="6" change="c.309C&gt;T">
+            <Expression>NM_004737.6:c.309C&gt;T</Expression>
+          </NucleotideExpression>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA285638" DB="ClinGen"/>
+        <XRef Type="rs" ID="59349720" DB="dbSNP"/>
+      </XRefList>
+      <AlleleFrequencyList>
+        <AlleleFrequency Value="0.00173" Source="The Genome Aggregation Database (gnomAD), exomes"/>
+        <AlleleFrequency Value="0.00457" Source="The Genome Aggregation Database (gnomAD), exomes"/>
+        <AlleleFrequency Value="0.00564" Source="Exome Aggregation Consortium (ExAC)"/>
+        <AlleleFrequency Value="0.01803" Source="The Genome Aggregation Database (gnomAD)"/>
+        <AlleleFrequency Value="0.01920" Source="The Genome Aggregation Database (gnomAD)"/>
+        <AlleleFrequency Value="0.01988" Source="Trans-Omics for Precision Medicine (TOPMed)"/>
+        <AlleleFrequency Value="0.02014" Source="NHLBI Exome Sequencing Project (ESP) Exome Variant Server"/>
+        <AlleleFrequency Value="0.02276" Source="1000 Genomes Project"/>
+        <AlleleFrequency Value="0.02514" Source="1000 Genomes Project 30x"/>
+      </AlleleFrequencyList>
+      <GlobalMinorAlleleFrequency Value="0.02276" Source="1000 Genomes Project" MinorAllele="A"/>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_133642.5(LARGE1):c.309C&gt;T (p.Ser103=) AND not specified" Accession="RCV000081180" Version="24">
+        <ClassifiedConditionList TraitSetID="9590">
+          <ClassifiedCondition DB="MedGen" ID="CN169374">not specified</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, multiple submitters, no conflicts</ReviewStatus>
+            <Description DateLastEvaluated="2024-12-23" SubmissionCount="6">Benign</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_133642.5(LARGE1):c.309C&gt;T (p.Ser103=) AND Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A6" Accession="RCV000320123" Version="6">
+        <ClassifiedConditionList TraitSetID="1724">
+          <ClassifiedCondition DB="MedGen" ID="C3150414">Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A6</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2017-04-27" SubmissionCount="1">Likely benign</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_133642.5(LARGE1):c.309C&gt;T (p.Ser103=) AND Muscular dystrophy-dystroglycanopathy type B6" Accession="RCV000544713" Version="18">
+        <ClassifiedConditionList TraitSetID="1723">
+          <ClassifiedCondition DB="MedGen" ID="C1837229">Muscular dystrophy-dystroglycanopathy type B6</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, multiple submitters, no conflicts</ReviewStatus>
+            <Description DateLastEvaluated="2026-02-01" SubmissionCount="2">Benign/Likely benign</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_133642.5(LARGE1):c.309C&gt;T (p.Ser103=) AND not provided" Accession="RCV004703226" Version="1">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="C3661900">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description SubmissionCount="1">Likely benign</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2026-02-01" NumberOfSubmissions="10" NumberOfSubmitters="9" DateCreated="2014-11-23" MostRecentSubmission="2026-02-15">
+        <ReviewStatus>criteria provided, multiple submitters, no conflicts</ReviewStatus>
+        <Description>Benign/Likely benign</Description>
+        <Explanation DataSource="ClinVar" Type="public">Benign (6); Likely benign (3)</Explanation>
+        <Citation Type="general">
+          <URL>http://www.egl-eurofins.com/emvclass/emvclass.php?approved_symbol=LARGE1</URL>
+        </Citation>
+        <ConditionList>
+          <TraitSet ID="1724" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="10225" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">WALKER-WARBURG SYNDROME OR MUSCLE-EYE-BRAIN DISEASE, LARGE-RELATED</ElementValue>
+                <XRef Type="MIM" ID="613154" DB="OMIM"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A6</ElementValue>
+                <XRef ID="MONDO:0013158" DB="MONDO"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">MUSCULAR DYSTROPHY-DYSTROGLYCANOPATHY (CONGENITAL WITH BRAIN AND EYE ANOMALIES), TYPE A, 6</ElementValue>
+                <XRef Type="MIM" ID="613154" DB="OMIM"/>
+                <XRef Type="Allelic variant" ID="603590.0005" DB="OMIM"/>
+                <XRef Type="Allelic variant" ID="603590.0003" DB="OMIM"/>
+                <XRef Type="Allelic variant" ID="603590.0004" DB="OMIM"/>
+                <XRef Type="Allelic variant" ID="603590.0006" DB="OMIM"/>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">MDDGA6</ElementValue>
+                <XRef Type="MIM" ID="613154" DB="OMIM"/>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="15626"/>
+                <XRef ID="15626" DB="Office of Rare Diseases"/>
+              </AttributeSet>
+              <XRef ID="588" DB="Orphanet"/>
+              <XRef ID="899" DB="Orphanet"/>
+              <XRef ID="C3150414" DB="MedGen"/>
+              <XRef ID="MONDO:0013158" DB="MONDO"/>
+              <XRef Type="MIM" ID="613154" DB="OMIM"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="1723" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="2985" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Muscular dystrophy-dystroglycanopathy type B6</ElementValue>
+                <XRef ID="MONDO:0012138" DB="MONDO"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">MUSCULAR DYSTROPHY-DYSTROGLYCANOPATHY (CONGENITAL WITH IMPAIRED INTELLECTUAL DEVELOPMENT), TYPE B, 6</ElementValue>
+                <XRef Type="MIM" ID="608840" DB="OMIM"/>
+                <XRef Type="Allelic variant" ID="603590.0002" DB="OMIM"/>
+                <XRef Type="Allelic variant" ID="603590.0007" DB="OMIM"/>
+                <XRef Type="Allelic variant" ID="603590.0008" DB="OMIM"/>
+                <XRef Type="Allelic variant" ID="603590.0001" DB="OMIM"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">MUSCULAR DYSTROPHY, CONGENITAL, LARGE-RELATED</ElementValue>
+                <XRef Type="MIM" ID="608840" DB="OMIM"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">MUSCULAR DYSTROPHY, CONGENITAL, TYPE 1D</ElementValue>
+                <XRef Type="MIM" ID="608840" DB="OMIM"/>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">MDC1D</ElementValue>
+                <XRef Type="MIM" ID="608840" DB="OMIM"/>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Preferred">MDDGB6</ElementValue>
+                <XRef Type="MIM" ID="608840" DB="OMIM"/>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="24846"/>
+                <XRef ID="24846" DB="Office of Rare Diseases"/>
+              </AttributeSet>
+              <Citation Type="general" Abbrev="ISCCCMD, 2010">
+                <ID Source="PubMed">21078917</ID>
+              </Citation>
+              <XRef ID="C1837229" DB="MedGen"/>
+              <XRef ID="MONDO:0012138" DB="MONDO"/>
+              <XRef Type="MIM" ID="608840" DB="OMIM"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="9590" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="16789" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">not specified</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">AllHighlyPenetrant</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not specified' was created for use in ClinVar so that submitters can convey the concept that a variant is benign, likely benign, or of uncertain significance for an unspecified set of disorders.  This usage was introduced in 2014 to replace AllHighlyPenetrant.</Attribute>
+              </AttributeSet>
+              <XRef ID="CN169374" DB="MedGen"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Genomic Medicine Center of Excellence, King Faisal Specialist Hospital and Research Centre"/>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="C3661900" DB="MedGen"/>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="13942797" SubmissionDate="2025-12-24" ContributesToAggregateClassification="true" DateLastUpdated="2026-01-11" DateCreated="2026-01-11">
+        <ClinVarSubmissionID localKey="A23042|not specified" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV007298325" DateUpdated="2026-01-11" DateCreated="2026-01-11" Type="SCV" Version="1" SubmitterName="Athena Diagnostics" OrgID="1012" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2024-12-23">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>benign</GermlineClassification>
+          <Comment Type="public">The frequency of this variant in the general population (http://gnomad.broadinstitute.org) is higher than would generally be expected for pathogenic variants in this gene.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Athena Diagnostics Criteria</Attribute>
+          <Citation>
+            <ID Source="PubMed">26467025</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>unknown</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_004737.4:c.309C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not specified</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB15895062</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="341350" SubmissionDate="2014-09-11" ContributesToAggregateClassification="false" DateLastUpdated="2014-11-23" DateCreated="2014-11-23">
+        <ClinVarSubmissionID localKey="NM_004737.4(LARGE):c.309C&gt;T"/>
+        <ClinVarAccession Accession="SCV000193514" DateUpdated="2014-11-23" DateCreated="2014-11-23" Type="SCV" Version="1" SubmitterName="Genetic Services Laboratory, University of Chicago" OrgID="1238" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>no assertion criteria provided</ReviewStatus>
+          <GermlineClassification>Likely benign</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="LARGE"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="22" start="34046452"/>
+          </Location>
+          <XRefList>
+            <XRef DB="dbSNP" ID="59349720" Type="rsNumber"/>
+          </XRefList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_004737.4:c.309C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not specified</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <Comment>Likely benign based on allele frequency in 1000 Genomes Project or ESP global frequency and its presence in a patient with a rare or unrelated disease phenotype. NOT Sanger confirmed</Comment>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="592324" SubmissionDate="2016-04-28" ContributesToAggregateClassification="true" DateLastUpdated="2016-10-02" DateCreated="2016-10-02">
+        <ClinVarSubmissionID localKey="NM_004737.4:c.309C&gt;T|NOT SPECIFIED" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV000310642" DateUpdated="2016-10-02" DateCreated="2016-10-02" Type="SCV" Version="1" SubmitterName="PreventionGenetics, part of Exact Sciences" OrgID="239772" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Benign</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_004737.4:c.309C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">NOT SPECIFIED</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="354642" SubmissionDate="2018-03-26" ContributesToAggregateClassification="true" DateLastUpdated="2016-10-02" DateCreated="2015-01-23">
+        <ClinVarSubmissionID localKey="GDX:30743|Not Provided" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV000196852" DateUpdated="2016-10-02" DateCreated="2015-01-23" Type="SCV" Version="9" SubmitterName="GeneDx" OrgID="26957" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2014-06-25">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Benign</GermlineClassification>
+          <Comment>This variant is considered likely benign or benign based on one or more of the following criteria: it is a conservative change, it occurs at a poorly conserved position in the protein, it is predicted to be benign by multiple in silico algorithms, and/or has population frequency not consistent with disease.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">GeneDx Variant Classification (06012015)</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/dhtz9flo/genedx_interprules_final_061215.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="LARGE"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="22" alternateAllele="A" referenceAllele="G" start="34046452" stop="34046452" variantLength="1"/>
+          </Location>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_004737.4:c.309C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not specified</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB3839901</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="10106120" SubmissionDate="2024-09-16" ContributesToAggregateClassification="true" DateLastUpdated="2024-09-29" DateCreated="2024-09-29">
+        <ClinVarSubmissionID localKey="a11294ee-78f2-4479-9330-a8a22fd1f23f|not provided"/>
+        <ClinVarAccession Accession="SCV005210394" DateUpdated="2024-09-29" DateCreated="2024-09-29" Type="SCV" Version="1" SubmitterName="Breakthrough Genomics, Breakthrough Genomics" OrgID="509169" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification>
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Likely benign</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="ModeOfInheritance">Autosomal recessive inheritance</Attribute>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>yes</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>not provided</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="22" alternateAllele="A" referenceAllele="G" start="34046452" stop="34046452"/>
+          </Location>
+          <OtherNameList>
+            <Name Type="SubmitterVariantId">a11294ee-78f2-4479-9330-a8a22fd1f23f</Name>
+          </OtherNameList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB14729545</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="195199" SubmissionDate="2018-09-19" ContributesToAggregateClassification="true" DateLastUpdated="2025-04-13" DateCreated="2014-01-17">
+        <ClinVarSubmissionID localKey="5419_000000" localKeyIsSubmitted="1" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV000113088" DateUpdated="2025-04-13" DateCreated="2014-01-17" Type="SCV" Version="9" SubmitterName="Eurofins Ntd Llc (ga)" OrgID="500060" OrganizationCategory="laboratory" OrgAbbreviation="EGL"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2012-11-15">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Benign</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">EGL Classification Definitions 2015</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/ahdynye1/egl_classification_definitions_2015.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+              <Sex>mixed</Sex>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1"/>
+            </ObservedData>
+            <ObservedData>
+              <Attribute Type="SingleHeterozygote" integerValue="1"/>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="LARGE1"/>
+          </GeneList>
+          <VariantType>single nucleotide variant</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="22" alternateAllele="A" referenceAllele="G" start="34046452" stop="34046452" variantLength="1"/>
+            <GeneLocation>NM_004737.4:Ex4</GeneLocation>
+          </Location>
+          <XRefList>
+            <XRef DB="dbSNP" ID="59349720" Type="rsNumber"/>
+          </XRefList>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">not specified</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <Citation>
+          <URL>http://www.egl-eurofins.com/emvclass/emvclass.php?approved_symbol=LARGE1</URL>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB4534263</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="1231500" SubmissionDate="2026-02-06" ContributesToAggregateClassification="true" DateLastUpdated="2026-02-15" DateCreated="2017-12-26">
+        <ClinVarSubmissionID localKey="734861|MedGen:C1837229" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV000638998" DateUpdated="2026-02-15" DateCreated="2017-12-26" Type="SCV" Version="10" SubmitterName="Labcorp Genetics (formerly Invitae), Labcorp" OrgID="500031" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2026-02-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Benign</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="LARGE1"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000022.10:g.34046452G&gt;A</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C1837229" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB11431369</SubmissionName>
+          <SubmissionName>SUB12508014</SubmissionName>
+          <SubmissionName>SUB14200314</SubmissionName>
+          <SubmissionName>SUB15075422</SubmissionName>
+          <SubmissionName>SUB15990486</SubmissionName>
+          <SubmissionName>SUB8755776</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="751696" SubmissionDate="2020-02-20" ContributesToAggregateClassification="true" DateLastUpdated="2020-05-31" DateCreated="2016-12-06">
+        <ClinVarSubmissionID localKey="546774|OMIM:613154" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV000438175" DateUpdated="2020-05-31" DateCreated="2016-12-06" Type="SCV" Version="3" SubmitterName="Illumina Laboratory Services, Illumina" OrgID="504895" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-04-27">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Likely benign</GermlineClassification>
+          <Comment>This variant was observed as part of a predisposition screen in an ostensibly healthy population. A literature search was performed for the gene, cDNA change, and amino acid change (where applicable). No publications were found based on this search. Allele frequency data from public databases allowed determination this variant is unlikely to cause disease. Therefore, this variant is classified as likely benign.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ICSL Variant Classification Criteria 13 December 2019</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/r0x0xrmc/icsl_variant_classification_criteria_13_december_2019.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="LARGE"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="22" alternateAllele="A" referenceAllele="G" start="34046452" stop="34046452" variantLength="1"/>
+          </Location>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_004737.4:c.309C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="613154" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6641900</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="751695" SubmissionDate="2020-02-20" ContributesToAggregateClassification="true" DateLastUpdated="2020-05-31" DateCreated="2016-12-06">
+        <ClinVarSubmissionID localKey="546774|OMIM:608840" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV000438174" DateUpdated="2020-05-31" DateCreated="2016-12-06" Type="SCV" Version="3" SubmitterName="Illumina Laboratory Services, Illumina" OrgID="504895" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2017-04-27">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Likely benign</GermlineClassification>
+          <Comment>This variant was observed as part of a predisposition screen in an ostensibly healthy population. A literature search was performed for the gene, cDNA change, and amino acid change (where applicable). No publications were found based on this search. Allele frequency data from public databases allowed determination this variant is unlikely to cause disease. Therefore, this variant is classified as likely benign.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ICSL Variant Classification Criteria 13 December 2019</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/ft/byid/r0x0xrmc/icsl_variant_classification_criteria_13_december_2019.pdf</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="LARGE"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="22" alternateAllele="A" referenceAllele="G" start="34046452" stop="34046452" variantLength="1"/>
+          </Location>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_004737.4:c.309C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="OMIM" ID="608840" Type="MIM"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB6641900</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="13967216" SubmissionDate="2025-12-23" ContributesToAggregateClassification="true" DateLastUpdated="2026-01-17" DateCreated="2026-01-17">
+        <ClinVarSubmissionID localKey="209966|Not specified" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV007327621" DateUpdated="2026-01-17" DateCreated="2026-01-17" Type="SCV" Version="1" SubmitterName="Mayo Clinic Laboratories, Mayo Clinic" OrgID="500068" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2018-05-23">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Benign</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="14"/>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="LARGE1"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <GeneLocation>NM_004737.6:exon 4</GeneLocation>
+          </Location>
+          <OtherNameList>
+            <Name>p.Ser103=</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_004737.6:c.309C&gt;T</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Not specified</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB15885193</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="13942797" TraitType="Disease" MappingType="Name" MappingValue="not specified" MappingRef="Preferred">
+        <MedGen CUI="CN169374" Name="not specified"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="341350" TraitType="Disease" MappingType="Name" MappingValue="not specified" MappingRef="Preferred">
+        <MedGen CUI="CN169374" Name="not specified"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="592324" TraitType="Disease" MappingType="Name" MappingValue="NOT SPECIFIED" MappingRef="Preferred">
+        <MedGen CUI="CN169374" Name="not specified"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="354642" TraitType="Disease" MappingType="Name" MappingValue="not specified" MappingRef="Preferred">
+        <MedGen CUI="CN169374" Name="not specified"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="10106120" TraitType="Disease" MappingType="Name" MappingValue="not provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="195199" TraitType="Disease" MappingType="Name" MappingValue="not specified" MappingRef="Preferred">
+        <MedGen CUI="CN169374" Name="not specified"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1231500" TraitType="Disease" MappingType="XRef" MappingValue="C1837229" MappingRef="MedGen">
+        <MedGen CUI="C1837229" Name="Muscular dystrophy-dystroglycanopathy type B6"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="751696" TraitType="Disease" MappingType="XRef" MappingValue="613154" MappingRef="OMIM">
+        <MedGen CUI="C3150414" Name="Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A6"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="751695" TraitType="Disease" MappingType="XRef" MappingValue="608840" MappingRef="OMIM">
+        <MedGen CUI="C1837229" Name="Muscular dystrophy-dystroglycanopathy type B6"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="13967216" TraitType="Disease" MappingType="Name" MappingValue="Not specified" MappingRef="Preferred">
+        <MedGen CUI="CN169374" Name="not specified"/>
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+</ClinVarResult-Set>

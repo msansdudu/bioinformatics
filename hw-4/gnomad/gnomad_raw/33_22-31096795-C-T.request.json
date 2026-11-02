@@ -1,0 +1,7 @@
+{
+  "query": "query VariantLookup($variantId: String!, $dataset: DatasetId!) { variant(variantId: $variantId, dataset: $dataset) { variant_id reference_genome exome { ac an af filters } genome { ac an af filters } joint { ac an filters } } }",
+  "variables": {
+    "variantId": "22-31096795-C-T",
+    "dataset": "gnomad_r4"
+  }
+}

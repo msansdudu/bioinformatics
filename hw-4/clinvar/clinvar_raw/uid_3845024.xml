@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+                        
+<ClinVarResult-Set><VariationArchive VariationID="3845024" VariationName="NM_152512.4(ENTHD1):c.1280T&gt;C (p.Leu427Ser)" VariationType="single nucleotide variant" Accession="VCV003845024" Version="1" RecordType="classified" NumberOfSubmissions="1" NumberOfSubmitters="1" DateLastUpdated="2025-04-28" DateCreated="2025-04-28" MostRecentSubmission="2025-04-28">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3954377" VariationID="3845024">
+      <GeneList>
+        <Gene Symbol="ENTHD1" FullName="ENTH domain containing 1" GeneID="150350" HGNC_ID="HGNC:26352" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>22q13.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="39743044" stop="39893760" display_start="39743044" display_stop="39893760" Strand="-"/>
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="40139048" stop="40289793" display_start="40139048" display_stop="40289793" Strand="-"/>
+          </Location>
+        </Gene>
+      </GeneList>
+      <Name>NM_152512.4(ENTHD1):c.1280T&gt;C (p.Leu427Ser)</Name>
+      <CanonicalSPDI>NC_000022.11:39744222:A:G</CanonicalSPDI>
+      <VariantType>single nucleotide variant</VariantType>
+      <Location>
+        <CytogeneticLocation>22q13.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="39744223" stop="39744223" display_start="39744223" display_stop="39744223" variantLength="1" positionVCF="39744223" referenceAlleleVCF="A" alternateAlleleVCF="G"/>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="40140228" stop="40140228" display_start="40140228" display_stop="40140228" variantLength="1" positionVCF="40140228" referenceAlleleVCF="A" alternateAlleleVCF="G"/>
+      </Location>
+      <ProteinChange>L427S</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.10" sequenceAccession="NC_000022" sequenceVersion="10" change="g.40140228A&gt;G" Assembly="GRCh37">
+            <Expression>NC_000022.10:g.40140228A&gt;G</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.11" sequenceAccession="NC_000022" sequenceVersion="11" change="g.39744223A&gt;G" Assembly="GRCh38">
+            <Expression>NC_000022.11:g.39744223A&gt;G</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_152512.4" sequenceAccession="NM_152512" sequenceVersion="4" change="c.1280T&gt;C" MANESelect="true">
+            <Expression>NM_152512.4:c.1280T&gt;C</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_689725.2" sequenceAccession="NP_689725" sequenceVersion="2" change="p.Leu427Ser" singleLetterProteinChange="L427S">
+            <Expression>NP_689725.2:p.Leu427Ser</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_152512.4(ENTHD1):c.1280T&gt;C (p.Leu427Ser) AND not specified" Accession="RCV005327452" Version="1">
+        <ClassifiedConditionList TraitSetID="9590">
+          <ClassifiedCondition DB="MedGen" ID="CN169374">not specified</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2025-01-27" SubmissionCount="1">Likely benign</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2025-01-27" NumberOfSubmissions="1" NumberOfSubmitters="1" DateCreated="2025-04-28" MostRecentSubmission="2025-04-28">
+        <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+        <Description>Likely benign</Description>
+        <Explanation DataSource="ClinVar" Type="public">Likely benign (1)</Explanation>
+        <ConditionList>
+          <TraitSet ID="9590" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="16789" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">AllHighlyPenetrant</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">not specified</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not specified' was created for use in ClinVar so that submitters can convey the concept that a variant is benign, likely benign, or of uncertain significance for an unspecified set of disorders.  This usage was introduced in 2014 to replace AllHighlyPenetrant.</Attribute>
+              </AttributeSet>
+              <XRef ID="CN169374" DB="MedGen"/>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="11448657" SubmissionDate="2025-04-14" ContributesToAggregateClassification="true" DateLastUpdated="2025-04-28" DateCreated="2025-04-28">
+        <ClinVarSubmissionID localKey="a0512715|MedGen:CN169374" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV005994584" DateUpdated="2025-04-28" DateCreated="2025-04-28" Type="SCV" Version="1" SubmitterName="Ambry Genetics" OrgID="61756" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2025-01-27">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Likely benign</GermlineClassification>
+          <Comment>This alteration is classified as likely benign based on a combination of the following: seen in unaffected individuals, population frequency, intact protein function, lack of segregation with disease, co-occurrence, RNA analysis, in silico models, amino acid conservation, lack of disease association in case-control studies, and/or the mechanism of disease or impacted region is inconsistent with a known cause of pathogenicity.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Ambry Variant Classification Scheme 2023</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/api/2.0/files/i9igeqse/ambry_variant_classification_scheme_2023.pdf/?format=attachment</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="ENTHD1"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_152512.3:c.1280T&gt;C</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN169374" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>FinalClinVarSubmissionFile_20241211to20250315</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="11448657" TraitType="Disease" MappingType="XRef" MappingValue="CN169374" MappingRef="MedGen">
+        <MedGen CUI="CN169374" Name="not specified"/>
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+</ClinVarResult-Set>
